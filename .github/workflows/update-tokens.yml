@@ -12,15 +12,12 @@ jobs:
         node-version: "16.x"
 
     - name: Install dependencies
-      run: cd token-farm && npm install
+      run: cd token-farm && npm install && cd library && npm install
     # Transform Figma Tokens JSON to something Style Dictionary can read
     # Create a mw-theme, exclude the global tokens
     # Create a mw-theme_dark, exclude the global tokens
-    - name: Transform Figma Tokens
-      run: cd token-farm && npm run transform
-
-    - name: Create Style Dictionary
-      run: cd token-farm && npm run build
+    - name: Transform Figma Tokens & Style Dictionary
+      run: npm run build
 
     - uses: stefanzweifel/git-auto-commit-action@v4
       with:
