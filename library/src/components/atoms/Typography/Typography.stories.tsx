@@ -1,4 +1,5 @@
 import React from "react";
+import { ComponentStory, ComponentMeta } from "@storybook/react";
 
 import Typography from "./Typography";
 
@@ -15,7 +16,7 @@ export default {
       control: { type: "select" },
     },
   },
-};
+} as ComponentMeta<typeof Typography>;
 
 export const Overview = () => (
   <>
@@ -96,7 +97,9 @@ export const Overview = () => (
   </>
 );
 
-const Template = (args) => <Typography {...args} />;
+const Template: ComponentStory<typeof Typography> = (args) => (
+  <Typography {...args} />
+);
 
 export const Display = Template.bind({});
 Display.args = {

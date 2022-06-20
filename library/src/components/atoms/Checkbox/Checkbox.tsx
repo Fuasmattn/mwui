@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, FC } from "react";
 import PropTypes from "prop-types";
 import { default as Typography } from "../Typography";
 import { styled } from "./Checkbox.styled";
@@ -12,7 +12,13 @@ const StyledCheckbox = styled("input", {
   height: "18px",
 });
 
-const Checkbox = ({ label, checked, onChange }) => {
+export type Props = {
+  label?: string;
+  checked?: boolean;
+  onChange: () => void;
+};
+
+const Checkbox: FC<Props> = ({ label, checked, onChange }) => {
   const [state, setState] = useState(checked);
   const handleChange = () => {
     onChange();
@@ -41,12 +47,11 @@ const Checkbox = ({ label, checked, onChange }) => {
 Checkbox.propTypes = {
   label: PropTypes.string,
   checked: PropTypes.bool,
-  onChange: PropTypes.func,
+  onChange: PropTypes.func.isRequired,
 };
 
 Checkbox.defaultProps = {
   label: "",
-  checked: false,
 };
 
 export default Checkbox;

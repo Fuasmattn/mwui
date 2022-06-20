@@ -16,7 +16,7 @@ import {
   // buttonButtonOutlineHoverBgColor,
   // buttonButtonOutlineHoverTextColor,
   fontFamiliesDefault
-} from '@fuasmattn/mwui-token-farm/dist/token-farm.esm.min.js';
+} from '@fuasmattn/mwui-token-farm';
 
 const PLACEHODER_FIXME = '#000000';
 
