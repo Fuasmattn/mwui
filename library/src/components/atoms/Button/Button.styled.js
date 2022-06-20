@@ -16,7 +16,7 @@ import {
   buttonButtonOutlineHoverBgColor,
   buttonButtonOutlineHoverTextColor,
   fontFamiliesDefault
-} from '@mwui/token-farm/dist/token-farm.esm.min.js';
+} from 'mwui-token-farm/dist/token-farm.esm.min.js';
 
 const { styled } = createStitches({
   theme: {

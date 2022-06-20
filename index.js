@@ -1,1 +1,1 @@
-export * from '@mwui/react';
+export * from 'mwui-react';
