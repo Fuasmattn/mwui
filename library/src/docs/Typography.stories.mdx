@@ -1,0 +1,18 @@
+import { Meta, Typeset } from "@storybook/addon-docs";
+import tokens from "../../../token-farm/dist/json/global.json";
+
+<Meta title="Typography" />
+
+export const fontSizes = Object.values(tokens.fontSize).map((size) =>
+  Number(size.value)
+);
+
+# Typography
+
+**Font:** <span>{tokens.fontFamilies.default.value}</span>
+
+<Typeset
+  fontSizes={fontSizes}
+  sampleText="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  fontFamily={tokens.fontFamilies.default.value}
+/>

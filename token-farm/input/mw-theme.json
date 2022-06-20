@@ -1,0 +1,16 @@
+{
+  "semantic": {
+    "color": {
+      "actions": {
+        "filled": {
+          "default": {
+            "bg-color": {
+              "value": "#ed2c86",
+              "type": "color"
+            }
+          }
+        }
+      }
+    }
+  }
+}

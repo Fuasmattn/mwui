@@ -1,0 +1,11 @@
+{
+  "name": "mwui",
+  "version": "0.0.1",
+  "description": "Component Library using figma design tokens",
+  "main": "index.js",
+  "scripts": {
+    "storybook": "cd library && npm run storybook"
+  },
+  "author": "martin prinz",
+  "license": "ISC"
+}

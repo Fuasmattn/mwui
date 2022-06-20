@@ -1,0 +1,39 @@
+{
+  "name": "token-farm",
+  "version": "0.0.1",
+  "description": "Transforms figma design tokens to common config files serving different styling frameworks",
+  "main": "src/index.js",
+  "module": "dist/token-farm.esm.min.js",
+  "browser": "dist/token-farm.umd.min.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Fuasmattn/token-farm.git"
+  },
+  "scripts": {
+    "start": "npm run build-tw && http-server -p 8080",
+    "transform:global": "npx token-transformer input/tokens.json input/global.json global",
+    "transform": "npm run transform:global",
+    "build:style-dictionary": "node src/scripts/build.js",
+    "build": "npm run transform && npm run build:style-dictionary && npm run rollup",
+    "rollup": "rollup -c"
+  },
+  "author": "Martin Prinz",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "eslint": "^8.13.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "postcss": "^8.3.11",
+    "postcss-import": "^14.0.2",
+    "rollup": "^2.75.3",
+    "rollup-plugin-scss": "^3.0.0",
+    "sass": "^1.52.1",
+    "tailwindcss": "^3.0.24"
+  },
+  "dependencies": {
+    "postcss-cli": "^9.1.0",
+    "style-dictionary": "^3.7.0",
+    "token-transformer": "^0.0.22"
+  }
+}

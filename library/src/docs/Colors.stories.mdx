@@ -1,0 +1,18 @@
+import { Meta, ColorPalette, ColorItem } from "@storybook/addon-docs";
+import tokens from "../../../token-farm/dist/json/global.json";
+
+<Meta title="Colors" />
+
+<div>
+  <ColorPalette>
+    {Object.entries(tokens)
+      .filter(([_, values]) => values[Object.keys(values)[0]].type === "color")
+      .map(([title, values]) => {
+        const colors = Object.entries(values).reduce((acc, [k, v]) => {
+          acc[k] = v.value;
+          return acc;
+        }, {});
+        return <ColorItem key={title} title={title} colors={colors} />;
+      })}
+  </ColorPalette>
+</div>
