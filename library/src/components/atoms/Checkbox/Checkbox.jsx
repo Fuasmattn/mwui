@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
-import { Typography } from "../Typography";
+import { default as Typography } from "../Typography";
 import { styled } from "./Checkbox.styled";
 
 const Box = styled("div");
