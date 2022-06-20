@@ -3,11 +3,18 @@
   "version": "0.0.1",
   "description": "Component Library using figma design tokens",
   "main": "index.js",
+  "workspaces": [
+    "token-farm",
+    "library"
+  ],
+  "engines": {
+    "npm": ">=8.7.0"
+  },
   "scripts": {
-    "storybook": "cd library && npm run storybook",
-    "generate:storybook": "cd library && npm run build-storybook",
-    "build:token-farm": "cd token-farm && npm run transform && npm run build:style-dictionary && npm run rollup",
-    "build": "npm run build:token-farm && npm run generate:storybook",
+    "storybook": "npm run storybook --workspace=library",
+    "storybook:static": "npm run build-storybook --workspace=library",
+    "build": "npm run build --workspace=token-farm",
+    "build:static": "npm run build && npm run storybook:static",
     "lint": "eslint ./ --fix"
   },
   "repository": {
