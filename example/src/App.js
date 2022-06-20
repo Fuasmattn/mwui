@@ -1,11 +1,13 @@
-import './App.css';
+import { Button, Typography } from '@fuasmattn/mwui';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>hi wold</h1>
-      </header>
+    <div>
+      <Typography variant="display" component="h1" text="Hello World" />
+      <Button label="primary" />
+      <Button variant="secondary" label="secondary"/>
+      <Button label="primary outlined" outlined />
+      <Button variant="secondary" label="secondary outlined" outlined />
     </div>
   );
 }
