@@ -4,12 +4,22 @@
   "description": "Component Library using figma design tokens",
   "main": "index.js",
   "scripts": {
-    "storybook": "cd library && npm run storybook"
+    "storybook": "cd library && npm run storybook",
+    "generate:storybook": "cd library && npm run build-storybook",
+    "build:token-farm": "cd token-farm && npm run transform && npm run build:style-dictionary && npm run rollup",
+    "build": "npm run build:token-farm && npm run generate:storybook",
+    "lint": "eslint ./ --fix"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/Fuasmattn/mwui.git"
   },
   "author": "martin prinz",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.18.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-react": "^7.30.0"
+  }
 }

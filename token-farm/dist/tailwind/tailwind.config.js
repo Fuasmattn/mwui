@@ -7,8 +7,8 @@ module.exports = {
   darkMode: 'class',
   content: ['*.{html,js,jsx,ts,tsx,vue}'],
   theme: {
-    colors,
+    colors
   },
   variants: {},
-  plugins: [],
+  plugins: []
 };

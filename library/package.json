@@ -1,6 +1,9 @@
 {
   "name": "@mwui/react",
   "version": "0.0.1",
+  "main": "src/index.js",
+  "module": "dist/mwui-react.esm.min.js",
+  "browser": "dist/mwui-react.umd.min.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/Fuasmattn/mwui.git"
@@ -23,7 +26,8 @@
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 public",
     "build-storybook": "build-storybook public",
-    "tailwind-config-viewer": "tailwind-config-viewer -o"
+    "tailwind-config-viewer": "tailwind-config-viewer -o",
+    "rollup": "rollup -c"
   },
   "browserslist": {
     "production": [
@@ -39,6 +43,10 @@
   },
   "devDependencies": {
     "@mdx-js/react": "^2.1.1",
+    "@rollup/plugin-babel": "^5.3.1",
+    "@rollup/plugin-commonjs": "^22.0.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-replace": "^4.0.0",
     "@storybook/addon-actions": "^6.5.6",
     "@storybook/addon-controls": "^6.5.6",
     "@storybook/addon-docs": "^6.5.6",
@@ -57,15 +65,17 @@
     "@storybook/theming": "^6.5.6",
     "autoprefixer": "^10.4.4",
     "babel-loader": "^8.1.0",
+    "eslint": "^8.13.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
     "node-sass": "^6.0.1",
     "postcss": "^8.4.12",
     "rollup": "^2.75.7",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-serve": "^1.1.0",
     "tailwind-config-viewer": "^1.7.0",
     "tailwindcss": "^3.0.24",
-    "webpack": "^5.70.0",
-    "eslint": "^8.13.0",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.26.0"
+    "webpack": "^5.70.0"
   },
   "resolutions": {
     "webpack": "^5"

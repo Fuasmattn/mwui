@@ -1,9 +1,6 @@
-import { createStitches } from "@stitches/react";
+import { createStitches } from '@stitches/react';
 import {
   bodyLarge,
-  bodyLargeItalic,
-  bodyLargeLight,
-  bodyLargeLightItalic,
   bodyMedium,
   bodySmall,
   displayLarge,
@@ -18,8 +15,8 @@ import {
   overline,
   titleLarge,
   titleMedium,
-  titleSmall,
-} from "../../../../../token-farm/dist/token-farm.esm.min.js";
+  titleSmall
+} from '../../../../../token-farm/dist/token-farm.esm.min.js';
 
 const createCompoundVariant = (variant, size, tokens) => {
   const {
@@ -30,7 +27,7 @@ const createCompoundVariant = (variant, size, tokens) => {
     letterSpacing,
     paragraphSpacing,
     textCase,
-    textDecoration,
+    textDecoration
   } = tokens;
   return {
     variant,
@@ -43,24 +40,24 @@ const createCompoundVariant = (variant, size, tokens) => {
       letterSpacing: `${letterSpacing}px`,
       marginBottom: `${paragraphSpacing}px`,
       textTransform: textCase,
-      textDecoration: textDecoration,
-    },
+      textDecoration: textDecoration
+    }
   };
 };
 
 export const { styled } = createStitches({
   theme: {
     space: {
-      xxs: "0.25rem",
-      xs: "0.5rem",
-      s: "1rem",
-      m: "1.5rem",
-      l: "2rem",
-      xl: "2.5rem",
-      xxl: "3rem",
-      xxxl: "4rem",
-    },
-  },
+      xxs: '0.25rem',
+      xs: '0.5rem',
+      s: '1rem',
+      m: '1.5rem',
+      l: '2rem',
+      xl: '2.5rem',
+      xxl: '3rem',
+      xxxl: '4rem'
+    }
+  }
 });
 
 export const variants = {
@@ -70,7 +67,7 @@ export const variants = {
     title: {},
     label: {},
     body: {},
-    overline: {},
+    overline: {}
   },
   component: {
     h1: {},
@@ -82,33 +79,33 @@ export const variants = {
     p: {},
     span: {},
     div: {},
-    label: {},
+    label: {}
   },
   size: {
     small: {},
     medium: {},
-    large: {},
-  },
+    large: {}
+  }
 };
 
 export const compoundVariants = [
-  createCompoundVariant("display", "large", displayLarge),
-  createCompoundVariant("display", "medium", displayMedium),
-  createCompoundVariant("display", "small", displaySmall),
-  createCompoundVariant("headline", "large", headlineLarge),
-  createCompoundVariant("headline", "medium", headlineMedium),
-  createCompoundVariant("headline", "small", headlineSmall),
-  createCompoundVariant("title", "large", titleLarge),
-  createCompoundVariant("title", "medium", titleMedium),
-  createCompoundVariant("title", "small", titleSmall),
-  createCompoundVariant("label", "large", labelLarge),
-  createCompoundVariant("label", "medium", labelMedium),
-  createCompoundVariant("label", "small", labelSmall),
-  createCompoundVariant("body", "large", bodyLarge),
-  createCompoundVariant("body", "medium", bodyMedium),
-  createCompoundVariant("body", "small", bodySmall),
+  createCompoundVariant('display', 'large', displayLarge),
+  createCompoundVariant('display', 'medium', displayMedium),
+  createCompoundVariant('display', 'small', displaySmall),
+  createCompoundVariant('headline', 'large', headlineLarge),
+  createCompoundVariant('headline', 'medium', headlineMedium),
+  createCompoundVariant('headline', 'small', headlineSmall),
+  createCompoundVariant('title', 'large', titleLarge),
+  createCompoundVariant('title', 'medium', titleMedium),
+  createCompoundVariant('title', 'small', titleSmall),
+  createCompoundVariant('label', 'large', labelLarge),
+  createCompoundVariant('label', 'medium', labelMedium),
+  createCompoundVariant('label', 'small', labelSmall),
+  createCompoundVariant('body', 'large', bodyLarge),
+  createCompoundVariant('body', 'medium', bodyMedium),
+  createCompoundVariant('body', 'small', bodySmall),
   // createCompoundVariant("body-italic", "large", bodyLargeItalic),
   // createCompoundVariant("body-light", "large", bodyLargeLight),
   // createCompoundVariant("body-light-italic", "large", bodyLargeLightItalic),
-  createCompoundVariant("overline", "medium", overline),
+  createCompoundVariant('overline', 'medium', overline)
 ];

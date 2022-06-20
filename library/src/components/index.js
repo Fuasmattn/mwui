@@ -1,3 +1,3 @@
-export * as Atoms from "atoms";
-export * as Molecules from "molecules";
-export * as Organisms from "organisms";
+export * as Atoms from './atoms/index';
+export * as Molecules from './molecules/index';
+export * as Organisms from './organisms/index';

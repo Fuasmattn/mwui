@@ -7,13 +7,13 @@ export default {
     {
       file: pkg.module,
       format: 'es',
-      sourcemap: true,
-    },
+      sourcemap: true
+    }
   ],
   plugins: [
     scss({
-      output: 'token-farm.bundle.scss',
-    }),
+      output: 'token-farm.bundle.scss'
+    })
 
-  ],
+  ]
 };

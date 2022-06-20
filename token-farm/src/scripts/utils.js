@@ -41,5 +41,5 @@ function filterTokensByType(type, tokens) {
 }
 
 module.exports = {
-  createArray, filterTokensByType,
+  createArray, filterTokensByType
 };

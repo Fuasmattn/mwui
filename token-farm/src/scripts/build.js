@@ -5,23 +5,23 @@ const { createArray } = require('./utils');
 StyleDictionaryPackage.registerFormat({
   name: 'css/variables',
   formatter(dictionary) {
-    const getValue = (prop) => prop.value;
+    const getValue = prop => prop.value;
 
     return `${this.selector} {\n${dictionary.allProperties
-      .map((prop) => `  --${prop.name}: ${getValue(prop)};`)
+      .map(prop => `  --${prop.name}: ${getValue(prop)};`)
       .join('\n')}\n}`;
-  },
+  }
 });
 
 StyleDictionaryPackage.registerFormat({
   name: 'scss/variables',
   formatter(dictionary) {
-    const getValue = (prop) => prop.value;
+    const getValue = prop => prop.value;
 
     return `\n${dictionary.allProperties
-      .map((prop) => `  $${prop.name}: ${getValue(prop)};`)
+      .map(prop => `  $${prop.name}: ${getValue(prop)};`)
       .join('\n')}\n`;
-  },
+  }
 });
 
 StyleDictionaryPackage.registerTransform({
@@ -34,13 +34,13 @@ StyleDictionaryPackage.registerTransform({
       'spacing',
       'borderRadius',
       'borderWidth',
-      'sizing',
+      'sizing'
     ].includes(prop.attributes.category);
   },
   transformer(prop) {
     // You can also modify the value here if you want to convert pixels to ems
     return `${parseFloat(prop.original.value)}px`;
-  },
+  }
 });
 
 const baseTransforms = ['attribute/cti', 'size/px'];
@@ -51,7 +51,7 @@ function getStyleDictionaryConfig(theme) {
   return {
     source: [`input/${theme}.json`],
     format: {
-      createArray,
+      createArray
     },
     platforms: {
       css: {
@@ -61,9 +61,9 @@ function getStyleDictionaryConfig(theme) {
           {
             destination: `${theme}.css`,
             format: 'css/variables',
-            selector: `.${theme}-theme`,
-          },
-        ],
+            selector: `.${theme}-theme`
+          }
+        ]
       },
       json: {
         transforms: scssTransforms,
@@ -71,9 +71,9 @@ function getStyleDictionaryConfig(theme) {
         files: [
           {
             destination: `${theme}.json`,
-            format: 'json',
-          },
-        ],
+            format: 'json'
+          }
+        ]
       },
       scss: {
         transforms: scssTransforms,
@@ -81,9 +81,9 @@ function getStyleDictionaryConfig(theme) {
         files: [
           {
             destination: `${theme}.scss`,
-            format: 'scss/variables',
-          },
-        ],
+            format: 'scss/variables'
+          }
+        ]
       },
       js: {
         transforms: jsTransforms,
@@ -91,21 +91,21 @@ function getStyleDictionaryConfig(theme) {
         files: [
           {
             destination: `${theme}.js`,
-            format: 'javascript/es6',
-          },
-        ],
-      },
-    },
+            format: 'javascript/es6'
+          }
+        ]
+      }
+    }
   };
 }
 console.log('Build started...');
 
-['global', 'mw-theme', 'mw-theme_dark'].forEach((theme) => {
+['global', 'mw-theme', 'mw-theme_dark'].forEach(theme => {
   console.log('\n==============================================');
   console.log(`\nProcessing: [${theme}]`);
 
   const StyleDictionary = StyleDictionaryPackage.extend(
-    getStyleDictionaryConfig(theme),
+    getStyleDictionaryConfig(theme)
   );
   StyleDictionary.buildPlatform('js');
   StyleDictionary.buildPlatform('json');

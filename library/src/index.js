@@ -1,1 +1,1 @@
-export { default } from "components";
+export * as Components from './components/index';
