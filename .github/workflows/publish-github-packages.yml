@@ -4,10 +4,10 @@ on:
     types: [created]
 jobs:
   build:
-    runs-on: ubuntu-latest 
-    permissions: 
+    runs-on: ubuntu-latest
+    permissions:
       contents: read
-      packages: write 
+      packages: write
     steps:
       - uses: actions/checkout@v3
       # Setup .npmrc file to publish to GitHub Packages
@@ -16,6 +16,6 @@ jobs:
           node-version: '16.x'
           registry-url: 'https://npm.pkg.github.com'
       - run: npm ci
-      - run: npm publish --registry=https://npm.pkg.github.com/
+      - run: cd library && npm publish --registry=https://npm.pkg.github.com/
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
