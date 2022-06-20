@@ -1,5 +1,5 @@
 import './App.css';
-import a from '@fuasmattn/mwui';
+import * as a from '@fuasmattn/mwui';
 
 function App() {
   console.log(a);
