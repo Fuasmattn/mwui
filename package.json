@@ -13,7 +13,7 @@
   "scripts": {
     "storybook": "npm run storybook --workspace=library",
     "storybook:static": "npm run build-storybook --workspace=library",
-    "build": "npm run build --workspace=token-farm",
+    "build": "npm run build --workspace=token-farm && npm run build --workspace=library",
     "build:static": "npm run build && npm run storybook:static",
     "lint": "eslint ./ --fix"
   },

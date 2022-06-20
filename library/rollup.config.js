@@ -8,6 +8,7 @@ export default {
     file: "dist/bundle.js",
     format: "iife",
     sourcemap: true,
+    name: 'bundle'
   },
   plugins: [
     nodeResolve({

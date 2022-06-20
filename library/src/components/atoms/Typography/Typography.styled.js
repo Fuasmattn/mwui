@@ -16,7 +16,7 @@ import {
   titleLarge,
   titleMedium,
   titleSmall
-} from 'mwui-token-farm/dist/token-farm.esm.min.js';
+} from '@fuasmattn/mwui-token-farm/dist/token-farm.esm.min.js';
 
 const createCompoundVariant = (variant, size, tokens) => {
   const {

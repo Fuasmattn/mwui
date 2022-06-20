@@ -16,6 +16,7 @@ export const Typography = ({ variant, component, size, text }) => {
 };
 
 Typography.propTypes = {
+  text: PropTypes.string.isRequired,
   variant: PropTypes.oneOf([
     "display",
     "headline",

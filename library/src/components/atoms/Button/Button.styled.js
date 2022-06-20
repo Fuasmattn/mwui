@@ -1,22 +1,24 @@
 import { createStitches } from '@stitches/react';
 import {
   buttonButtonFilledDefaultBgColor,
-  buttonButtonFilledDefaultBorderColor,
-  buttonButtonFilledDefaultBorderRadius,
-  buttonButtonFilledDefaultTextColor,
-  buttonButtonFilledFocusedBgColor,
-  buttonButtonFilledFocusedTextColor,
-  buttonButtonFilledHoverBgColor,
-  buttonButtonFilledHoverTextColor,
-  buttonButtonOutlineDefaultBgColor,
-  buttonButtonOutlineDefaultBorderColor,
-  buttonButtonOutlineDefaultTextColor,
-  buttonButtonOutlineFocusedBgColor,
-  buttonButtonOutlineFocusedTextColor,
-  buttonButtonOutlineHoverBgColor,
-  buttonButtonOutlineHoverTextColor,
+  // buttonButtonFilledDefaultBorderColor,
+  // buttonButtonFilledDefaultBorderRadius,
+  // buttonButtonFilledDefaultTextColor,
+  // buttonButtonFilledFocusedBgColor,
+  // buttonButtonFilledFocusedTextColor,
+  // buttonButtonFilledHoverBgColor,
+  // buttonButtonFilledHoverTextColor,
+  // buttonButtonOutlineDefaultBgColor,
+  // buttonButtonOutlineDefaultBorderColor,
+  // buttonButtonOutlineDefaultTextColor,
+  // buttonButtonOutlineFocusedBgColor,
+  // buttonButtonOutlineFocusedTextColor,
+  // buttonButtonOutlineHoverBgColor,
+  // buttonButtonOutlineHoverTextColor,
   fontFamiliesDefault
-} from 'mwui-token-farm/dist/token-farm.esm.min.js';
+} from '@fuasmattn/mwui-token-farm/dist/token-farm.esm.min.js';
+
+const PLACEHODER_FIXME = '#000000';
 
 const { styled } = createStitches({
   theme: {
@@ -35,33 +37,33 @@ const { styled } = createStitches({
     },
     colors: {
       primary: buttonButtonFilledDefaultBgColor,
-      'primary-hover': buttonButtonFilledHoverBgColor,
-      'primary-active': buttonButtonFilledFocusedBgColor,
+      'primary-hover': PLACEHODER_FIXME,
+      'primary-active': PLACEHODER_FIXME,
 
-      'primary-border': buttonButtonFilledDefaultBorderColor,
-      'primary-border-hover': buttonButtonFilledDefaultBorderColor,
-      'primary-border-active': buttonButtonFilledDefaultBorderColor,
+      'primary-border': PLACEHODER_FIXME,
+      'primary-border-hover': PLACEHODER_FIXME,
+      'primary-border-active': PLACEHODER_FIXME,
 
-      'primary-text': buttonButtonFilledDefaultTextColor,
-      'primary-text-hover': buttonButtonFilledHoverTextColor,
-      'primary-text-active': buttonButtonFilledFocusedTextColor,
+      'primary-text': PLACEHODER_FIXME,
+      'primary-text-hover': PLACEHODER_FIXME,
+      'primary-text-active': PLACEHODER_FIXME,
 
-      'primary-border-radius': buttonButtonFilledDefaultBorderRadius,
+      'primary-border-radius': 0,
 
-      secondary: buttonButtonOutlineDefaultBgColor,
-      'secondary-hover': buttonButtonOutlineHoverBgColor,
+      secondary: PLACEHODER_FIXME,
+      'secondary-hover': PLACEHODER_FIXME,
 
-      'secondary-active': buttonButtonOutlineFocusedBgColor,
+      'secondary-active': PLACEHODER_FIXME,
 
-      'secondary-border': buttonButtonOutlineDefaultBorderColor,
-      'secondary-border-hover': buttonButtonOutlineDefaultBorderColor,
-      'secondary-border-active': buttonButtonOutlineDefaultBorderColor,
+      'secondary-border': PLACEHODER_FIXME,
+      'secondary-border-hover': PLACEHODER_FIXME,
+      'secondary-border-active': PLACEHODER_FIXME,
 
-      'secondary-text': buttonButtonOutlineDefaultTextColor,
-      'secondary-text-hover': buttonButtonOutlineHoverTextColor,
-      'secondary-text-active': buttonButtonOutlineFocusedTextColor,
+      'secondary-text': PLACEHODER_FIXME,
+      'secondary-text-hover': PLACEHODER_FIXME,
+      'secondary-text-active': PLACEHODER_FIXME,
 
-      'secondary-border-radius': buttonButtonFilledDefaultBorderRadius
+      'secondary-border-radius': 0
     }
   }
 });

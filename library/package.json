@@ -22,12 +22,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && npm run rollup",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 public",
     "build-storybook": "build-storybook public -o ../docs",
-    "tailwind-config-viewer": "tailwind-config-viewer -o",
     "rollup": "rollup -c"
   },
   "browserslist": {
@@ -74,8 +73,6 @@
     "rollup": "^2.75.7",
     "rollup-plugin-livereload": "^2.0.5",
     "rollup-plugin-serve": "^1.1.0",
-    "tailwind-config-viewer": "^1.7.0",
-    "tailwindcss": "^3.0.24",
     "webpack": "^5.70.0"
   },
   "resolutions": {

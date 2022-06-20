@@ -1,11 +1,13 @@
 import './App.css';
-import {Button} from '@fuasmattn/mwui';
+import a from '@fuasmattn/mwui';
 
 function App() {
+  console.log(a);
   return (
     <div className="App">
       <header className="App-header">
-       <Button>hello</Button>
+        <h1>hi wold</h1>
+
       </header>
     </div>
   );
