@@ -12,7 +12,13 @@ jobs:
         node-version: "16.x"
 
     - name: Install dependencies
-      run: cd token-farm && npm install && cd library && npm install
+      run: npm install
+
+    - name: Install dependencies token-farm
+      run: cd token-farm && npm install
+
+    - name: Install dependencies library
+      run: cd library && npm install
     # Transform Figma Tokens JSON to something Style Dictionary can read
     # Create a mw-theme, exclude the global tokens
     # Create a mw-theme_dark, exclude the global tokens
