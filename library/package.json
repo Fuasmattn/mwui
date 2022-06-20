@@ -1,5 +1,5 @@
 {
-  "name": "mwui-react",
+  "name": "@fuasmattn/mwui-react",
   "version": "0.0.1",
   "main": "src/index.js",
   "module": "dist/mwui-react.esm.min.js",
