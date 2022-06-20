@@ -1,5 +1,5 @@
 {
-  "name": "token-farm",
+  "name": "@mwui/token-farm",
   "version": "0.0.1",
   "description": "Transforms figma design tokens to common config files serving different styling frameworks",
   "main": "src/index.js",
@@ -7,7 +7,7 @@
   "browser": "dist/token-farm.umd.min.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Fuasmattn/token-farm.git"
+    "url": "https://github.com/Fuasmattn/mwui.git"
   },
   "scripts": {
     "start": "npm run build-tw && http-server -p 8080",

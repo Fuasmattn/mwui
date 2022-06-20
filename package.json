@@ -6,6 +6,10 @@
   "scripts": {
     "storybook": "cd library && npm run storybook"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Fuasmattn/mwui.git"
+  },
   "author": "martin prinz",
   "license": "ISC"
 }
