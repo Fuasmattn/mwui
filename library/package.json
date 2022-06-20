@@ -25,7 +25,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 public",
-    "build-storybook": "build-storybook public -o ../public",
+    "build-storybook": "build-storybook public -o ../docs",
     "tailwind-config-viewer": "tailwind-config-viewer -o",
     "rollup": "rollup -c"
   },
