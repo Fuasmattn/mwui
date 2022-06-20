@@ -12,7 +12,7 @@ const StyledCheckbox = styled("input", {
   height: "18px",
 });
 
-export const Checkbox = ({ label, checked, onChange }) => {
+const Checkbox = ({ label, checked, onChange }) => {
   const [state, setState] = useState(checked);
   const handleChange = () => {
     onChange();
@@ -48,3 +48,5 @@ Checkbox.defaultProps = {
   label: "",
   checked: false,
 };
+
+export default Checkbox;

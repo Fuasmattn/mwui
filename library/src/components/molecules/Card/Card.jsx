@@ -3,8 +3,10 @@ import { styled } from "./Card.styled";
 
 const Box = styled("div", {});
 
-export const Card = () => {
+const Card = () => {
   return <Box>card</Box>;
 };
 
 Card.propTypes = {};
+
+export default Card;

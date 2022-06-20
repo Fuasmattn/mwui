@@ -1,1 +1,1 @@
-export * from './Chip.jsx'
+export { default } from "./Chip";

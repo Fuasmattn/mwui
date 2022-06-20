@@ -7,7 +7,7 @@ const Box = styled("div", {
   compoundVariants,
 });
 
-export const Typography = ({ variant, component, size, text }) => {
+const Typography = ({ variant, component, size, text }) => {
   return (
     <Box as={component} component={component} variant={variant} size={size}>
       {text}
@@ -49,3 +49,5 @@ Typography.defaultProps = {
   component: "p",
   size: "medium",
 };
+
+export default Typography;

@@ -61,7 +61,7 @@ const StyledButton = styled('button', {
   ]
 });
 
-export const Button = ({ variant, label, disabled, outlined, onClick }) => {
+const Button = ({ variant, label, disabled, outlined, onClick }) => {
   return (
     <StyledButton
       type="button"
@@ -89,3 +89,5 @@ Button.defaultProps = {
   outlined: false,
   onClick: undefined
 };
+
+export default Button;
