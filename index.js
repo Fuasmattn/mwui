@@ -1,1 +1,1 @@
-export * from './library/dist/bundle';
+export * from './library/dist/mwui-react.esm.min.js';
