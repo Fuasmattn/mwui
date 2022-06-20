@@ -19,7 +19,7 @@ export default {
   ],
   plugins: [
     nodeResolve({
-      extensions: [".js"],
+      extensions: [".js", ".jsx", ".ts", ".tsx"],
     }),
     babel({
       presets: ["@babel/preset-react"],
