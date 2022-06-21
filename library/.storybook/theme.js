@@ -1,5 +1,5 @@
 import { create } from "@storybook/theming";
-import logo from "./public/mwui_logo.png";
+import logo from "./public/mwui_logo.svg";
 
 export default create({
   base: "light",
