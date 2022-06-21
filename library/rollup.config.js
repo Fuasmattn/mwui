@@ -20,14 +20,9 @@ export default [
     output: [
       {
         file: packageJson.browser,
-        format: "cjs",
-        sourcemap: true
-      },
-      {
-        file: packageJson.module,
         format: "esm",
         sourcemap: true
-      }
+      },
     ],
     plugins: [
       typescript({ module: "ESNext" }),

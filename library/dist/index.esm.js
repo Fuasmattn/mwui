@@ -1,13 +1,5 @@
-'use strict';
-
-Object.defineProperty(exports, '__esModule', { value: true });
-
-var React = require('react');
-var react = require('@stitches/react');
-
-function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
-
-var React__default = /*#__PURE__*/_interopDefaultLegacy(React);
+import React, { useState } from 'react';
+import { createStitches } from '@stitches/react';
 
 var propTypes = {exports: {}};
 
@@ -1378,7 +1370,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 /**
  * Do not edit directly
- * Generated on Tue, 21 Jun 2022 10:28:35 GMT
+ * Generated on Tue, 21 Jun 2022 13:24:11 GMT
  */
 const overline = {
   "fontFamily": "Roboto",
@@ -1572,7 +1564,7 @@ const createCompoundVariant = (variant, size, token) => {
 
 const {
   styled: styled$4
-} = react.createStitches({
+} = createStitches({
   theme: {
     space: {
       xxs: "0.25rem",
@@ -1632,7 +1624,7 @@ const Typography = ({
   size = "medium",
   text
 }) => {
-  return /*#__PURE__*/React__default["default"].createElement(Box$2, {
+  return /*#__PURE__*/React.createElement(Box$2, {
     as: component,
     component: component,
     variant: variant,
@@ -1642,7 +1634,7 @@ const Typography = ({
 
 const {
   styled: styled$3
-} = react.createStitches({});
+} = createStitches({});
 
 const Box$1 = styled$3("div");
 const StyledCheckbox = styled$3("input", {
@@ -1657,14 +1649,14 @@ const Checkbox = ({
   checked,
   onChange
 }) => {
-  const [state, setState] = React.useState(checked);
+  const [state, setState] = useState(checked);
 
   const handleChange = () => {
     onChange();
     setState(!state);
   };
 
-  return /*#__PURE__*/React__default["default"].createElement(Box$1, {
+  return /*#__PURE__*/React.createElement(Box$1, {
     css: {
       display: "flex",
       gap: "4px",
@@ -1672,11 +1664,11 @@ const Checkbox = ({
       cursor: "pointer"
     },
     onClick: handleChange
-  }, /*#__PURE__*/React__default["default"].createElement(StyledCheckbox, {
+  }, /*#__PURE__*/React.createElement(StyledCheckbox, {
     type: "checkbox",
     checked: state,
     onChange: handleChange
-  }), label && /*#__PURE__*/React__default["default"].createElement(Typography, {
+  }), label && /*#__PURE__*/React.createElement(Typography, {
     variant: "label",
     text: label,
     component: "span"
@@ -1695,7 +1687,7 @@ Checkbox.defaultProps = {
 const PLACEHODER_FIXME = '#000000';
 const {
   styled: styled$2
-} = react.createStitches({
+} = createStitches({
   theme: {
     space: {
       xxs: '0.25rem',
@@ -1799,7 +1791,7 @@ const Button = ({
   outlined = false,
   onClick
 }) => {
-  return /*#__PURE__*/React__default["default"].createElement(StyledButton, {
+  return /*#__PURE__*/React.createElement(StyledButton, {
     type: "button",
     variant: variant,
     disabled: disabled,
@@ -1810,14 +1802,14 @@ const Button = ({
 
 const {
   styled: styled$1
-} = react.createStitches({});
+} = createStitches({});
 
 const StyledChip = styled$1("div", {});
 
 const Chip = ({
   label
 }) => {
-  return /*#__PURE__*/React__default["default"].createElement(StyledChip, null, label);
+  return /*#__PURE__*/React.createElement(StyledChip, null, label);
 };
 
 Chip.propTypes = {
@@ -1826,19 +1818,15 @@ Chip.propTypes = {
 
 const {
   styled
-} = react.createStitches({});
+} = createStitches({});
 
 const Box = styled("div", {});
 
 const Card = () => {
-  return /*#__PURE__*/React__default["default"].createElement(Box, null, "card");
+  return /*#__PURE__*/React.createElement(Box, null, "card");
 };
 
 Card.propTypes = {};
 
-exports.Button = Button;
-exports.Card = Card;
-exports.Checkbox = Checkbox;
-exports.Chip = Chip;
-exports.Typography = Typography;
-//# sourceMappingURL=index.js.map
+export { Button, Card, Checkbox, Chip, Typography };
+//# sourceMappingURL=index.esm.js.map
