@@ -5,8 +5,6 @@ import packageJson from './package.json';
 import typescript from 'rollup-plugin-typescript2';
 import dts from 'rollup-plugin-dts';
 
-const name = packageJson.main.replace(/\.ts$/, '')
-
 const bundle = config => ({
   ...config,
   input: 'src/index.ts',
@@ -42,7 +40,7 @@ export default [
   bundle({
     plugins: [dts()],
     output: {
-      file: `dist/${name}.d.ts`,
+      file: `dist/index.d.ts`,
       format: 'es',
     },
   }),
