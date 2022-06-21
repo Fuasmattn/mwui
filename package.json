@@ -13,7 +13,7 @@
   "scripts": {
     "storybook": "npm run storybook --workspace=library",
     "storybook:static": "npm run build-storybook --workspace=library",
-    "build": "npm run build --workspace=token-farm && npm run build --workspace=library",
+    "build": "npm run build --workspace=token-farm && npm run build-storybook --workspace=library",
     "build:static": "npm run build && npm run storybook:static",
     "lint": "eslint ./ --fix"
   },
@@ -28,5 +28,8 @@
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-react": "^7.30.0"
+  },
+  "dependencies": {
+    "@rollup/plugin-typescript": "^8.3.3"
   }
 }

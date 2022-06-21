@@ -1,9 +1,10 @@
 {
   "name": "@fuasmattn/mwui-react",
   "version": "0.0.1",
-  "main": "src/index.js",
-  "module": "dist/mwui-react.esm.min.js",
-  "browser": "dist/mwui-react.umd.min.js",
+  "main": "src/index.ts",
+  "module": "dist/index.mjs",
+  "browser": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
@@ -25,17 +26,18 @@
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-scripts": "5.0.0",
+    "rollup-plugin-typescript2": "^0.32.1",
     "typescript": "^4.7.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && npm run rollup",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 public",
-    "build-storybook": "build-storybook public -o ../docs",
-    "rollup": "rollup -c"
+    "build-storybook": "build-storybook public -o ../docs && npm run rollup",
+    "rollup": "rollup -c rollup.config.js"
   },
   "browserslist": {
     "production": [
@@ -81,6 +83,7 @@
     "react-docgen-typescript-loader": "^3.7.2",
     "react-docgen-typescript-webpack-plugin": "^1.1.0",
     "rollup": "^2.75.7",
+    "rollup-plugin-dts": "^4.2.2",
     "rollup-plugin-livereload": "^2.0.5",
     "rollup-plugin-serve": "^1.1.0",
     "webpack": "^5.70.0"

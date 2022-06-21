@@ -39,7 +39,7 @@ const Checkbox: FC<Props> = ({ label, checked, onChange }) => {
         checked={state}
         onChange={handleChange}
       ></StyledCheckbox>
-      <Typography variant="label" text={label} component="span" />
+      {label && <Typography variant="label" text={label} component="span" />}
     </Box>
   );
 };
