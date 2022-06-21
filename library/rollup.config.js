@@ -8,7 +8,11 @@ import dts from 'rollup-plugin-dts';
 const bundle = config => ({
   ...config,
   input: 'src/index.ts',
-  external: [...Object.keys(packageJson.dependencies || {}),...Object.keys(packageJson.peerDependencies || {})]
+  external: [
+    ...Object.keys(packageJson.dependencies || {}),
+    ...Object.keys(packageJson.devDependencies || {}),
+    ...Object.keys(packageJson.peerDependencies || {})
+  ]
 })
 
 export default [
