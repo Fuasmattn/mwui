@@ -1,6 +1,6 @@
 {
   "name": "@fuasmattn/mwui",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "Component Library using figma design tokens",
   "main": "index.js",
   "module": "library/dist/index.mjs",
