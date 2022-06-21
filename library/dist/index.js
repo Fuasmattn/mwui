@@ -1378,7 +1378,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 /**
  * Do not edit directly
- * Generated on Tue, 21 Jun 2022 10:09:19 GMT
+ * Generated on Tue, 21 Jun 2022 10:12:47 GMT
  */
 const overline = {
   "fontFamily": "Roboto",
