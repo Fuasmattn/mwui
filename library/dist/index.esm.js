@@ -1636,14 +1636,37 @@ const Button = ({
 
 const {
   styled: styled$1
-} = createStitches({});
+} = createStitches({
+  theme: {
+    colors: {
+      chipBackground: "#6750A4",
+      chipLabelColor: "white" // token
 
-const StyledChip = styled$1("div", {});
+    },
+    radii: {
+      radiusChip: "99999px" // token
+
+    }
+  }
+});
+
+const StyledChip = styled$1("span", {
+  padding: "$xxs $xs",
+  background: "$chipBackground",
+  color: "$chipLabelColor",
+  borderRadius: "$radiusChip"
+});
 
 const Chip = ({
   label
 }) => {
-  return /*#__PURE__*/React.createElement(StyledChip, null, label);
+  return /*#__PURE__*/React.createElement(StyledChip, null, /*#__PURE__*/React.createElement(Typography, {
+    variant: "label",
+    size: "medium",
+    component: "span",
+    text: label,
+    "no-margin": true
+  }));
 };
 
 Chip.propTypes = {
@@ -1652,15 +1675,120 @@ Chip.propTypes = {
 
 const {
   styled
-} = createStitches({});
+} = createStitches({
+  theme: {
+    space: {
+      xxs: "0.25rem",
+      xs: "0.5rem",
+      s: "1rem",
+      m: "1.5rem",
+      l: "2rem",
+      xl: "2.5rem",
+      xxl: "3rem",
+      xxxl: "4rem"
+    },
+    fonts: {
+      default: fontFamiliesDefault
+    },
+    colors: {
+      cardBackground: "white" // token
 
-const Box = styled("div", {});
+    },
+    shadows: {
+      cardBoxShadow: "0px 1px 5px rgba(0, 0, 0, 0.15)" // token
 
-const Card = () => {
-  return /*#__PURE__*/React.createElement(Box, null, "card");
+    },
+    radii: {
+      default: "4px" // token
+
+    }
+  }
+});
+
+const Box = styled("div", {
+  width: "100%",
+  borderRadius: "$default",
+  background: "$cardBackground",
+  boxShadow: "$cardBoxShadow"
+});
+const StyledImage = styled("img", {
+  borderTopLeftRadius: "$default",
+  borderTopRightRadius: "$default"
+});
+const Content = styled("div", {
+  padding: "0 $s $s"
+});
+const AdditionalText = styled("div", {
+  padding: "0 $s"
+});
+const Badges = styled("div", {
+  padding: "0 $s",
+  gap: "$xs",
+  display: "flex",
+  flexWrap: "wrap"
+});
+const Actions = styled("div", {
+  margin: "$s 0 $s",
+  gap: "$xs",
+  padding: "$s",
+  display: "flex",
+  flexDirection: "row",
+  justifyContent: "flex-end"
+});
+
+const Card = ({
+  imageSrc,
+  title,
+  body,
+  confirmLabel,
+  cancelLabel,
+  imageAlt,
+  additionalText,
+  badges,
+  onConfirm,
+  onCancel
+}) => {
+  return /*#__PURE__*/React.createElement(Box, null, /*#__PURE__*/React.createElement(StyledImage, {
+    src: imageSrc,
+    width: "100%",
+    alt: imageAlt
+  }), /*#__PURE__*/React.createElement(Content, null, /*#__PURE__*/React.createElement(Typography, {
+    variant: "title",
+    size: "large",
+    text: title
+  }), body && /*#__PURE__*/React.createElement(Typography, {
+    variant: "body",
+    size: "medium",
+    text: body
+  })), badges?.length && /*#__PURE__*/React.createElement(Badges, null, badges.map((badge, index) => /*#__PURE__*/React.createElement(Chip, {
+    label: badge,
+    key: `badge-${index}`
+  }))), additionalText && /*#__PURE__*/React.createElement(AdditionalText, null, /*#__PURE__*/React.createElement(Typography, {
+    variant: "body",
+    size: "small",
+    text: additionalText
+  })), /*#__PURE__*/React.createElement(Actions, null, cancelLabel && onCancel && /*#__PURE__*/React.createElement(Button, {
+    label: cancelLabel,
+    onClick: onCancel,
+    outlined: true
+  }), /*#__PURE__*/React.createElement(Button, {
+    label: confirmLabel,
+    onClick: onConfirm
+  })));
 };
 
-Card.propTypes = {};
+Card.propTypes = {
+  confirmLabel: propTypes.exports.string.isRequired,
+  onConfirm: propTypes.exports.func.isRequired,
+  title: propTypes.exports.string.isRequired,
+  imageSrc: propTypes.exports.string.isRequired,
+  imageAlt: propTypes.exports.string.isRequired,
+  body: propTypes.exports.string,
+  additionalText: propTypes.exports.string,
+  badges: propTypes.exports.array,
+  cancelLabel: propTypes.exports.string,
+  onCancel: propTypes.exports.func
+};
 
 export { Button, Card, Checkbox, Chip, Typography };
 //# sourceMappingURL=index.esm.js.map

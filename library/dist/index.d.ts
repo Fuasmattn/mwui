@@ -34,7 +34,18 @@ declare type ChipProps = {
 };
 declare const Chip: FC<ChipProps>;
 
-declare type CardProps = {};
+declare type CardProps = {
+    imageSrc: string;
+    imageAlt: string;
+    title: string;
+    confirmLabel: string;
+    body?: string;
+    cancelLabel?: string;
+    additionalText?: string;
+    badges?: string[];
+    onConfirm: () => void;
+    onCancel?: () => void;
+};
 declare const Card: FC<CardProps>;
 
 export { Button, Card, Checkbox, Chip, Typography };
