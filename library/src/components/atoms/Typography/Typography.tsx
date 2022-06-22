@@ -7,14 +7,14 @@ const Box = styled("div", {
   compoundVariants,
 });
 
-export type Props = {
+export type TypographyProps = {
   variant?: Variant;
   component?: Component;
   size?: Size;
   text: string;
 };
 
-const Typography: FC<Props> = ({
+const Typography: FC<TypographyProps> = ({
   variant = "body",
   component = "p",
   size = "medium",

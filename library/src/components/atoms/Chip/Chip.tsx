@@ -4,11 +4,11 @@ import { styled } from "./Chip.styled";
 
 const StyledChip = styled("div", {});
 
-export type Props = {
+export type ChipProps = {
   label: string;
 };
 
-const Chip: FC<Props> = ({ label }) => {
+const Chip: FC<ChipProps> = ({ label }) => {
   return <StyledChip>{label}</StyledChip>;
 };
 

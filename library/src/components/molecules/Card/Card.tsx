@@ -3,9 +3,9 @@ import { styled } from "./Card.styled";
 
 const Box = styled("div", {});
 
-export type Props = {};
+export type CardProps = {};
 
-const Card: FC<Props> = () => {
+const Card: FC<CardProps> = () => {
   return <Box>card</Box>;
 };
 

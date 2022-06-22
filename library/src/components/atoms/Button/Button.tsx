@@ -60,15 +60,17 @@ const StyledButton = styled("button", {
   ],
 });
 
-export type Props = {
-  variant?: "primary" | "secondary";
+export type ButtonVariant = "primary" | "secondary";
+
+export type ButtonProps = {
+  variant?: ButtonVariant;
   label: string;
   disabled?: boolean;
   outlined?: boolean;
   onClick: () => void;
 };
 
-const Button: FC<Props> = ({
+const Button: FC<ButtonProps> = ({
   variant = "primary",
   label,
   disabled = false,

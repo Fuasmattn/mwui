@@ -12,13 +12,13 @@ const StyledCheckbox = styled("input", {
   height: "18px",
 });
 
-export type Props = {
+export type CheckboxProps = {
   label?: string;
   checked?: boolean;
   onChange: () => void;
 };
 
-const Checkbox: FC<Props> = ({ label, checked, onChange }) => {
+const Checkbox: FC<CheckboxProps> = ({ label, checked, onChange }) => {
   const [state, setState] = useState(checked);
   const handleChange = () => {
     onChange();
