@@ -1,6 +1,6 @@
 {
   "name": "@fuasmattn/mwui",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "description": "Component Library using figma design tokens",
   "main": "index.ts",
   "browser": "library/dist/index.esm.js",
