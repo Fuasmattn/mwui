@@ -12,6 +12,7 @@
     "url": "https://github.com/Fuasmattn/mwui.git"
   },
   "dependencies": {
+    "@fuasmattn/mwui-token-farm": "../token-farm",
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^14.2.1",
@@ -20,7 +21,6 @@
     "@types/react": "^18.0.14",
     "@types/react-dom": "^18.0.5",
     "lodash.kebabcase": "^4.1.1",
-    "mwui-token-farm": "../library",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-scripts": "5.0.0",

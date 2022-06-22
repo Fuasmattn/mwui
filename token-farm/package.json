@@ -2,9 +2,8 @@
   "name": "@fuasmattn/mwui-token-farm",
   "version": "0.0.1",
   "description": "Transforms figma design tokens to common config files serving different styling frameworks",
-  "main": "src/index.js",
-  "module": "dist/token-farm.esm.min.js",
-  "browser": "dist/token-farm.umd.min.js",
+  "main": "src/index.ts",
+  "module": "dist/design-tokens.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/Fuasmattn/mwui.git"
@@ -13,7 +12,7 @@
     "start": "npm run build-tw && http-server -p 8080",
     "transform:global": "npx token-transformer input/tokens.json input/global.json global",
     "transform": "npm run transform:global",
-    "build:style-dictionary": "node src/scripts/build.js",
+    "build:style-dictionary": "node src/scripts/build.ts",
     "build": "npm run transform && npm run build:style-dictionary && npm run rollup",
     "rollup": "rollup -c"
   },
@@ -31,6 +30,7 @@
     "sass": "^1.52.1"
   },
   "dependencies": {
+    "lodash.template": "^4.5.0",
     "postcss-cli": "^9.1.0",
     "style-dictionary": "^3.7.0",
     "token-transformer": "^0.0.22"

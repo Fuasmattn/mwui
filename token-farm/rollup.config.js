@@ -2,7 +2,7 @@ import scss from 'rollup-plugin-scss';
 import pkg from './package.json';
 
 export default {
-  input: './src/index.js',
+  input: './src/index.ts',
   output: [
     {
       file: pkg.module,
