@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { createStitches } from '@stitches/react';
+import { displayLarge, displayMedium, displaySmall, headlineLarge, headlineMedium, headlineSmall, titleLarge, titleMedium, titleSmall, labelLarge, labelMedium, labelSmall, bodyLarge, bodyMedium, bodySmall, overline, fontFamiliesDefault, buttonButtonFilledDefaultBgColor } from '@fuasmattn/mwui-token-farm';
 
 var propTypes = {exports: {}};
 
@@ -1368,173 +1369,6 @@ if (process.env.NODE_ENV !== 'production') {
   propTypes.exports = requireFactoryWithThrowingShims()();
 }
 
-/**
- * Do not edit directly
- * Generated on Tue, 21 Jun 2022 14:23:53 GMT
- */
-const overline = {
-  "fontFamily": "Roboto",
-  "fontWeight": "Regular",
-  "lineHeight": 28,
-  "fontSize": 20,
-  "letterSpacing": 4.3,
-  "paragraphSpacing": 0,
-  "textCase": "uppercase",
-  "textDecoration": "none"
-};
-const displayLarge = {
-  "fontFamily": "Roboto",
-  "fontWeight": "Bold",
-  "lineHeight": 90,
-  "fontSize": 64,
-  "letterSpacing": 0,
-  "paragraphSpacing": 0,
-  "textCase": "none",
-  "textDecoration": "none"
-};
-const displaySmall = {
-  "fontFamily": "Roboto",
-  "fontWeight": "SemiBold",
-  "lineHeight": 44,
-  "fontSize": 32,
-  "letterSpacing": 0,
-  "paragraphSpacing": 0,
-  "textCase": "none",
-  "textDecoration": "none"
-};
-const displayMedium = {
-  "fontFamily": "Roboto",
-  "fontWeight": "SemiBold",
-  "lineHeight": 66,
-  "fontSize": 48,
-  "letterSpacing": 0,
-  "paragraphSpacing": 0,
-  "textCase": "none",
-  "textDecoration": "none"
-};
-const headlineLarge = {
-  "fontFamily": "Roboto",
-  "fontWeight": "Bold",
-  "lineHeight": 44,
-  "fontSize": 32,
-  "letterSpacing": 0,
-  "paragraphSpacing": 0,
-  "textCase": "none",
-  "textDecoration": "none"
-};
-const headlineSmall = {
-  "fontFamily": "Roboto",
-  "fontWeight": "SemiBold",
-  "lineHeight": 32,
-  "fontSize": 24,
-  "letterSpacing": 0,
-  "paragraphSpacing": 0,
-  "textCase": "none",
-  "textDecoration": "none"
-};
-const headlineMedium = {
-  "fontFamily": "Roboto",
-  "fontWeight": "SemiBold",
-  "lineHeight": 36,
-  "fontSize": 28,
-  "letterSpacing": 0,
-  "paragraphSpacing": 0,
-  "textCase": "none",
-  "textDecoration": "none"
-};
-const bodyLarge = {
-  "fontFamily": "Roboto",
-  "fontWeight": "Regular",
-  "lineHeight": 24,
-  "fontSize": 16,
-  "letterSpacing": 0,
-  "paragraphSpacing": 0,
-  "textCase": "none",
-  "textDecoration": "none"
-};
-const bodyMedium = {
-  "fontFamily": "Roboto",
-  "fontWeight": "Regular",
-  "lineHeight": 24,
-  "fontSize": 16,
-  "letterSpacing": 0,
-  "paragraphSpacing": 0,
-  "textCase": "none",
-  "textDecoration": "none"
-};
-const bodySmall = {
-  "fontFamily": "Roboto",
-  "fontWeight": "Regular",
-  "lineHeight": 16,
-  "fontSize": 12,
-  "letterSpacing": 0,
-  "paragraphSpacing": 0,
-  "textCase": "none",
-  "textDecoration": "none"
-};
-const labelLarge = {
-  "fontFamily": "Roboto",
-  "fontWeight": "SemiBold",
-  "lineHeight": 20,
-  "fontSize": 14,
-  "letterSpacing": 0,
-  "paragraphSpacing": 0,
-  "textCase": "none",
-  "textDecoration": "none"
-};
-const labelMedium = {
-  "fontFamily": "Roboto",
-  "fontWeight": "SemiBold",
-  "lineHeight": 16,
-  "fontSize": 12,
-  "letterSpacing": 0,
-  "paragraphSpacing": 0,
-  "textCase": "none",
-  "textDecoration": "none"
-};
-const labelSmall = {
-  "fontFamily": "Roboto",
-  "fontWeight": "SemiBold",
-  "lineHeight": 16,
-  "fontSize": 11,
-  "letterSpacing": 0,
-  "paragraphSpacing": 0,
-  "textCase": "none",
-  "textDecoration": "none"
-};
-const titleLarge = {
-  "fontFamily": "Roboto",
-  "fontWeight": "SemiBold",
-  "lineHeight": 28,
-  "fontSize": 20,
-  "letterSpacing": 0,
-  "paragraphSpacing": 0,
-  "textCase": "none",
-  "textDecoration": "none"
-};
-const titleMedium = {
-  "fontFamily": "Roboto",
-  "fontWeight": "SemiBold",
-  "lineHeight": 24,
-  "fontSize": 16,
-  "letterSpacing": 0,
-  "paragraphSpacing": 0,
-  "textCase": "none",
-  "textDecoration": "none"
-};
-const titleSmall = {
-  "fontFamily": "Roboto",
-  "fontWeight": "SemiBold",
-  "lineHeight": 20,
-  "fontSize": 14,
-  "letterSpacing": 0,
-  "paragraphSpacing": 0,
-  "textCase": "none",
-  "textDecoration": "none"
-};
-const fontFamiliesDefault = "Roboto";
-const buttonButtonFilledDefaultBgColor = "#6750a4";
-
 const createCompoundVariant = (variant, size, token) => {
   const {
     fontFamily,
@@ -1684,45 +1518,45 @@ Checkbox.defaultProps = {
   label: ""
 };
 
-const PLACEHODER_FIXME = '#000000';
+const PLACEHODER_FIXME = "#000000";
 const {
   styled: styled$2
 } = createStitches({
   theme: {
     space: {
-      xxs: '0.25rem',
-      xs: '0.5rem',
-      s: '1rem',
-      m: '1.5rem',
-      l: '2rem',
-      xl: '2.5rem',
-      xxl: '3rem',
-      xxxl: '4rem'
+      xxs: "0.25rem",
+      xs: "0.5rem",
+      s: "1rem",
+      m: "1.5rem",
+      l: "2rem",
+      xl: "2.5rem",
+      xxl: "3rem",
+      xxxl: "4rem"
     },
     fonts: {
       default: fontFamiliesDefault
     },
     colors: {
       primary: buttonButtonFilledDefaultBgColor,
-      'primary-hover': PLACEHODER_FIXME,
-      'primary-active': PLACEHODER_FIXME,
-      'primary-border': PLACEHODER_FIXME,
-      'primary-border-hover': PLACEHODER_FIXME,
-      'primary-border-active': PLACEHODER_FIXME,
-      'primary-text': PLACEHODER_FIXME,
-      'primary-text-hover': PLACEHODER_FIXME,
-      'primary-text-active': PLACEHODER_FIXME,
-      'primary-border-radius': 0,
+      "primary-hover": PLACEHODER_FIXME,
+      "primary-active": PLACEHODER_FIXME,
+      "primary-border": PLACEHODER_FIXME,
+      "primary-border-hover": PLACEHODER_FIXME,
+      "primary-border-active": PLACEHODER_FIXME,
+      "primary-text": PLACEHODER_FIXME,
+      "primary-text-hover": PLACEHODER_FIXME,
+      "primary-text-active": PLACEHODER_FIXME,
+      "primary-border-radius": 0,
       secondary: PLACEHODER_FIXME,
-      'secondary-hover': PLACEHODER_FIXME,
-      'secondary-active': PLACEHODER_FIXME,
-      'secondary-border': PLACEHODER_FIXME,
-      'secondary-border-hover': PLACEHODER_FIXME,
-      'secondary-border-active': PLACEHODER_FIXME,
-      'secondary-text': PLACEHODER_FIXME,
-      'secondary-text-hover': PLACEHODER_FIXME,
-      'secondary-text-active': PLACEHODER_FIXME,
-      'secondary-border-radius': 0
+      "secondary-hover": PLACEHODER_FIXME,
+      "secondary-active": PLACEHODER_FIXME,
+      "secondary-border": PLACEHODER_FIXME,
+      "secondary-border-hover": PLACEHODER_FIXME,
+      "secondary-border-active": PLACEHODER_FIXME,
+      "secondary-text": PLACEHODER_FIXME,
+      "secondary-text-hover": PLACEHODER_FIXME,
+      "secondary-text-active": PLACEHODER_FIXME,
+      "secondary-border-radius": 0
     }
   }
 });
