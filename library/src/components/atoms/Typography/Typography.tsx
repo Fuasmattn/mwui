@@ -21,7 +21,12 @@ const Typography: FC<TypographyProps> = ({
   text,
 }) => {
   return (
-    <Box as={component} component={component} variant={variant} size={size}>
+    <Box
+      as={component}
+      component={component}
+      variant={variant}
+      size={size}
+    >
       {text}
     </Box>
   );
