@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 24 Jun 2022 09:07:03 GMT
+ * Generated on Fri, 24 Jun 2022 09:10:58 GMT
  */
 
 export const magenta100 = "#fde8f2";
@@ -55,6 +55,7 @@ export const xxs = 4;
 export const xs = 8;
 export const s = 12;
 export const m = 16;
+export const l = 20;
 export const xl = 24;
 export const xxl = 64;
 export const neutralWhite = "#ffffff";

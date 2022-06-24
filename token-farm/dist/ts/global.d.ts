@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 24 Jun 2022 09:07:03 GMT
+ * Generated on Fri, 24 Jun 2022 09:10:58 GMT
  */
 
 declare module 'design-tokens' {
@@ -56,6 +56,7 @@ declare module 'design-tokens' {
   export const xs: string;
   export const s: string;
   export const m: string;
+  export const l: string;
   export const xl: string;
   export const xxl: string;
   export const neutralWhite: string;

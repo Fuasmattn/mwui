@@ -229,6 +229,10 @@
       }
     }
   },
+  "l": {
+    "value": 20,
+    "type": "spacing"
+  },
   "xl": {
     "value": 24,
     "type": "spacing"
