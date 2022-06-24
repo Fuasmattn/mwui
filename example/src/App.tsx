@@ -3,7 +3,7 @@ import { Card } from "@fuasmattn/mwui";
 
 function App() {
   return (
-    <div className="p-1">
+    <div className="p-xxl">
       <Card
         title="Hello"
         body="this is dog."
