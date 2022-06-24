@@ -1490,9 +1490,11 @@ const Typography = ({
   variant = "body",
   component = "p",
   size = "medium",
-  text
+  text,
+  className
 }) => {
   return /*#__PURE__*/React.createElement(Box$2, {
+    className: className,
     as: component,
     component: component,
     variant: variant,
@@ -1722,9 +1724,11 @@ const Button = ({
   label,
   disabled = false,
   outlined = false,
-  onClick
+  onClick,
+  className
 }) => {
   return /*#__PURE__*/React.createElement(StyledButton, {
+    className: className,
     type: "button",
     variant: variant,
     disabled: disabled,

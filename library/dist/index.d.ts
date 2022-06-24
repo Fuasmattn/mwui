@@ -14,6 +14,7 @@ declare type ButtonProps = {
     disabled?: boolean;
     outlined?: boolean;
     onClick: () => void;
+    className?: string;
 };
 declare const Button: FC<ButtonProps>;
 
@@ -26,6 +27,7 @@ declare type TypographyProps = {
     component?: Component;
     size?: Size;
     text: string;
+    className?: string;
 };
 declare const Typography: FC<TypographyProps>;
 
