@@ -48,4 +48,6 @@ declare type CardProps = {
 };
 declare const Card: FC<CardProps>;
 
-export { Button, Card, Checkbox, Chip, Typography };
+declare const injectGlobalStyles: () => string;
+
+export { Button, Card, Checkbox, Chip, Typography, injectGlobalStyles };

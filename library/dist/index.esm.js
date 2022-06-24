@@ -1449,12 +1449,39 @@ const stitches = createStitches({
       default: borderRadiusDefault,
       round: borderRadiusRound
     }
+  },
+  utils: {
+    // Abbreviated margin properties
+    m: value => ({
+      margin: value
+    }),
+    mt: value => ({
+      marginTop: value
+    }),
+    mr: value => ({
+      marginRight: value
+    }),
+    mb: value => ({
+      marginBottom: value
+    }),
+    ml: value => ({
+      marginLeft: value
+    }),
+    mx: value => ({
+      marginLeft: value,
+      marginRight: value
+    }),
+    my: value => ({
+      marginTop: value,
+      marginBottom: value
+    })
   }
 });
 const {
-  styled
+  styled,
+  css
 } = stitches;
-const injectGlobalStyles = stitches.globalCss({
+const injectGlobalStyles = stitches.globalCss({ ...css,
   "*": {
     boxSizing: "border-box"
   },
@@ -1885,5 +1912,5 @@ Card.propTypes = {
   onCancel: propTypes.exports.func
 };
 
-export { Button, Card, Checkbox, Chip, Typography };
+export { Button, Card, Checkbox, Chip, Typography, injectGlobalStyles };
 //# sourceMappingURL=index.esm.js.map
