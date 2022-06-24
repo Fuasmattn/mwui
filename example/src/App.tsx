@@ -3,13 +3,7 @@ import { Card } from "@fuasmattn/mwui";
 
 function App() {
   return (
-    <div
-      style={{
-        display: "grid",
-        gridTemplateColumns: "repeat(auto-fill, 360px)",
-        gridGap: "32px",
-      }}
-    >
+    <div className="p-1">
       <Card
         title="Hello"
         body="this is dog."
@@ -17,6 +11,8 @@ function App() {
         imageSrc="https://placedog.net/720/338?r"
         confirmLabel="Confirm"
         onConfirm={() => {}}
+        cancelLabel="Cancel"
+        onCancel={() => {}}
       />
     </div>
   );

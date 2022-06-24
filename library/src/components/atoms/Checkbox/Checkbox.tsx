@@ -1,7 +1,7 @@
 import React, { useState, FC } from "react";
 import PropTypes from "prop-types";
 import { default as Typography } from "../Typography";
-import { styled } from "../../stitches";
+import { styled } from "../../../stitches";
 
 const Box = styled("div");
 

@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 import { Component, Size, Variant } from "./types";
 import { variants, compoundVariants } from "./Typography.styled";
-import { styled } from "../../stitches";
+import { styled } from "../../../stitches";
 
 const Box = styled("div", {
   variants,

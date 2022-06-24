@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import React, { FC } from "react";
 import { Button, Chip, Typography } from "../../atoms";
-import { styled } from "../../stitches";
+import { styled } from "../../../stitches";
 
 const scopedTokens = {
   $$cardBackground: "white", // token

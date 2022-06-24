@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import { styled } from "../../stitches";
+import { styled } from "../../../stitches";
 import { scopedTokens, compoundVariants, variants } from "./Button.styled";
 
 const StyledButton = styled("button", {

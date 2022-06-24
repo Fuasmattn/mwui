@@ -1,6 +1,6 @@
 import React, { FC } from "react";
 import PropTypes from "prop-types";
-import { styled } from "../../stitches";
+import { styled } from "../../../stitches";
 import Typography from "../Typography";
 
 const scopedTokens = {
