@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
+import { displayLarge, displayMedium, displaySmall, headlineLarge, headlineMedium, headlineSmall, titleLarge, titleMedium, titleSmall, labelLarge, labelMedium, labelSmall, bodyLarge, bodyMedium, bodySmall, overline, xxs, xs, s, m, l, xl, xxl, fontFamiliesDefault, borderRadiusDefault, borderRadiusRound, buttonButtonFilledDefaultBgColor, buttonButtonFilledHoverBgColor, buttonButtonFilledDisabledBgColor, buttonButtonFilledDefaultFgColor, buttonButtonFilledDisabledFgColor } from '@fuasmattn/mwui-token-farm';
 import { createStitches } from '@stitches/react';
-import { displayLarge, displayMedium, displaySmall, headlineLarge, headlineMedium, headlineSmall, titleLarge, titleMedium, titleSmall, labelLarge, labelMedium, labelSmall, bodyLarge, bodyMedium, bodySmall, overline, fontFamiliesDefault, buttonButtonFilledDefaultBgColor } from '@fuasmattn/mwui-token-farm';
 
 var propTypes = {exports: {}};
 
@@ -1396,23 +1396,7 @@ const createCompoundVariant = (variant, size, token) => {
   };
 };
 
-const {
-  styled: styled$4
-} = createStitches({
-  theme: {
-    space: {
-      xxs: "0.25rem",
-      xs: "0.5rem",
-      s: "1rem",
-      m: "1.5rem",
-      l: "2rem",
-      xl: "2.5rem",
-      xxl: "3rem",
-      xxxl: "4rem"
-    }
-  }
-});
-const variants = {
+const variants$1 = {
   variant: {
     display: {},
     headline: {},
@@ -1442,14 +1426,62 @@ const variants = {
     large: {}
   }
 };
-const compoundVariants = [createCompoundVariant("display", "large", displayLarge), createCompoundVariant("display", "medium", displayMedium), createCompoundVariant("display", "small", displaySmall), createCompoundVariant("headline", "large", headlineLarge), createCompoundVariant("headline", "medium", headlineMedium), createCompoundVariant("headline", "small", headlineSmall), createCompoundVariant("title", "large", titleLarge), createCompoundVariant("title", "medium", titleMedium), createCompoundVariant("title", "small", titleSmall), createCompoundVariant("label", "large", labelLarge), createCompoundVariant("label", "medium", labelMedium), createCompoundVariant("label", "small", labelSmall), createCompoundVariant("body", "large", bodyLarge), createCompoundVariant("body", "medium", bodyMedium), createCompoundVariant("body", "small", bodySmall), // createCompoundVariant("body-italic", "large", bodyLargeItalic),
+const compoundVariants$1 = [createCompoundVariant("display", "large", displayLarge), createCompoundVariant("display", "medium", displayMedium), createCompoundVariant("display", "small", displaySmall), createCompoundVariant("headline", "large", headlineLarge), createCompoundVariant("headline", "medium", headlineMedium), createCompoundVariant("headline", "small", headlineSmall), createCompoundVariant("title", "large", titleLarge), createCompoundVariant("title", "medium", titleMedium), createCompoundVariant("title", "small", titleSmall), createCompoundVariant("label", "large", labelLarge), createCompoundVariant("label", "medium", labelMedium), createCompoundVariant("label", "small", labelSmall), createCompoundVariant("body", "large", bodyLarge), createCompoundVariant("body", "medium", bodyMedium), createCompoundVariant("body", "small", bodySmall), // createCompoundVariant("body-italic", "large", bodyLargeItalic),
 // createCompoundVariant("body-light", "large", bodyLargeLight),
 // createCompoundVariant("body-light-italic", "large", bodyLargeLightItalic),
 createCompoundVariant("overline", "medium", overline)];
 
-const Box$2 = styled$4("div", {
-  variants,
-  compoundVariants
+const stitches = createStitches({
+  theme: {
+    space: {
+      xxs: `${xxs}px`,
+      xs: `${xs}px`,
+      s: `${s}px`,
+      m: `${m}px`,
+      l: `${l}px`,
+      xl: `${xl}px`,
+      xxl: `${xxl}px`
+    },
+    fonts: {
+      default: fontFamiliesDefault
+    },
+    radii: {
+      default: borderRadiusDefault,
+      round: borderRadiusRound
+    }
+  }
+});
+const {
+  styled
+} = stitches;
+const injectGlobalStyles = stitches.globalCss({
+  "*": {
+    boxSizing: "border-box"
+  },
+  "*:after": {
+    boxSizing: "border-box"
+  },
+  "*:before": {
+    boxSizing: "border-box"
+  },
+  body: {
+    margin: 0,
+    padding: 0
+  },
+  p: {
+    margin: 0,
+    padding: 0
+  },
+  h1: {
+    margin: 0,
+    padding: 0
+  }
+});
+injectGlobalStyles();
+
+const Box$2 = styled("div", {
+  variants: variants$1,
+  compoundVariants: compoundVariants$1
 });
 
 const Typography = ({
@@ -1466,12 +1498,8 @@ const Typography = ({
   }, text);
 };
 
-const {
-  styled: styled$3
-} = createStitches({});
-
-const Box$1 = styled$3("div");
-const StyledCheckbox = styled$3("input", {
+const Box$1 = styled("div");
+const StyledCheckbox = styled("input", {
   display: "inline-block",
   cursor: "pointer",
   width: "18px",
@@ -1518,104 +1546,173 @@ Checkbox.defaultProps = {
   label: ""
 };
 
-const PLACEHODER_FIXME = "#000000";
-const {
-  styled: styled$2
-} = createStitches({
-  theme: {
-    space: {
-      xxs: "0.25rem",
-      xs: "0.5rem",
-      s: "1rem",
-      m: "1.5rem",
-      l: "2rem",
-      xl: "2.5rem",
-      xxl: "3rem",
-      xxxl: "4rem"
+const PLACEHODER_FIXME = "#00ff00";
+const scopedTokens$2 = {
+  $$primary: buttonButtonFilledDefaultBgColor,
+  "$$primary-hover": buttonButtonFilledHoverBgColor,
+  "$$primary-active": buttonButtonFilledHoverBgColor,
+  "$$primary-border": PLACEHODER_FIXME,
+  "$$primary-disabled": buttonButtonFilledDisabledBgColor,
+  "$$primary-border-hover": PLACEHODER_FIXME,
+  "$$primary-border-active": PLACEHODER_FIXME,
+  "$$primary-text": buttonButtonFilledDefaultFgColor,
+  "$$primary-text-hover": buttonButtonFilledDefaultFgColor,
+  "$$primary-text-active": buttonButtonFilledDefaultFgColor,
+  "$$primary-text-disabled": buttonButtonFilledDisabledFgColor,
+  $$secondary: PLACEHODER_FIXME,
+  "$$secondary-hover": PLACEHODER_FIXME,
+  "$$secondary-active": PLACEHODER_FIXME,
+  "$$secondary-border": PLACEHODER_FIXME,
+  "$$secondary-disabled": PLACEHODER_FIXME,
+  "$$secondary-border-hover": PLACEHODER_FIXME,
+  "$$secondary-border-active": PLACEHODER_FIXME,
+  "$$secondary-text": PLACEHODER_FIXME,
+  "$$secondary-text-hover": PLACEHODER_FIXME,
+  "$$secondary-text-active": PLACEHODER_FIXME,
+  "$$secondary-text-disabled": PLACEHODER_FIXME
+};
+const variants = {
+  variant: {
+    primary: {
+      backgroundColor: "$$primary",
+      color: "$$primary-text",
+      borderRadius: "$$primary-border-radius",
+      "&:hover": {
+        backgroundColor: "$$primary-hover",
+        color: "$$primary-text-hover"
+      },
+      "&:active": {
+        backgroundColor: "$$primary-active",
+        color: "$$primary-text-hover"
+      }
     },
-    fonts: {
-      default: fontFamiliesDefault
-    },
-    colors: {
-      primary: buttonButtonFilledDefaultBgColor,
-      "primary-hover": PLACEHODER_FIXME,
-      "primary-active": PLACEHODER_FIXME,
-      "primary-border": PLACEHODER_FIXME,
-      "primary-border-hover": PLACEHODER_FIXME,
-      "primary-border-active": PLACEHODER_FIXME,
-      "primary-text": PLACEHODER_FIXME,
-      "primary-text-hover": PLACEHODER_FIXME,
-      "primary-text-active": PLACEHODER_FIXME,
-      "primary-border-radius": 0,
-      secondary: PLACEHODER_FIXME,
-      "secondary-hover": PLACEHODER_FIXME,
-      "secondary-active": PLACEHODER_FIXME,
-      "secondary-border": PLACEHODER_FIXME,
-      "secondary-border-hover": PLACEHODER_FIXME,
-      "secondary-border-active": PLACEHODER_FIXME,
-      "secondary-text": PLACEHODER_FIXME,
-      "secondary-text-hover": PLACEHODER_FIXME,
-      "secondary-text-active": PLACEHODER_FIXME,
-      "secondary-border-radius": 0
+    secondary: {
+      backgroundColor: "$$secondary",
+      color: "$$secondary-text",
+      borderRadius: "$$secondary-border-radius",
+      "&:hover": {
+        backgroundColor: "$$secondary-hover",
+        color: "$$secondary-text-hover"
+      },
+      "&:active": {
+        backgroundColor: "$$secondary-active",
+        color: "$$secondary-text-active"
+      }
+    }
+  },
+  outlined: {
+    true: {
+      $$shadowColor: "transparent",
+      backgroundColor: "transparent",
+      boxShadow: "0 0 0 1px $$shadowColor"
+    }
+  },
+  disabled: {
+    true: {
+      cursor: "not-allowed"
     }
   }
-});
+};
+const compoundVariants = [{
+  variant: "primary",
+  outlined: true,
+  css: {
+    backgroundColor: "transparent",
+    $$shadowColor: "$$primary-border",
+    color: "$$primary"
+  }
+}, {
+  variant: "secondary",
+  outlined: true,
+  css: {
+    backgroundColor: "transparent",
+    $$shadowColor: "$$secondary-border",
+    color: "$$secondary"
+  }
+}, {
+  variant: "primary",
+  outlined: false,
+  disabled: true,
+  css: {
+    $$shadowColor: "transparent",
+    backgroundColor: "$$primary-disabled",
+    color: "$$primary-text-disabled",
+    "&:hover": {
+      backgroundColor: "$$primary-disabled",
+      color: "$$primary-text-disabled"
+    },
+    "&:active": {
+      backgroundColor: "$$primary-disabled",
+      color: "$$primary-text-disabled"
+    }
+  }
+}, {
+  variant: "primary",
+  outlined: true,
+  disabled: true,
+  css: {
+    $$shadowColor: "$$primary-disabled",
+    backgroundColor: "transparent",
+    color: "$$primary-text-disabled",
+    "&:hover": {
+      $$shadowColor: "$$primary-disabled",
+      backgroundColor: "transparent",
+      color: "$$primary-text-disabled"
+    },
+    "&:active": {
+      $$shadowColor: "$$primary-disabled",
+      backgroundColor: "transparent",
+      color: "$$primary-text-disabled"
+    }
+  }
+}, {
+  variant: "secondary",
+  outlined: false,
+  disabled: true,
+  css: {
+    $$shadowColor: "transparent",
+    backgroundColor: "$$secondary-disabled",
+    color: "$$secondary-text-disabled",
+    "&:hover": {
+      backgroundColor: "$$secondary-disabled",
+      color: "$$secondary-text-disabled"
+    },
+    "&:active": {
+      backgroundColor: "$$secondary-disabled",
+      color: "$$secondary-text-disabled"
+    }
+  }
+}, {
+  variant: "secondary",
+  outlined: true,
+  disabled: true,
+  css: {
+    $$shadowColor: "$$secondary-disabled",
+    backgroundColor: "transparent",
+    color: "$$secondary-text-disabled",
+    "&:hover": {
+      $$shadowColor: "$$secondary-disabled",
+      backgroundColor: "transparent",
+      color: "$$secondary-text-disabled"
+    },
+    "&:active": {
+      $$shadowColor: "$$secondary-disabled",
+      backgroundColor: "transparent",
+      color: "$$secondary-text-disabled"
+    }
+  }
+}];
 
-const StyledButton = styled$2("button", {
+const StyledButton = styled("button", { ...scopedTokens$2,
   backgroundColor: "transparent",
   fontFamily: "$default",
   padding: "$xs $m",
   border: "none",
-  variants: {
-    variant: {
-      primary: {
-        backgroundColor: "$primary",
-        color: "$primary-text",
-        borderRadius: "$primary-border-radius",
-        "&:hover": {
-          backgroundColor: "$primary-hover",
-          color: "$primary-text-hover"
-        },
-        "&:active": {
-          backgroundColor: "$primary-active",
-          color: "$primary-text-hover"
-        }
-      },
-      secondary: {
-        backgroundColor: "$secondary",
-        color: "$secondary-text",
-        borderRadius: "$secondary-border-radius",
-        "&:hover": {
-          backgroundColor: "$secondary-hover",
-          color: "$secondary-text-hover"
-        },
-        "&:active": {
-          backgroundColor: "$secondary-active",
-          color: "$secondary-text-active"
-        }
-      }
-    },
-    outlined: {
-      true: {
-        $$shadowColor: "transparent",
-        backgroundColor: "transparent",
-        boxShadow: "0 0 0 1px $$shadowColor"
-      }
-    }
-  },
+  variants,
   defaultVariants: {
     variant: "primary"
   },
-  // TODO: discuss if outline and variants could be separated in DS
-  compoundVariants: [{
-    variant: "primary",
-    outlined: true,
-    css: {
-      backgroundColor: "transparent",
-      $$shadowColor: "black",
-      color: "black"
-    }
-  }]
+  compoundVariants
 });
 
 const Button = ({
@@ -1634,27 +1731,17 @@ const Button = ({
   }, label);
 };
 
-const {
-  styled: styled$1
-} = createStitches({
-  theme: {
-    colors: {
-      chipBackground: "#6750A4",
-      chipLabelColor: "white" // token
+const scopedTokens$1 = {
+  $$background: "#6750A4",
+  $$color: "white",
+  $$radius: "99999px" // token
 
-    },
-    radii: {
-      radiusChip: "99999px" // token
-
-    }
-  }
-});
-
-const StyledChip = styled$1("span", {
+};
+const StyledChip = styled("span", { ...scopedTokens$1,
   padding: "$xxs $xs",
-  background: "$chipBackground",
-  color: "$chipLabelColor",
-  borderRadius: "$radiusChip"
+  background: "$$background",
+  color: "$$color",
+  borderRadius: "$$radius"
 });
 
 const Chip = ({
@@ -1673,64 +1760,61 @@ Chip.propTypes = {
   label: propTypes.exports.string.isRequired
 };
 
-const {
-  styled
-} = createStitches({
-  theme: {
-    space: {
-      xxs: "0.25rem",
-      xs: "0.5rem",
-      s: "1rem",
-      m: "1.5rem",
-      l: "2rem",
-      xl: "2.5rem",
-      xxl: "3rem",
-      xxxl: "4rem"
-    },
-    fonts: {
-      default: fontFamiliesDefault
-    },
-    colors: {
-      cardBackground: "white" // token
+const scopedTokens = {
+  $$cardBackground: "white",
+  $$cardBoxShadow: "0px 1px 5px rgba(0, 0, 0, 0.15)" // token
 
-    },
-    shadows: {
-      cardBoxShadow: "0px 1px 5px rgba(0, 0, 0, 0.15)" // token
-
-    },
-    radii: {
-      default: "4px" // token
-
+};
+const Box = styled("div", { ...scopedTokens,
+  width: "100%",
+  borderRadius: "$default",
+  background: "$$cardBackground",
+  boxShadow: "$$cardBoxShadow",
+  variants: {
+    variant: {
+      image: {
+        paddingBottom: "$xl"
+      },
+      "no-image": {
+        padding: "$xl"
+      }
     }
   }
 });
-
-const Box = styled("div", {
-  width: "100%",
-  borderRadius: "$default",
-  background: "$cardBackground",
-  boxShadow: "$cardBoxShadow"
+const Container = styled("div", {
+  variants: {
+    variant: {
+      image: {
+        padding: "0 $xl"
+      },
+      "no-image": {
+        padding: "0"
+      }
+    }
+  }
 });
 const StyledImage = styled("img", {
+  marginBottom: "$xl",
   borderTopLeftRadius: "$default",
   borderTopRightRadius: "$default"
 });
 const Content = styled("div", {
-  padding: "0 $s $s"
+  display: "flex",
+  flexDirection: "column",
+  gap: "$m"
 });
 const AdditionalText = styled("div", {
-  padding: "0 $s"
+  overflowWrap: "break-word",
+  marginTop: "$xs"
 });
 const Badges = styled("div", {
-  padding: "0 $s",
-  gap: "$xs",
+  marginTop: "$m",
+  gap: "$xxs",
   display: "flex",
   flexWrap: "wrap"
 });
 const Actions = styled("div", {
-  margin: "$s 0 $s",
   gap: "$xs",
-  padding: "$s",
   display: "flex",
   flexDirection: "row",
   justifyContent: "flex-end"
@@ -1748,11 +1832,18 @@ const Card = ({
   onConfirm,
   onCancel
 }) => {
-  return /*#__PURE__*/React.createElement(Box, null, /*#__PURE__*/React.createElement(StyledImage, {
+  const hasActions = cancelLabel && onCancel || confirmLabel && onConfirm;
+  const hasImage = !!imageSrc;
+  const variant = hasImage ? "image" : "no-image";
+  return /*#__PURE__*/React.createElement(Box, {
+    variant: variant
+  }, imageSrc && /*#__PURE__*/React.createElement(StyledImage, {
     src: imageSrc,
     width: "100%",
     alt: imageAlt
-  }), /*#__PURE__*/React.createElement(Content, null, /*#__PURE__*/React.createElement(Typography, {
+  }), /*#__PURE__*/React.createElement(Container, {
+    variant: variant
+  }, /*#__PURE__*/React.createElement(Content, null, /*#__PURE__*/React.createElement(Typography, {
     variant: "title",
     size: "large",
     text: title
@@ -1767,22 +1858,26 @@ const Card = ({
     variant: "body",
     size: "small",
     text: additionalText
-  })), /*#__PURE__*/React.createElement(Actions, null, cancelLabel && onCancel && /*#__PURE__*/React.createElement(Button, {
+  })), /*#__PURE__*/React.createElement(Actions, {
+    css: {
+      marginTop: hasActions ? "$m" : 0
+    }
+  }, cancelLabel && onCancel && /*#__PURE__*/React.createElement(Button, {
     label: cancelLabel,
     onClick: onCancel,
     outlined: true
-  }), /*#__PURE__*/React.createElement(Button, {
+  }), confirmLabel && onConfirm && /*#__PURE__*/React.createElement(Button, {
     label: confirmLabel,
     onClick: onConfirm
-  })));
+  }))));
 };
 
 Card.propTypes = {
-  confirmLabel: propTypes.exports.string.isRequired,
-  onConfirm: propTypes.exports.func.isRequired,
+  confirmLabel: propTypes.exports.string,
+  onConfirm: propTypes.exports.func,
   title: propTypes.exports.string.isRequired,
-  imageSrc: propTypes.exports.string.isRequired,
-  imageAlt: propTypes.exports.string.isRequired,
+  imageSrc: propTypes.exports.string,
+  imageAlt: propTypes.exports.string,
   body: propTypes.exports.string,
   additionalText: propTypes.exports.string,
   badges: propTypes.exports.array,

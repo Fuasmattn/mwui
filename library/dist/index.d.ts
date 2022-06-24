@@ -35,15 +35,15 @@ declare type ChipProps = {
 declare const Chip: FC<ChipProps>;
 
 declare type CardProps = {
-    imageSrc: string;
-    imageAlt: string;
+    imageSrc?: string;
+    imageAlt?: string;
     title: string;
-    confirmLabel: string;
+    confirmLabel?: string;
     body?: string;
     cancelLabel?: string;
     additionalText?: string;
     badges?: string[];
-    onConfirm: () => void;
+    onConfirm?: () => void;
     onCancel?: () => void;
 };
 declare const Card: FC<CardProps>;
