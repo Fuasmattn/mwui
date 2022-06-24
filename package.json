@@ -6,7 +6,8 @@
   "browser": "library/dist/index.esm.js",
   "types": "library/dist/index.d.ts",
   "files": [
-    "library/dist"
+    "library/dist",
+    "index.css"
   ],
   "workspaces": [
     "token-farm",
