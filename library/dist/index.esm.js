@@ -1449,37 +1449,12 @@ const stitches = createStitches({
       default: borderRadiusDefault,
       round: borderRadiusRound
     }
-  },
-  utils: {
-    // Abbreviated margin properties
-    m: value => ({
-      margin: value
-    }),
-    mt: value => ({
-      marginTop: value
-    }),
-    mr: value => ({
-      marginRight: value
-    }),
-    mb: value => ({
-      marginBottom: value
-    }),
-    ml: value => ({
-      marginLeft: value
-    }),
-    mx: value => ({
-      marginLeft: value,
-      marginRight: value
-    }),
-    my: value => ({
-      marginTop: value,
-      marginBottom: value
-    })
   }
 });
 const {
   styled,
-  css
+  css,
+  getCssText
 } = stitches;
 const injectGlobalStyles = stitches.globalCss({ ...css,
   "*": {

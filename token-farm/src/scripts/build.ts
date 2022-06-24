@@ -1,12 +1,41 @@
 /* eslint-disable no-console */
-const template = require('lodash.template');
+const template = require("lodash.template");
 const StyleDictionaryPackage = require("style-dictionary");
 const { createArray } = require("./utils.ts");
+const { utilities } = require("./utility-classes.ts");
 const fs = require("fs");
 
 const typingsES6Template = template(
   fs.readFileSync(`src/templates/typings/es6.template`)
 );
+
+StyleDictionaryPackage.registerFormat({
+  name: "utilityClass",
+  formatter: function (dictionary, platform) {
+    let output = "";
+    dictionary.allProperties.forEach(function ({ type, name, value }) {
+      utilities.forEach(function (utility) {
+        // do not include spacings like xl-left
+        if (type === utility.tokenType && !name.includes("-")) {
+          const utilityClass = `${utility.name}-${name}`;
+
+          // support x and y utilities, e.g. mx = ml & mr
+          if (utility.CSSprop.length > 1) {
+            output += `.${utilityClass} {
+  ${utility.CSSprop[0]}: ${value}px;
+  ${utility.CSSprop[1]}: ${value}px;
+  }\n\n`;
+          } else {
+            output += `.${utilityClass} {
+  ${utility.CSSprop[0]}: ${value}px;
+  }\n\n`;
+          }
+        }
+      });
+    });
+    return output;
+  },
+});
 
 StyleDictionaryPackage.registerFormat({
   name: "css/variables",
@@ -66,13 +95,12 @@ function getStyleDictionaryConfig(theme) {
     },
     platforms: {
       css: {
-        transforms: scssTransforms,
-        buildPath: "dist/css/",
+        transformGroup: "css",
+        buildPath: "dist/",
         files: [
           {
-            destination: `${theme}.css`,
-            format: "css/variables",
-            selector: `.${theme}-theme`,
+            destination: `index.css`,
+            format: "utilityClass",
           },
         ],
       },
@@ -121,18 +149,15 @@ function getStyleDictionaryConfig(theme) {
 }
 console.log("Build started...");
 
-["global", "mw-theme", "mw-theme_dark"].forEach((theme) => {
+// ["global", "mw-theme", "mw-theme_dark"].forEach((theme) => {
+["global"].forEach((theme) => {
   console.log("\n==============================================");
   console.log(`\nProcessing: [${theme}]`);
 
   const StyleDictionary = StyleDictionaryPackage.extend(
     getStyleDictionaryConfig(theme)
   );
-  StyleDictionary.buildPlatform("js");
-  StyleDictionary.buildPlatform("ts");
-  StyleDictionary.buildPlatform("json");
-  StyleDictionary.buildPlatform("css");
-  StyleDictionary.buildPlatform("scss");
+  StyleDictionary.buildAllPlatforms();
 
   console.log("\nEnd processing");
 });

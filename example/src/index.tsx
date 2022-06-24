@@ -2,9 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-// import { injectGlobalStyles } from '../../library/dist/index.esm';
+import { injectGlobalStyles } from "@fuasmattn/mwui";
 
-// injectGlobalStyles();
+injectGlobalStyles();
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
