@@ -13,6 +13,7 @@ export type TypographyProps = {
   component?: Component;
   size?: Size;
   text: string;
+  className?: string;
 };
 
 const Typography: FC<TypographyProps> = ({
@@ -20,9 +21,10 @@ const Typography: FC<TypographyProps> = ({
   component = "p",
   size = "medium",
   text,
+  className,
 }) => {
   return (
-    <Box as={component} component={component} variant={variant} size={size}>
+    <Box className={className} as={component} component={component} variant={variant} size={size}>
       {text}
     </Box>
   );

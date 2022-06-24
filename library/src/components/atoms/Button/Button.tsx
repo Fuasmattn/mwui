@@ -23,6 +23,7 @@ export type ButtonProps = {
   disabled?: boolean;
   outlined?: boolean;
   onClick: () => void;
+  className?: string;
 };
 
 const Button: FC<ButtonProps> = ({
@@ -31,9 +32,11 @@ const Button: FC<ButtonProps> = ({
   disabled = false,
   outlined = false,
   onClick,
+  className,
 }) => {
   return (
     <StyledButton
+      className={className}
       type="button"
       variant={variant}
       disabled={disabled}
