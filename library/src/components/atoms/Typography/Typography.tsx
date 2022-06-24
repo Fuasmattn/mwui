@@ -1,6 +1,7 @@
 import React, { FC } from "react";
 import { Component, Size, Variant } from "./types";
-import { styled, variants, compoundVariants } from "./Typography.styled";
+import { variants, compoundVariants } from "./Typography.styled";
+import { styled } from "../../stitches";
 
 const Box = styled("div", {
   variants,
@@ -21,12 +22,7 @@ const Typography: FC<TypographyProps> = ({
   text,
 }) => {
   return (
-    <Box
-      as={component}
-      component={component}
-      variant={variant}
-      size={size}
-    >
+    <Box as={component} component={component} variant={variant} size={size}>
       {text}
     </Box>
   );

@@ -1,13 +1,20 @@
 import React, { FC } from "react";
 import PropTypes from "prop-types";
-import { styled } from "./Chip.styled";
+import { styled } from "../../stitches";
 import Typography from "../Typography";
 
+const scopedTokens = {
+  $$background: "#6750A4", // token
+  $$color: "white", // token
+  $$radius: "99999px", // token
+}
+
 const StyledChip = styled("span", {
+  ...scopedTokens,
   padding: "$xxs $xs",
-  background: "$chipBackground",
-  color: "$chipLabelColor",
-  borderRadius: "$radiusChip",
+  background: "$$background",
+  color: "$$color",
+  borderRadius: "$$radius",
 });
 
 export type ChipProps = {
