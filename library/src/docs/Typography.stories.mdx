@@ -3,13 +3,21 @@ import tokens from "@fuasmattn/mwui-token-farm/dist/json/global.json";
 
 <Meta title="Typography" />
 
+export const fontFamily = tokens.fontFamilies.default.value;
+
 export const fontSizes = Object.values(tokens.fontSize).map((size) =>
   Number(size.value)
 );
 
+export const Text = ({ text }) => {
+    return (
+        <>{text}</>
+    )
+}
+
 # Typography
 
-**Font:** <span>{tokens.fontFamilies.default.value}</span>
+**Font Family:** <Text text={fontFamily} />
 
 <Typeset
   fontSizes={fontSizes}

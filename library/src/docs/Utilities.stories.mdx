@@ -1,0 +1,48 @@
+import { Meta } from "@storybook/addon-docs";
+import tokens from "@fuasmattn/mwui-token-farm/dist/json/global.json";
+import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
+
+<Meta title="Utility Classes" />
+
+# Utility Classes
+
+## Get started
+
+Add the following lines to the index file of your React App. This ensures global styles and utility classes to be present.
+
+```javascript
+import { injectGlobalStyles } from "@fuasmattn/mwui";
+import "@fuasmattn/mwui/index.css";
+
+injectGlobalStyles();
+```
+
+## Spacing
+
+Based on the **spacing tokens**, utility classes are generated.
+
+<div>
+  {Object.values(tokens)
+    .filter((t) => t.type && t.type === "spacing" && !t.name.includes("-"))
+    .map((t, i) => (
+      <p key={i}>
+        <code>
+          {t.name}: {t.value}px
+        </code>
+      </p>
+    ))}
+</div>
+
+### Margin
+
+Set the margin on one side of an element using the `m{t|r|b|l}-{size}` utilities.
+Controlling of either vertical or horizontal margins can be done with the `m{y|x}-{size}` utility.
+
+### Padding
+
+Set the padding on one side of an element using the `p{t|r|b|l}-{size}` utilities.
+Controlling of either vertical or horizontal paddings can be done with the `m{y|x}-{size}` utility.
+
+```
+
+```
