@@ -31,7 +31,6 @@ const Container = styled("div", {
   },
 });
 
-
 const StyledImage = styled("img", {
   marginBottom: "$xl",
   borderTopLeftRadius: "$default",
@@ -76,7 +75,7 @@ export type CardProps = {
   onCancel?: () => void;
 };
 
-const Card: FC<CardProps> = ({
+const Card = ({
   imageSrc,
   title,
   body,
@@ -87,7 +86,7 @@ const Card: FC<CardProps> = ({
   badges,
   onConfirm,
   onCancel,
-}) => {
+}: CardProps) => {
   const hasActions = (cancelLabel && onCancel) || (confirmLabel && onConfirm);
   const hasImage = !!imageSrc;
   const variant = hasImage ? "image" : "no-image";
@@ -96,34 +95,34 @@ const Card: FC<CardProps> = ({
     <Box variant={variant}>
       {imageSrc && <StyledImage src={imageSrc} width="100%" alt={imageAlt} />}
       <Container variant={variant}>
-      <Content>
-        <Typography variant="title" size="large" text={title} />
-        {body && <Typography variant="body" size="medium" text={body} />}
-      </Content>
-      {badges?.length && (
-        <Badges>
-          {badges.map((badge, index) => (
-            <Chip label={badge} key={`badge-${index}`} />
-          ))}
-        </Badges>
-      )}
-      {additionalText && (
-        <AdditionalText>
-          <Typography variant="body" size="small" text={additionalText} />
-        </AdditionalText>
-      )}
-      <Actions
-        css={{
-          marginTop: hasActions ? "$m" : 0,
-        }}
-      >
-        {cancelLabel && onCancel && (
-          <Button label={cancelLabel} onClick={onCancel} outlined />
+        <Content>
+          <Typography variant="title" size="large" text={title} />
+          {body && <Typography variant="body" size="medium" text={body} />}
+        </Content>
+        {badges?.length && (
+          <Badges>
+            {badges.map((badge, index) => (
+              <Chip label={badge} key={`badge-${index}`} />
+            ))}
+          </Badges>
         )}
-        {confirmLabel && onConfirm && (
-          <Button label={confirmLabel} onClick={onConfirm} />
+        {additionalText && (
+          <AdditionalText>
+            <Typography variant="body" size="small" text={additionalText} />
+          </AdditionalText>
         )}
-      </Actions>
+        <Actions
+          css={{
+            marginTop: hasActions ? "$m" : 0,
+          }}
+        >
+          {cancelLabel && onCancel && (
+            <Button label={cancelLabel} onClick={onCancel} outlined />
+          )}
+          {confirmLabel && onConfirm && (
+            <Button label={confirmLabel} onClick={onConfirm} />
+          )}
+        </Actions>
       </Container>
     </Box>
   );

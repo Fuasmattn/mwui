@@ -1013,23 +1013,6 @@
       "m"
     ]
   },
-  "l": {
-    "value": 20,
-    "type": "spacing",
-    "filePath": "input/global.json",
-    "isSource": true,
-    "original": {
-      "value": 20,
-      "type": "spacing"
-    },
-    "name": "l",
-    "attributes": {
-      "category": "l"
-    },
-    "path": [
-      "l"
-    ]
-  },
   "xl": {
     "value": 24,
     "type": "spacing",
@@ -1276,7 +1259,7 @@
   },
   "overline": {
     "value": {
-      "fontFamily": "Roboto",
+      "fontFamily": "Poppins",
       "fontWeight": "Regular",
       "lineHeight": 28,
       "fontSize": 20,
@@ -1290,7 +1273,7 @@
     "isSource": true,
     "original": {
       "value": {
-        "fontFamily": "Roboto",
+        "fontFamily": "Poppins",
         "fontWeight": "Regular",
         "lineHeight": 28,
         "fontSize": 20,
@@ -1312,7 +1295,7 @@
   "display": {
     "large": {
       "value": {
-        "fontFamily": "Roboto",
+        "fontFamily": "Poppins",
         "fontWeight": "Bold",
         "lineHeight": 90,
         "fontSize": 64,
@@ -1326,7 +1309,7 @@
       "isSource": true,
       "original": {
         "value": {
-          "fontFamily": "Roboto",
+          "fontFamily": "Poppins",
           "fontWeight": "Bold",
           "lineHeight": 90,
           "fontSize": 64,
@@ -1349,7 +1332,7 @@
     },
     "small": {
       "value": {
-        "fontFamily": "Roboto",
+        "fontFamily": "Poppins",
         "fontWeight": "SemiBold",
         "lineHeight": 44,
         "fontSize": 32,
@@ -1363,7 +1346,7 @@
       "isSource": true,
       "original": {
         "value": {
-          "fontFamily": "Roboto",
+          "fontFamily": "Poppins",
           "fontWeight": "SemiBold",
           "lineHeight": 44,
           "fontSize": 32,
@@ -1386,7 +1369,7 @@
     },
     "medium": {
       "value": {
-        "fontFamily": "Roboto",
+        "fontFamily": "Poppins",
         "fontWeight": "SemiBold",
         "lineHeight": 66,
         "fontSize": 48,
@@ -1400,7 +1383,7 @@
       "isSource": true,
       "original": {
         "value": {
-          "fontFamily": "Roboto",
+          "fontFamily": "Poppins",
           "fontWeight": "SemiBold",
           "lineHeight": 66,
           "fontSize": 48,
@@ -1425,7 +1408,7 @@
   "headline": {
     "large": {
       "value": {
-        "fontFamily": "Roboto",
+        "fontFamily": "Poppins",
         "fontWeight": "Bold",
         "lineHeight": 44,
         "fontSize": 32,
@@ -1439,7 +1422,7 @@
       "isSource": true,
       "original": {
         "value": {
-          "fontFamily": "Roboto",
+          "fontFamily": "Poppins",
           "fontWeight": "Bold",
           "lineHeight": 44,
           "fontSize": 32,
@@ -1462,7 +1445,7 @@
     },
     "small": {
       "value": {
-        "fontFamily": "Roboto",
+        "fontFamily": "Poppins",
         "fontWeight": "SemiBold",
         "lineHeight": 32,
         "fontSize": 24,
@@ -1476,7 +1459,7 @@
       "isSource": true,
       "original": {
         "value": {
-          "fontFamily": "Roboto",
+          "fontFamily": "Poppins",
           "fontWeight": "SemiBold",
           "lineHeight": 32,
           "fontSize": 24,
@@ -1499,7 +1482,7 @@
     },
     "medium": {
       "value": {
-        "fontFamily": "Roboto",
+        "fontFamily": "Poppins",
         "fontWeight": "SemiBold",
         "lineHeight": 36,
         "fontSize": 28,
@@ -1513,7 +1496,7 @@
       "isSource": true,
       "original": {
         "value": {
-          "fontFamily": "Roboto",
+          "fontFamily": "Poppins",
           "fontWeight": "SemiBold",
           "lineHeight": 36,
           "fontSize": 28,
@@ -1538,7 +1521,7 @@
   "body": {
     "large": {
       "value": {
-        "fontFamily": "Roboto",
+        "fontFamily": "Poppins",
         "fontWeight": "Regular",
         "lineHeight": 24,
         "fontSize": 16,
@@ -1552,7 +1535,7 @@
       "isSource": true,
       "original": {
         "value": {
-          "fontFamily": "Roboto",
+          "fontFamily": "Poppins",
           "fontWeight": "Regular",
           "lineHeight": 24,
           "fontSize": 16,
@@ -1575,7 +1558,7 @@
     },
     "large-italic": {
       "value": {
-        "fontFamily": "Roboto",
+        "fontFamily": "Poppins",
         "fontWeight": "Italic",
         "lineHeight": 24,
         "fontSize": 16,
@@ -1589,7 +1572,7 @@
       "isSource": true,
       "original": {
         "value": {
-          "fontFamily": "Roboto",
+          "fontFamily": "Poppins",
           "fontWeight": "Italic",
           "lineHeight": 24,
           "fontSize": 16,
@@ -1612,7 +1595,7 @@
     },
     "medium": {
       "value": {
-        "fontFamily": "Roboto",
+        "fontFamily": "Poppins",
         "fontWeight": "Regular",
         "lineHeight": 24,
         "fontSize": 16,
@@ -1626,7 +1609,7 @@
       "isSource": true,
       "original": {
         "value": {
-          "fontFamily": "Roboto",
+          "fontFamily": "Poppins",
           "fontWeight": "Regular",
           "lineHeight": 24,
           "fontSize": 16,
@@ -1649,7 +1632,7 @@
     },
     "small": {
       "value": {
-        "fontFamily": "Roboto",
+        "fontFamily": "Poppins",
         "fontWeight": "Regular",
         "lineHeight": 16,
         "fontSize": 12,
@@ -1663,7 +1646,7 @@
       "isSource": true,
       "original": {
         "value": {
-          "fontFamily": "Roboto",
+          "fontFamily": "Poppins",
           "fontWeight": "Regular",
           "lineHeight": 16,
           "fontSize": 12,
@@ -1686,7 +1669,7 @@
     },
     "large-light": {
       "value": {
-        "fontFamily": "Roboto",
+        "fontFamily": "Poppins",
         "fontWeight": "Light",
         "lineHeight": 24,
         "fontSize": 16,
@@ -1700,7 +1683,7 @@
       "isSource": true,
       "original": {
         "value": {
-          "fontFamily": "Roboto",
+          "fontFamily": "Poppins",
           "fontWeight": "Light",
           "lineHeight": 24,
           "fontSize": 16,
@@ -1723,7 +1706,7 @@
     },
     "large-light-italic": {
       "value": {
-        "fontFamily": "Roboto",
+        "fontFamily": "Poppins",
         "fontWeight": "Light Italic",
         "lineHeight": 24,
         "fontSize": 16,
@@ -1737,7 +1720,7 @@
       "isSource": true,
       "original": {
         "value": {
-          "fontFamily": "Roboto",
+          "fontFamily": "Poppins",
           "fontWeight": "Light Italic",
           "lineHeight": 24,
           "fontSize": 16,
@@ -1762,7 +1745,7 @@
   "label": {
     "large": {
       "value": {
-        "fontFamily": "Roboto",
+        "fontFamily": "Poppins",
         "fontWeight": "SemiBold",
         "lineHeight": 20,
         "fontSize": 14,
@@ -1776,7 +1759,7 @@
       "isSource": true,
       "original": {
         "value": {
-          "fontFamily": "Roboto",
+          "fontFamily": "Poppins",
           "fontWeight": "SemiBold",
           "lineHeight": 20,
           "fontSize": 14,
@@ -1799,7 +1782,7 @@
     },
     "medium": {
       "value": {
-        "fontFamily": "Roboto",
+        "fontFamily": "Poppins",
         "fontWeight": "SemiBold",
         "lineHeight": 16,
         "fontSize": 12,
@@ -1813,7 +1796,7 @@
       "isSource": true,
       "original": {
         "value": {
-          "fontFamily": "Roboto",
+          "fontFamily": "Poppins",
           "fontWeight": "SemiBold",
           "lineHeight": 16,
           "fontSize": 12,
@@ -1836,7 +1819,7 @@
     },
     "small": {
       "value": {
-        "fontFamily": "Roboto",
+        "fontFamily": "Poppins",
         "fontWeight": "SemiBold",
         "lineHeight": 16,
         "fontSize": 11,
@@ -1850,7 +1833,7 @@
       "isSource": true,
       "original": {
         "value": {
-          "fontFamily": "Roboto",
+          "fontFamily": "Poppins",
           "fontWeight": "SemiBold",
           "lineHeight": 16,
           "fontSize": 11,
@@ -1875,7 +1858,7 @@
   "title": {
     "large": {
       "value": {
-        "fontFamily": "Roboto",
+        "fontFamily": "Poppins",
         "fontWeight": "SemiBold",
         "lineHeight": 28,
         "fontSize": 20,
@@ -1889,7 +1872,7 @@
       "isSource": true,
       "original": {
         "value": {
-          "fontFamily": "Roboto",
+          "fontFamily": "Poppins",
           "fontWeight": "SemiBold",
           "lineHeight": 28,
           "fontSize": 20,
@@ -1912,7 +1895,7 @@
     },
     "medium": {
       "value": {
-        "fontFamily": "Roboto",
+        "fontFamily": "Poppins",
         "fontWeight": "SemiBold",
         "lineHeight": 24,
         "fontSize": 16,
@@ -1926,7 +1909,7 @@
       "isSource": true,
       "original": {
         "value": {
-          "fontFamily": "Roboto",
+          "fontFamily": "Poppins",
           "fontWeight": "SemiBold",
           "lineHeight": 24,
           "fontSize": 16,
@@ -1949,7 +1932,7 @@
     },
     "small": {
       "value": {
-        "fontFamily": "Roboto",
+        "fontFamily": "Poppins",
         "fontWeight": "SemiBold",
         "lineHeight": 20,
         "fontSize": 14,
@@ -1963,7 +1946,7 @@
       "isSource": true,
       "original": {
         "value": {
-          "fontFamily": "Roboto",
+          "fontFamily": "Poppins",
           "fontWeight": "SemiBold",
           "lineHeight": 20,
           "fontSize": 14,
@@ -1987,12 +1970,12 @@
   },
   "fontFamilies": {
     "default": {
-      "value": "Roboto",
+      "value": "Poppins",
       "type": "fontFamilies",
       "filePath": "input/global.json",
       "isSource": true,
       "original": {
-        "value": "Roboto",
+        "value": "Poppins",
         "type": "fontFamilies"
       },
       "name": "font-families-default",
@@ -2725,13 +2708,36 @@
             "100"
           ]
         },
-        "400": {
-          "value": "#6750a4",
+        "300": {
+          "value": "#7965AF",
           "type": "color",
           "filePath": "input/global.json",
           "isSource": true,
           "original": {
-            "value": "#6750a4",
+            "value": "#7965AF",
+            "type": "color"
+          },
+          "name": "white-label-md-purple-300",
+          "attributes": {
+            "category": "white-label",
+            "type": "md",
+            "item": "purple",
+            "subitem": "300"
+          },
+          "path": [
+            "white-label",
+            "md",
+            "purple",
+            "300"
+          ]
+        },
+        "400": {
+          "value": "#735EAB",
+          "type": "color",
+          "filePath": "input/global.json",
+          "isSource": true,
+          "original": {
+            "value": "#735EAB",
             "type": "color"
           },
           "name": "white-label-md-purple-400",
@@ -3114,12 +3120,12 @@
           },
           "hover": {
             "bg-color": {
-              "value": "#6750a4",
+              "value": "#735EAB",
               "type": "color",
               "filePath": "input/global.json",
               "isSource": true,
               "original": {
-                "value": "#6750a4",
+                "value": "#735EAB",
                 "type": "color"
               },
               "name": "semantic-color-actions-filled-hover-bg-color",
@@ -3168,12 +3174,12 @@
           },
           "focused": {
             "bg-color": {
-              "value": "#6750a4",
+              "value": "#7965AF",
               "type": "color",
               "filePath": "input/global.json",
               "isSource": true,
               "original": {
-                "value": "#6750a4",
+                "value": "#7965AF",
                 "type": "color"
               },
               "name": "semantic-color-actions-filled-focused-bg-color",
@@ -3216,6 +3222,60 @@
                 "actions",
                 "filled",
                 "focused",
+                "fg-color"
+              ]
+            }
+          },
+          "pressed": {
+            "bg-color": {
+              "value": "#7965AF",
+              "type": "color",
+              "filePath": "input/global.json",
+              "isSource": true,
+              "original": {
+                "value": "#7965AF",
+                "type": "color"
+              },
+              "name": "semantic-color-actions-filled-pressed-bg-color",
+              "attributes": {
+                "category": "semantic",
+                "type": "color",
+                "item": "actions",
+                "subitem": "filled",
+                "state": "pressed"
+              },
+              "path": [
+                "semantic",
+                "color",
+                "actions",
+                "filled",
+                "pressed",
+                "bg-color"
+              ]
+            },
+            "fg-color": {
+              "value": "#ffffff",
+              "type": "color",
+              "filePath": "input/global.json",
+              "isSource": true,
+              "original": {
+                "value": "#ffffff",
+                "type": "color"
+              },
+              "name": "semantic-color-actions-filled-pressed-fg-color",
+              "attributes": {
+                "category": "semantic",
+                "type": "color",
+                "item": "actions",
+                "subitem": "filled",
+                "state": "pressed"
+              },
+              "path": [
+                "semantic",
+                "color",
+                "actions",
+                "filled",
+                "pressed",
                 "fg-color"
               ]
             }
@@ -3490,12 +3550,12 @@
               ]
             },
             "border-color": {
-              "value": "#6750a4",
+              "value": "#7965AF",
               "type": "color",
               "filePath": "input/global.json",
               "isSource": true,
               "original": {
-                "value": "#6750a4",
+                "value": "#7965AF",
                 "type": "color"
               },
               "name": "semantic-color-actions-outline-focused-border-color",
@@ -3733,12 +3793,12 @@
       "hover": {
         "bg-color": {
           "type": "color",
-          "value": "#6750a4",
+          "value": "#735EAB",
           "filePath": "input/global.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "#6750a4"
+            "value": "#735EAB"
           },
           "name": "button-button-filled-hover-bg-color",
           "attributes": {
@@ -3781,12 +3841,12 @@
       "focused": {
         "bg-color": {
           "type": "color",
-          "value": "#6750a4",
+          "value": "#7965AF",
           "filePath": "input/global.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "#6750a4"
+            "value": "#7965AF"
           },
           "name": "button-button-filled-focused-bg-color",
           "attributes": {
@@ -3822,6 +3882,54 @@
             "Button",
             "button_filled",
             "focused",
+            "fg-color"
+          ]
+        }
+      },
+      "pressed": {
+        "bg-color": {
+          "type": "color",
+          "value": "#7965AF",
+          "filePath": "input/global.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#7965AF"
+          },
+          "name": "button-button-filled-pressed-bg-color",
+          "attributes": {
+            "category": "Button",
+            "type": "button_filled",
+            "item": "pressed",
+            "subitem": "bg-color"
+          },
+          "path": [
+            "Button",
+            "button_filled",
+            "pressed",
+            "bg-color"
+          ]
+        },
+        "fg-color": {
+          "type": "color",
+          "value": "#ffffff",
+          "filePath": "input/global.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#ffffff"
+          },
+          "name": "button-button-filled-pressed-fg-color",
+          "attributes": {
+            "category": "Button",
+            "type": "button_filled",
+            "item": "pressed",
+            "subitem": "fg-color"
+          },
+          "path": [
+            "Button",
+            "button_filled",
+            "pressed",
             "fg-color"
           ]
         }
@@ -3871,6 +3979,363 @@
             "button_filled",
             "disabled",
             "fg-color"
+          ]
+        }
+      }
+    },
+    "button_outline": {
+      "default": {
+        "bg-color": {
+          "type": "color",
+          "value": "#ffffff",
+          "filePath": "input/global.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#ffffff"
+          },
+          "name": "button-button-outline-default-bg-color",
+          "attributes": {
+            "category": "Button",
+            "type": "button_outline",
+            "item": "default",
+            "subitem": "bg-color"
+          },
+          "path": [
+            "Button",
+            "button_outline",
+            "default",
+            "bg-color"
+          ]
+        },
+        "fg-color": {
+          "type": "color",
+          "value": "#6750a4",
+          "filePath": "input/global.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#6750a4"
+          },
+          "name": "button-button-outline-default-fg-color",
+          "attributes": {
+            "category": "Button",
+            "type": "button_outline",
+            "item": "default",
+            "subitem": "fg-color"
+          },
+          "path": [
+            "Button",
+            "button_outline",
+            "default",
+            "fg-color"
+          ]
+        },
+        "border-color": {
+          "type": "color",
+          "value": "#79747e",
+          "filePath": "input/global.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#79747e"
+          },
+          "name": "button-button-outline-default-border-color",
+          "attributes": {
+            "category": "Button",
+            "type": "button_outline",
+            "item": "default",
+            "subitem": "border-color"
+          },
+          "path": [
+            "Button",
+            "button_outline",
+            "default",
+            "border-color"
+          ]
+        }
+      },
+      "hover": {
+        "bg-color": {
+          "type": "color",
+          "value": "#6750a414",
+          "filePath": "input/global.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#6750a414"
+          },
+          "name": "button-button-outline-hover-bg-color",
+          "attributes": {
+            "category": "Button",
+            "type": "button_outline",
+            "item": "hover",
+            "subitem": "bg-color"
+          },
+          "path": [
+            "Button",
+            "button_outline",
+            "hover",
+            "bg-color"
+          ]
+        },
+        "fg-color": {
+          "type": "color",
+          "value": "#6750a4",
+          "filePath": "input/global.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#6750a4"
+          },
+          "name": "button-button-outline-hover-fg-color",
+          "attributes": {
+            "category": "Button",
+            "type": "button_outline",
+            "item": "hover",
+            "subitem": "fg-color"
+          },
+          "path": [
+            "Button",
+            "button_outline",
+            "hover",
+            "fg-color"
+          ]
+        },
+        "border-color": {
+          "type": "color",
+          "value": "#79747e",
+          "filePath": "input/global.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#79747e"
+          },
+          "name": "button-button-outline-hover-border-color",
+          "attributes": {
+            "category": "Button",
+            "type": "button_outline",
+            "item": "hover",
+            "subitem": "border-color"
+          },
+          "path": [
+            "Button",
+            "button_outline",
+            "hover",
+            "border-color"
+          ]
+        }
+      },
+      "focused": {
+        "bg-color": {
+          "type": "color",
+          "value": "#6750a41f",
+          "filePath": "input/global.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#6750a41f"
+          },
+          "name": "button-button-outline-focused-bg-color",
+          "attributes": {
+            "category": "Button",
+            "type": "button_outline",
+            "item": "focused",
+            "subitem": "bg-color"
+          },
+          "path": [
+            "Button",
+            "button_outline",
+            "focused",
+            "bg-color"
+          ]
+        },
+        "fg-color": {
+          "type": "color",
+          "value": "#6750a4",
+          "filePath": "input/global.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#6750a4"
+          },
+          "name": "button-button-outline-focused-fg-color",
+          "attributes": {
+            "category": "Button",
+            "type": "button_outline",
+            "item": "focused",
+            "subitem": "fg-color"
+          },
+          "path": [
+            "Button",
+            "button_outline",
+            "focused",
+            "fg-color"
+          ]
+        },
+        "border-color": {
+          "type": "color",
+          "value": "#7965AF",
+          "filePath": "input/global.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#7965AF"
+          },
+          "name": "button-button-outline-focused-border-color",
+          "attributes": {
+            "category": "Button",
+            "type": "button_outline",
+            "item": "focused",
+            "subitem": "border-color"
+          },
+          "path": [
+            "Button",
+            "button_outline",
+            "focused",
+            "border-color"
+          ]
+        }
+      },
+      "pressed": {
+        "bg-color": {
+          "type": "color",
+          "value": "#6750a41f",
+          "filePath": "input/global.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#6750a41f"
+          },
+          "name": "button-button-outline-pressed-bg-color",
+          "attributes": {
+            "category": "Button",
+            "type": "button_outline",
+            "item": "pressed",
+            "subitem": "bg-color"
+          },
+          "path": [
+            "Button",
+            "button_outline",
+            "pressed",
+            "bg-color"
+          ]
+        },
+        "fg-color": {
+          "type": "color",
+          "value": "#6750a4",
+          "filePath": "input/global.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#6750a4"
+          },
+          "name": "button-button-outline-pressed-fg-color",
+          "attributes": {
+            "category": "Button",
+            "type": "button_outline",
+            "item": "pressed",
+            "subitem": "fg-color"
+          },
+          "path": [
+            "Button",
+            "button_outline",
+            "pressed",
+            "fg-color"
+          ]
+        },
+        "border-color": {
+          "type": "color",
+          "value": "#79747e",
+          "filePath": "input/global.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#79747e"
+          },
+          "name": "button-button-outline-pressed-border-color",
+          "attributes": {
+            "category": "Button",
+            "type": "button_outline",
+            "item": "pressed",
+            "subitem": "border-color"
+          },
+          "path": [
+            "Button",
+            "button_outline",
+            "pressed",
+            "border-color"
+          ]
+        }
+      },
+      "disabled": {
+        "bg-color": {
+          "type": "color",
+          "value": "#ffffff",
+          "filePath": "input/global.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#ffffff"
+          },
+          "name": "button-button-outline-disabled-bg-color",
+          "attributes": {
+            "category": "Button",
+            "type": "button_outline",
+            "item": "disabled",
+            "subitem": "bg-color"
+          },
+          "path": [
+            "Button",
+            "button_outline",
+            "disabled",
+            "bg-color"
+          ]
+        },
+        "fg-color": {
+          "type": "color",
+          "value": "#1c1b1f61",
+          "filePath": "input/global.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#1c1b1f61"
+          },
+          "name": "button-button-outline-disabled-fg-color",
+          "attributes": {
+            "category": "Button",
+            "type": "button_outline",
+            "item": "disabled",
+            "subitem": "fg-color"
+          },
+          "path": [
+            "Button",
+            "button_outline",
+            "disabled",
+            "fg-color"
+          ]
+        },
+        "border-color": {
+          "type": "color",
+          "value": "#1f1f1f1f",
+          "filePath": "input/global.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#1f1f1f1f"
+          },
+          "name": "button-button-outline-disabled-border-color",
+          "attributes": {
+            "category": "Button",
+            "type": "button_outline",
+            "item": "disabled",
+            "subitem": "border-color"
+          },
+          "path": [
+            "Button",
+            "button_outline",
+            "disabled",
+            "border-color"
           ]
         }
       }
@@ -3960,5 +4425,717 @@
     "path": [
       "m_gap"
     ]
+  },
+  "drop": {
+    "shadow_1": {
+      "default": {
+        "value": {
+          "x": 1,
+          "y": 2,
+          "blur": 3,
+          "spread": 0,
+          "color": "#0000004d",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow",
+        "filePath": "input/global.json",
+        "isSource": true,
+        "original": {
+          "value": {
+            "x": 1,
+            "y": 2,
+            "blur": 3,
+            "spread": 0,
+            "color": "#0000004d",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "name": "drop-shadow-1-default",
+        "attributes": {
+          "category": "drop",
+          "type": "shadow_1",
+          "item": "default"
+        },
+        "path": [
+          "drop",
+          "shadow_1",
+          "default"
+        ]
+      },
+      "default-1": {
+        "value": {
+          "x": 1,
+          "y": 0,
+          "blur": 2,
+          "spread": 0,
+          "color": "#0000004d",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow",
+        "filePath": "input/global.json",
+        "isSource": true,
+        "original": {
+          "value": {
+            "x": 1,
+            "y": 0,
+            "blur": 2,
+            "spread": 0,
+            "color": "#0000004d",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "name": "drop-shadow-1-default-1",
+        "attributes": {
+          "category": "drop",
+          "type": "shadow_1",
+          "item": "default-1"
+        },
+        "path": [
+          "drop",
+          "shadow_1",
+          "default-1"
+        ]
+      }
+    },
+    "shadow_2": {
+      "default": {
+        "value": {
+          "x": "",
+          "y": 1,
+          "blur": 3,
+          "spread": 1,
+          "color": "#00000026",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow",
+        "filePath": "input/global.json",
+        "isSource": true,
+        "original": {
+          "value": {
+            "x": "",
+            "y": 1,
+            "blur": 3,
+            "spread": 1,
+            "color": "#00000026",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "name": "drop-shadow-2-default",
+        "attributes": {
+          "category": "drop",
+          "type": "shadow_2",
+          "item": "default"
+        },
+        "path": [
+          "drop",
+          "shadow_2",
+          "default"
+        ]
+      }
+    }
+  },
+  "Label": {
+    "label_filled": {
+      "default": {
+        "bg-color": {
+          "type": "color",
+          "value": "#6750a4",
+          "filePath": "input/global.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#6750a4"
+          },
+          "name": "label-label-filled-default-bg-color",
+          "attributes": {
+            "category": "Label",
+            "type": "label_filled",
+            "item": "default",
+            "subitem": "bg-color"
+          },
+          "path": [
+            "Label",
+            "label_filled",
+            "default",
+            "bg-color"
+          ]
+        },
+        "fg-color": {
+          "type": "color",
+          "value": "#ffffff",
+          "filePath": "input/global.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#ffffff"
+          },
+          "name": "label-label-filled-default-fg-color",
+          "attributes": {
+            "category": "Label",
+            "type": "label_filled",
+            "item": "default",
+            "subitem": "fg-color"
+          },
+          "path": [
+            "Label",
+            "label_filled",
+            "default",
+            "fg-color"
+          ]
+        }
+      },
+      "hover": {
+        "bg-color": {
+          "type": "color",
+          "value": "#735EAB",
+          "filePath": "input/global.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#735EAB"
+          },
+          "name": "label-label-filled-hover-bg-color",
+          "attributes": {
+            "category": "Label",
+            "type": "label_filled",
+            "item": "hover",
+            "subitem": "bg-color"
+          },
+          "path": [
+            "Label",
+            "label_filled",
+            "hover",
+            "bg-color"
+          ]
+        },
+        "fg-color": {
+          "type": "color",
+          "value": "#ffffff",
+          "filePath": "input/global.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#ffffff"
+          },
+          "name": "label-label-filled-hover-fg-color",
+          "attributes": {
+            "category": "Label",
+            "type": "label_filled",
+            "item": "hover",
+            "subitem": "fg-color"
+          },
+          "path": [
+            "Label",
+            "label_filled",
+            "hover",
+            "fg-color"
+          ]
+        }
+      },
+      "focused": {
+        "bg-color": {
+          "type": "color",
+          "value": "#7965AF",
+          "filePath": "input/global.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#7965AF"
+          },
+          "name": "label-label-filled-focused-bg-color",
+          "attributes": {
+            "category": "Label",
+            "type": "label_filled",
+            "item": "focused",
+            "subitem": "bg-color"
+          },
+          "path": [
+            "Label",
+            "label_filled",
+            "focused",
+            "bg-color"
+          ]
+        },
+        "fg-color": {
+          "type": "color",
+          "value": "#ffffff",
+          "filePath": "input/global.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#ffffff"
+          },
+          "name": "label-label-filled-focused-fg-color",
+          "attributes": {
+            "category": "Label",
+            "type": "label_filled",
+            "item": "focused",
+            "subitem": "fg-color"
+          },
+          "path": [
+            "Label",
+            "label_filled",
+            "focused",
+            "fg-color"
+          ]
+        }
+      },
+      "pressed": {
+        "bg-color": {
+          "type": "color",
+          "value": "#7965AF",
+          "filePath": "input/global.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#7965AF"
+          },
+          "name": "label-label-filled-pressed-bg-color",
+          "attributes": {
+            "category": "Label",
+            "type": "label_filled",
+            "item": "pressed",
+            "subitem": "bg-color"
+          },
+          "path": [
+            "Label",
+            "label_filled",
+            "pressed",
+            "bg-color"
+          ]
+        },
+        "fg-color": {
+          "type": "color",
+          "value": "#ffffff",
+          "filePath": "input/global.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#ffffff"
+          },
+          "name": "label-label-filled-pressed-fg-color",
+          "attributes": {
+            "category": "Label",
+            "type": "label_filled",
+            "item": "pressed",
+            "subitem": "fg-color"
+          },
+          "path": [
+            "Label",
+            "label_filled",
+            "pressed",
+            "fg-color"
+          ]
+        }
+      },
+      "disabled": {
+        "bg-color": {
+          "type": "color",
+          "value": "#1f1f1f1f",
+          "filePath": "input/global.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#1f1f1f1f"
+          },
+          "name": "label-label-filled-disabled-bg-color",
+          "attributes": {
+            "category": "Label",
+            "type": "label_filled",
+            "item": "disabled",
+            "subitem": "bg-color"
+          },
+          "path": [
+            "Label",
+            "label_filled",
+            "disabled",
+            "bg-color"
+          ]
+        },
+        "fg-color": {
+          "type": "color",
+          "value": "#1c1b1f61",
+          "filePath": "input/global.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#1c1b1f61"
+          },
+          "name": "label-label-filled-disabled-fg-color",
+          "attributes": {
+            "category": "Label",
+            "type": "label_filled",
+            "item": "disabled",
+            "subitem": "fg-color"
+          },
+          "path": [
+            "Label",
+            "label_filled",
+            "disabled",
+            "fg-color"
+          ]
+        }
+      }
+    },
+    "label_outline": {
+      "default": {
+        "bg-color": {
+          "type": "color",
+          "value": "#ffffff",
+          "filePath": "input/global.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#ffffff"
+          },
+          "name": "label-label-outline-default-bg-color",
+          "attributes": {
+            "category": "Label",
+            "type": "label_outline",
+            "item": "default",
+            "subitem": "bg-color"
+          },
+          "path": [
+            "Label",
+            "label_outline",
+            "default",
+            "bg-color"
+          ]
+        },
+        "fg-color": {
+          "type": "color",
+          "value": "#6750a4",
+          "filePath": "input/global.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#6750a4"
+          },
+          "name": "label-label-outline-default-fg-color",
+          "attributes": {
+            "category": "Label",
+            "type": "label_outline",
+            "item": "default",
+            "subitem": "fg-color"
+          },
+          "path": [
+            "Label",
+            "label_outline",
+            "default",
+            "fg-color"
+          ]
+        },
+        "border-color": {
+          "type": "color",
+          "value": "#79747e",
+          "filePath": "input/global.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#79747e"
+          },
+          "name": "label-label-outline-default-border-color",
+          "attributes": {
+            "category": "Label",
+            "type": "label_outline",
+            "item": "default",
+            "subitem": "border-color"
+          },
+          "path": [
+            "Label",
+            "label_outline",
+            "default",
+            "border-color"
+          ]
+        }
+      },
+      "hover": {
+        "bg-color": {
+          "type": "color",
+          "value": "#6750a414",
+          "filePath": "input/global.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#6750a414"
+          },
+          "name": "label-label-outline-hover-bg-color",
+          "attributes": {
+            "category": "Label",
+            "type": "label_outline",
+            "item": "hover",
+            "subitem": "bg-color"
+          },
+          "path": [
+            "Label",
+            "label_outline",
+            "hover",
+            "bg-color"
+          ]
+        },
+        "fg-color": {
+          "type": "color",
+          "value": "#6750a4",
+          "filePath": "input/global.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#6750a4"
+          },
+          "name": "label-label-outline-hover-fg-color",
+          "attributes": {
+            "category": "Label",
+            "type": "label_outline",
+            "item": "hover",
+            "subitem": "fg-color"
+          },
+          "path": [
+            "Label",
+            "label_outline",
+            "hover",
+            "fg-color"
+          ]
+        },
+        "border-color": {
+          "type": "color",
+          "value": "#79747e",
+          "filePath": "input/global.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#79747e"
+          },
+          "name": "label-label-outline-hover-border-color",
+          "attributes": {
+            "category": "Label",
+            "type": "label_outline",
+            "item": "hover",
+            "subitem": "border-color"
+          },
+          "path": [
+            "Label",
+            "label_outline",
+            "hover",
+            "border-color"
+          ]
+        }
+      },
+      "focused": {
+        "bg-color": {
+          "type": "color",
+          "value": "#6750a41f",
+          "filePath": "input/global.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#6750a41f"
+          },
+          "name": "label-label-outline-focused-bg-color",
+          "attributes": {
+            "category": "Label",
+            "type": "label_outline",
+            "item": "focused",
+            "subitem": "bg-color"
+          },
+          "path": [
+            "Label",
+            "label_outline",
+            "focused",
+            "bg-color"
+          ]
+        },
+        "fg-color": {
+          "type": "color",
+          "value": "#6750a4",
+          "filePath": "input/global.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#6750a4"
+          },
+          "name": "label-label-outline-focused-fg-color",
+          "attributes": {
+            "category": "Label",
+            "type": "label_outline",
+            "item": "focused",
+            "subitem": "fg-color"
+          },
+          "path": [
+            "Label",
+            "label_outline",
+            "focused",
+            "fg-color"
+          ]
+        },
+        "border-color": {
+          "type": "color",
+          "value": "#7965AF",
+          "filePath": "input/global.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#7965AF"
+          },
+          "name": "label-label-outline-focused-border-color",
+          "attributes": {
+            "category": "Label",
+            "type": "label_outline",
+            "item": "focused",
+            "subitem": "border-color"
+          },
+          "path": [
+            "Label",
+            "label_outline",
+            "focused",
+            "border-color"
+          ]
+        }
+      },
+      "pressed": {
+        "bg-color": {
+          "type": "color",
+          "value": "#6750a41f",
+          "filePath": "input/global.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#6750a41f"
+          },
+          "name": "label-label-outline-pressed-bg-color",
+          "attributes": {
+            "category": "Label",
+            "type": "label_outline",
+            "item": "pressed",
+            "subitem": "bg-color"
+          },
+          "path": [
+            "Label",
+            "label_outline",
+            "pressed",
+            "bg-color"
+          ]
+        },
+        "fg-color": {
+          "type": "color",
+          "value": "#6750a4",
+          "filePath": "input/global.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#6750a4"
+          },
+          "name": "label-label-outline-pressed-fg-color",
+          "attributes": {
+            "category": "Label",
+            "type": "label_outline",
+            "item": "pressed",
+            "subitem": "fg-color"
+          },
+          "path": [
+            "Label",
+            "label_outline",
+            "pressed",
+            "fg-color"
+          ]
+        },
+        "border-color": {
+          "type": "color",
+          "value": "#79747e",
+          "filePath": "input/global.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#79747e"
+          },
+          "name": "label-label-outline-pressed-border-color",
+          "attributes": {
+            "category": "Label",
+            "type": "label_outline",
+            "item": "pressed",
+            "subitem": "border-color"
+          },
+          "path": [
+            "Label",
+            "label_outline",
+            "pressed",
+            "border-color"
+          ]
+        }
+      },
+      "disabled": {
+        "bg-color": {
+          "type": "color",
+          "value": "#ffffff",
+          "filePath": "input/global.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#ffffff"
+          },
+          "name": "label-label-outline-disabled-bg-color",
+          "attributes": {
+            "category": "Label",
+            "type": "label_outline",
+            "item": "disabled",
+            "subitem": "bg-color"
+          },
+          "path": [
+            "Label",
+            "label_outline",
+            "disabled",
+            "bg-color"
+          ]
+        },
+        "fg-color": {
+          "type": "color",
+          "value": "#1c1b1f61",
+          "filePath": "input/global.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#1c1b1f61"
+          },
+          "name": "label-label-outline-disabled-fg-color",
+          "attributes": {
+            "category": "Label",
+            "type": "label_outline",
+            "item": "disabled",
+            "subitem": "fg-color"
+          },
+          "path": [
+            "Label",
+            "label_outline",
+            "disabled",
+            "fg-color"
+          ]
+        },
+        "border-color": {
+          "type": "color",
+          "value": "#1f1f1f1f",
+          "filePath": "input/global.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#1f1f1f1f"
+          },
+          "name": "label-label-outline-disabled-border-color",
+          "attributes": {
+            "category": "Label",
+            "type": "label_outline",
+            "item": "disabled",
+            "subitem": "border-color"
+          },
+          "path": [
+            "Label",
+            "label_outline",
+            "disabled",
+            "border-color"
+          ]
+        }
+      }
+    }
   }
 }

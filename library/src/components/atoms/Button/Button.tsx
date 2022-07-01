@@ -6,6 +6,7 @@ const StyledButton = styled("button", {
   ...scopedTokens,
   backgroundColor: "transparent",
   fontFamily: "$default",
+  fontWeight: "600",
   padding: "$xs $m",
   border: "none",
   variants,
@@ -15,7 +16,7 @@ const StyledButton = styled("button", {
   compoundVariants,
 });
 
-export type ButtonVariant = "primary" | "secondary";
+export type ButtonVariant = "primary";
 
 export type ButtonProps = {
   variant?: ButtonVariant;
@@ -26,14 +27,14 @@ export type ButtonProps = {
   className?: string;
 };
 
-const Button: FC<ButtonProps> = ({
+const Button = ({
   variant = "primary",
   label,
   disabled = false,
   outlined = false,
   onClick,
   className,
-}) => {
+}: ButtonProps) => {
   return (
     <StyledButton
       className={className}

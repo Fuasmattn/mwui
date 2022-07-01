@@ -18,7 +18,7 @@ export type CheckboxProps = {
   onChange: () => void;
 };
 
-const Checkbox: FC<CheckboxProps> = ({ label, checked, onChange }) => {
+const Checkbox = ({ label, checked, onChange }: CheckboxProps) => {
   const [state, setState] = useState(checked);
   const handleChange = () => {
     onChange();

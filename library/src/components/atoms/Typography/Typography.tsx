@@ -16,15 +16,21 @@ export type TypographyProps = {
   className?: string;
 };
 
-const Typography: FC<TypographyProps> = ({
+const Typography = ({
   variant = "body",
   component = "p",
   size = "medium",
   text,
   className,
-}) => {
+}: TypographyProps) => {
   return (
-    <Box className={className} as={component} component={component} variant={variant} size={size}>
+    <Box
+      className={className}
+      as={component}
+      component={component}
+      variant={variant}
+      size={size}
+    >
       {text}
     </Box>
   );

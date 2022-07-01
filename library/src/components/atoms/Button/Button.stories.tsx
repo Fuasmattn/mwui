@@ -16,8 +16,9 @@ Primary.args = {
   label: "Primary",
 };
 
-export const Secondary = Template.bind({});
-Secondary.args = {
-  variant: "secondary",
-  label: "Secondary",
+export const Outlined = Template.bind({});
+Outlined.args = {
+  variant: "primary",
+  outlined: true,
+  label: "Outlined",
 };

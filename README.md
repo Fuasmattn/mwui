@@ -22,3 +22,6 @@ import "@fuasmattn/mwui/index.css";
 
 injectGlobalStyles();
 ```
+
+## Contributing
+

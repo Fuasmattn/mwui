@@ -238,66 +238,6 @@
   margin-bottom: 16px;
   }
 
-.p-l {
-  padding: 20px;
-  }
-
-.pl-l {
-  padding-left: 20px;
-  }
-
-.pr-l {
-  padding-right: 20px;
-  }
-
-.pt-l {
-  padding-top: 20px;
-  }
-
-.pb-l {
-  padding-bottom: 20px;
-  }
-
-.px-l {
-  padding-left: 20px;
-  padding-right: 20px;
-  }
-
-.py-l {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  }
-
-.m-l {
-  margin: 20px;
-  }
-
-.ml-l {
-  margin-left: 20px;
-  }
-
-.mr-l {
-  margin-right: 20px;
-  }
-
-.mt-l {
-  margin-top: 20px;
-  }
-
-.mb-l {
-  margin-bottom: 20px;
-  }
-
-.mx-l {
-  margin-left: 20px;
-  margin-right: 20px;
-  }
-
-.my-l {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  }
-
 .p-xl {
   padding: 24px;
   }

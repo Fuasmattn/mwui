@@ -1,4 +1,4 @@
-import React, { FC } from "react";
+import React from "react";
 import PropTypes from "prop-types";
 import { styled } from "../../../stitches";
 import Typography from "../Typography";
@@ -7,7 +7,7 @@ const scopedTokens = {
   $$background: "#6750A4", // token
   $$color: "white", // token
   $$radius: "99999px", // token
-}
+};
 
 const StyledChip = styled("span", {
   ...scopedTokens,
@@ -21,7 +21,7 @@ export type ChipProps = {
   label: string;
 };
 
-const Chip: FC<ChipProps> = ({ label }) => {
+const Chip = ({ label }: ChipProps) => {
   return (
     <StyledChip>
       <Typography

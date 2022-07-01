@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 24 Jun 2022 15:09:55 GMT
+ * Generated on Fri, 01 Jul 2022 06:05:06 GMT
  */
 
 declare module 'design-tokens' {
@@ -56,7 +56,6 @@ declare module 'design-tokens' {
   export const xs: string;
   export const s: string;
   export const m: string;
-  export const l: string;
   export const xl: string;
   export const xxl: string;
   export const neutralWhite: string;
@@ -125,6 +124,7 @@ declare module 'design-tokens' {
   export const iconButtonButtonFilledDefaultIconSize: string;
   export const whiteLabelMdPurple50: string;
   export const whiteLabelMdPurple100: string;
+  export const whiteLabelMdPurple300: string;
   export const whiteLabelMdPurple400: string;
   export const whiteLabelMdPurple500: string;
   export const whiteLabelMdPurple012: string;
@@ -145,6 +145,8 @@ declare module 'design-tokens' {
   export const semanticColorActionsFilledHoverFgColor: string;
   export const semanticColorActionsFilledFocusedBgColor: string;
   export const semanticColorActionsFilledFocusedFgColor: string;
+  export const semanticColorActionsFilledPressedBgColor: string;
+  export const semanticColorActionsFilledPressedFgColor: string;
   export const semanticColorActionsFilledDisabledBgColor: string;
   export const semanticColorActionsFilledDisabledFgColor: string;
   export const semanticColorActionsOutlineDefaultBgColor: string;
@@ -168,12 +170,57 @@ declare module 'design-tokens' {
   export const buttonButtonFilledHoverFgColor: string;
   export const buttonButtonFilledFocusedBgColor: string;
   export const buttonButtonFilledFocusedFgColor: string;
+  export const buttonButtonFilledPressedBgColor: string;
+  export const buttonButtonFilledPressedFgColor: string;
   export const buttonButtonFilledDisabledBgColor: string;
   export const buttonButtonFilledDisabledFgColor: string;
+  export const buttonButtonOutlineDefaultBgColor: string;
+  export const buttonButtonOutlineDefaultFgColor: string;
+  export const buttonButtonOutlineDefaultBorderColor: string;
+  export const buttonButtonOutlineHoverBgColor: string;
+  export const buttonButtonOutlineHoverFgColor: string;
+  export const buttonButtonOutlineHoverBorderColor: string;
+  export const buttonButtonOutlineFocusedBgColor: string;
+  export const buttonButtonOutlineFocusedFgColor: string;
+  export const buttonButtonOutlineFocusedBorderColor: string;
+  export const buttonButtonOutlinePressedBgColor: string;
+  export const buttonButtonOutlinePressedFgColor: string;
+  export const buttonButtonOutlinePressedBorderColor: string;
+  export const buttonButtonOutlineDisabledBgColor: string;
+  export const buttonButtonOutlineDisabledFgColor: string;
+  export const buttonButtonOutlineDisabledBorderColor: string;
   export const xlLeft: string;
   export const xlRight: string;
   export const mTop: string;
   export const mBottom: string;
   export const mGap: string;
+  export const dropShadow1Default: string;
+  export const dropShadow1Default1: string;
+  export const dropShadow2Default: string;
+  export const labelLabelFilledDefaultBgColor: string;
+  export const labelLabelFilledDefaultFgColor: string;
+  export const labelLabelFilledHoverBgColor: string;
+  export const labelLabelFilledHoverFgColor: string;
+  export const labelLabelFilledFocusedBgColor: string;
+  export const labelLabelFilledFocusedFgColor: string;
+  export const labelLabelFilledPressedBgColor: string;
+  export const labelLabelFilledPressedFgColor: string;
+  export const labelLabelFilledDisabledBgColor: string;
+  export const labelLabelFilledDisabledFgColor: string;
+  export const labelLabelOutlineDefaultBgColor: string;
+  export const labelLabelOutlineDefaultFgColor: string;
+  export const labelLabelOutlineDefaultBorderColor: string;
+  export const labelLabelOutlineHoverBgColor: string;
+  export const labelLabelOutlineHoverFgColor: string;
+  export const labelLabelOutlineHoverBorderColor: string;
+  export const labelLabelOutlineFocusedBgColor: string;
+  export const labelLabelOutlineFocusedFgColor: string;
+  export const labelLabelOutlineFocusedBorderColor: string;
+  export const labelLabelOutlinePressedBgColor: string;
+  export const labelLabelOutlinePressedFgColor: string;
+  export const labelLabelOutlinePressedBorderColor: string;
+  export const labelLabelOutlineDisabledBgColor: string;
+  export const labelLabelOutlineDisabledFgColor: string;
+  export const labelLabelOutlineDisabledBorderColor: string;
 
 }
