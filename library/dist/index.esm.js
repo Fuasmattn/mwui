@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { displayLarge, displayMedium, displaySmall, headlineLarge, headlineMedium, headlineSmall, titleLarge, titleMedium, titleSmall, labelLarge, labelMedium, labelSmall, bodyLarge, bodyMedium, bodySmall, overline, xxs, xs, s, m, l, xl, xxl, fontFamiliesDefault, borderRadiusDefault, borderRadiusRound, buttonButtonFilledDefaultBgColor, buttonButtonFilledHoverBgColor, buttonButtonFilledDisabledBgColor, buttonButtonFilledDefaultFgColor, buttonButtonFilledDisabledFgColor } from '@fuasmattn/mwui-token-farm';
+import { displayLarge, displayMedium, displaySmall, headlineLarge, headlineMedium, headlineSmall, titleLarge, titleMedium, titleSmall, labelLarge, labelMedium, labelSmall, bodyLarge, bodyMedium, bodySmall, overline, xxs, xs, s, m, l, xl, xxl, fontFamiliesDefault, borderRadiusDefault, borderRadiusRound, buttonButtonFilledDefaultBgColor, buttonButtonFilledDefaultFgColor, buttonButtonFilledFocusedBgColor, buttonButtonFilledHoverBgColor, buttonButtonFilledHoverFgColor, buttonButtonFilledFocusedFgColor, buttonButtonFilledDisabledBgColor, buttonButtonFilledDisabledFgColor, buttonButtonOutlineDefaultBgColor, buttonButtonOutlineDefaultFgColor, buttonButtonOutlineDefaultBorderColor, buttonButtonOutlineHoverBgColor, buttonButtonOutlineHoverFgColor, buttonButtonOutlineHoverBorderColor, buttonButtonOutlineFocusedBgColor, buttonButtonOutlineFocusedFgColor, buttonButtonOutlineFocusedBorderColor } from '@fuasmattn/mwui-token-farm';
 import { createStitches } from '@stitches/react';
 
 var propTypes = {exports: {}};
@@ -1550,30 +1550,34 @@ Checkbox.defaultProps = {
   label: ""
 };
 
-const PLACEHODER_FIXME = "#00ff00";
 const scopedTokens$2 = {
+  // primary default
   $$primary: buttonButtonFilledDefaultBgColor,
-  "$$primary-hover": buttonButtonFilledHoverBgColor,
-  "$$primary-active": buttonButtonFilledHoverBgColor,
-  "$$primary-border": PLACEHODER_FIXME,
-  "$$primary-disabled": buttonButtonFilledDisabledBgColor,
-  "$$primary-border-hover": PLACEHODER_FIXME,
-  "$$primary-border-active": PLACEHODER_FIXME,
   "$$primary-text": buttonButtonFilledDefaultFgColor,
-  "$$primary-text-hover": buttonButtonFilledDefaultFgColor,
-  "$$primary-text-active": buttonButtonFilledDefaultFgColor,
+  "$$primary-border": buttonButtonFilledFocusedBgColor,
+  // primary hover
+  "$$primary-hover": buttonButtonFilledHoverBgColor,
+  "$$primary-border-hover": buttonButtonFilledHoverBgColor,
+  "$$primary-text-hover": buttonButtonFilledHoverFgColor,
+  // primary active
+  "$$primary-active": buttonButtonFilledFocusedBgColor,
+  "$$primary-text-active": buttonButtonFilledFocusedFgColor,
+  "$$primary-border-active": buttonButtonFilledFocusedBgColor,
+  // primary disabled
+  "$$primary-disabled": buttonButtonFilledDisabledBgColor,
   "$$primary-text-disabled": buttonButtonFilledDisabledFgColor,
-  $$secondary: PLACEHODER_FIXME,
-  "$$secondary-hover": PLACEHODER_FIXME,
-  "$$secondary-active": PLACEHODER_FIXME,
-  "$$secondary-border": PLACEHODER_FIXME,
-  "$$secondary-disabled": PLACEHODER_FIXME,
-  "$$secondary-border-hover": PLACEHODER_FIXME,
-  "$$secondary-border-active": PLACEHODER_FIXME,
-  "$$secondary-text": PLACEHODER_FIXME,
-  "$$secondary-text-hover": PLACEHODER_FIXME,
-  "$$secondary-text-active": PLACEHODER_FIXME,
-  "$$secondary-text-disabled": PLACEHODER_FIXME
+  // outlined default
+  $$outlined: buttonButtonOutlineDefaultBgColor,
+  "$$outlined-text": buttonButtonOutlineDefaultFgColor,
+  "$$outlined-border": buttonButtonOutlineDefaultBorderColor,
+  // outlined hover
+  "$$outlined-hover": buttonButtonOutlineHoverBgColor,
+  "$$outlined-text-hover": buttonButtonOutlineHoverFgColor,
+  "$$outlined-border-hover": buttonButtonOutlineHoverBorderColor,
+  // outlined active
+  "$$outlined-active": buttonButtonOutlineFocusedBgColor,
+  "$$outlined-text-active": buttonButtonOutlineFocusedFgColor,
+  "$$outlined-border-active": buttonButtonOutlineFocusedBorderColor
 };
 const variants = {
   variant: {
@@ -1581,6 +1585,7 @@ const variants = {
       backgroundColor: "$$primary",
       color: "$$primary-text",
       borderRadius: "$$primary-border-radius",
+      boxShadow: "0 0 0 1px $$pimary",
       "&:hover": {
         backgroundColor: "$$primary-hover",
         color: "$$primary-text-hover"
@@ -1588,19 +1593,6 @@ const variants = {
       "&:active": {
         backgroundColor: "$$primary-active",
         color: "$$primary-text-hover"
-      }
-    },
-    secondary: {
-      backgroundColor: "$$secondary",
-      color: "$$secondary-text",
-      borderRadius: "$$secondary-border-radius",
-      "&:hover": {
-        backgroundColor: "$$secondary-hover",
-        color: "$$secondary-text-hover"
-      },
-      "&:active": {
-        backgroundColor: "$$secondary-active",
-        color: "$$secondary-text-active"
       }
     }
   },
@@ -1621,17 +1613,18 @@ const compoundVariants = [{
   variant: "primary",
   outlined: true,
   css: {
-    backgroundColor: "transparent",
-    $$shadowColor: "$$primary-border",
-    color: "$$primary"
-  }
-}, {
-  variant: "secondary",
-  outlined: true,
-  css: {
-    backgroundColor: "transparent",
-    $$shadowColor: "$$secondary-border",
-    color: "$$secondary"
+    backgroundColor: "$$outlined",
+    $$shadowColor: "$$outlined-border",
+    color: "$$outlined-text",
+    boxShadow: "0 0 0 1px $$outlined-border",
+    "&:hover": {
+      backgroundColor: "$$outlined-hover",
+      color: "$$outlined-text-hover"
+    },
+    "&:active": {
+      backgroundColor: "$$outlined-active",
+      color: "$$outlined-text-hover"
+    }
   }
 }, {
   variant: "primary",
@@ -1669,47 +1662,12 @@ const compoundVariants = [{
       color: "$$primary-text-disabled"
     }
   }
-}, {
-  variant: "secondary",
-  outlined: false,
-  disabled: true,
-  css: {
-    $$shadowColor: "transparent",
-    backgroundColor: "$$secondary-disabled",
-    color: "$$secondary-text-disabled",
-    "&:hover": {
-      backgroundColor: "$$secondary-disabled",
-      color: "$$secondary-text-disabled"
-    },
-    "&:active": {
-      backgroundColor: "$$secondary-disabled",
-      color: "$$secondary-text-disabled"
-    }
-  }
-}, {
-  variant: "secondary",
-  outlined: true,
-  disabled: true,
-  css: {
-    $$shadowColor: "$$secondary-disabled",
-    backgroundColor: "transparent",
-    color: "$$secondary-text-disabled",
-    "&:hover": {
-      $$shadowColor: "$$secondary-disabled",
-      backgroundColor: "transparent",
-      color: "$$secondary-text-disabled"
-    },
-    "&:active": {
-      $$shadowColor: "$$secondary-disabled",
-      backgroundColor: "transparent",
-      color: "$$secondary-text-disabled"
-    }
-  }
 }];
 
 const StyledButton = styled("button", { ...scopedTokens$2,
   backgroundColor: "transparent",
   fontFamily: "$default",
+  fontWeight: "600",
   padding: "$xs $m",
   border: "none",
   variants,
