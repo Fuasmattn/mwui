@@ -1031,12 +1031,12 @@
     ]
   },
   "xl": {
-    "value": "40px",
+    "value": 40,
     "type": "spacing",
     "filePath": "input/global.json",
     "isSource": true,
     "original": {
-      "value": "40px",
+      "value": 40,
       "type": "spacing"
     },
     "name": "xl",

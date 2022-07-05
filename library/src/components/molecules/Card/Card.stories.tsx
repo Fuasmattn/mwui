@@ -17,8 +17,8 @@ Default.args = {
   confirmLabel: "Confirm",
   cancelLabel: "Cancel",
   imageSrc: "https://placedog.net/720/338?r",
-  badges: ["badge", "badge", "badge"],
-  additionalText: "additional information",
+  // badges: ["badge", "badge", "badge"],
+  // additionalText: "additional information",
 };
 
 const TemplateDynamicWidth: ComponentStory<typeof Card> = (args) => (
@@ -42,6 +42,6 @@ DynamicWidth.args = {
   confirmLabel: "Confirm",
   cancelLabel: "Cancel",
   imageSrc: "https://placedog.net/720/338?r",
-  badges: ["badge", "badge", "badge"],
-  additionalText: "additional information",
+  // badges: ["badge", "badge", "badge"],
+  // additionalText: "additional information",
 };

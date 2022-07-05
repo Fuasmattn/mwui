@@ -1,11 +1,13 @@
 import PropTypes from "prop-types";
 import React, { FC } from "react";
+import { dropShadowDefault } from "@fuasmattn/mwui-token-farm";
 import { Button, Chip, Typography } from "../../atoms";
 import { styled } from "../../../stitches";
 
 const scopedTokens = {
   $$cardBackground: "white", // token
-  $$cardBoxShadow: "0px 1px 5px rgba(0, 0, 0, 0.15)", // token
+  // TODO: move to utils
+  $$cardBoxShadow: `${dropShadowDefault.x}px ${dropShadowDefault.y}px ${dropShadowDefault.blur}px ${dropShadowDefault.spread}px ${dropShadowDefault.color}`,
 };
 
 const Box = styled("div", {
@@ -16,8 +18,8 @@ const Box = styled("div", {
   boxShadow: "$$cardBoxShadow",
   variants: {
     variant: {
-      image: { paddingBottom: "$xl" },
-      "no-image": { padding: "$xl" },
+      image: { paddingBottom: "$l" },
+      "no-image": { padding: "$l" },
     },
   },
 });
@@ -25,14 +27,14 @@ const Box = styled("div", {
 const Container = styled("div", {
   variants: {
     variant: {
-      image: { padding: "0 $xl" },
+      image: { padding: "0 $l" },
       "no-image": { padding: "0" },
     },
   },
 });
 
 const StyledImage = styled("img", {
-  marginBottom: "$xl",
+  marginBottom: "$l",
   borderTopLeftRadius: "$default",
   borderTopRightRadius: "$default",
 });

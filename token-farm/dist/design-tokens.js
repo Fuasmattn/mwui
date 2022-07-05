@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 05 Jul 2022 14:17:19 GMT
+ * Generated on Tue, 05 Jul 2022 14:22:19 GMT
  */
 
 const magenta100 = "#fde8f2";
@@ -56,7 +56,7 @@ const xs = 8;
 const s = 12;
 const m = 16;
 const l = 24;
-const xl = "40px";
+const xl = 40;
 const xxl = 64;
 const neutralWhite = "#ffffff";
 const neutralBackground = "#edeef0";

@@ -15,7 +15,9 @@ import {
   buttonButtonOutlineHoverFgColor,
   buttonButtonOutlineFocusedBgColor,
   buttonButtonOutlineFocusedFgColor,
-  buttonButtonOutlineFocusedBorderColor
+  buttonButtonOutlineFocusedBorderColor,
+  buttonButtonFilledDefaultBorderRadius,
+  buttonButtonOutlineDefaultBorderRadius,
 } from "@fuasmattn/mwui-token-farm";
 
 export const scopedTokens = {
@@ -23,6 +25,7 @@ export const scopedTokens = {
   $$primary: buttonButtonFilledDefaultBgColor,
   "$$primary-text": buttonButtonFilledDefaultFgColor,
   "$$primary-border": buttonButtonFilledFocusedBgColor,
+  "$$primary-border-radius": buttonButtonFilledDefaultBorderRadius,
   // primary hover
   "$$primary-hover": buttonButtonFilledHoverBgColor,
   "$$primary-border-hover": buttonButtonFilledHoverBgColor,
@@ -39,6 +42,7 @@ export const scopedTokens = {
   $$outlined: buttonButtonOutlineDefaultBgColor,
   "$$outlined-text": buttonButtonOutlineDefaultFgColor,
   "$$outlined-border": buttonButtonOutlineDefaultBorderColor,
+  "$$outlined-border-radius": buttonButtonOutlineDefaultBorderRadius,
   // outlined hover
   "$$outlined-hover": buttonButtonOutlineHoverBgColor,
   "$$outlined-text-hover": buttonButtonOutlineHoverFgColor,

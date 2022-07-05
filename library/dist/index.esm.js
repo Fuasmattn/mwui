@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { displayLarge, displayMedium, displaySmall, headlineLarge, headlineMedium, headlineSmall, titleLarge, titleMedium, titleSmall, labelLarge, labelMedium, labelSmall, bodyLarge, bodyMedium, bodySmall, overline, xxs, xs, s, m, l, xl, xxl, fontFamiliesDefault, borderRadiusDefault, borderRadiusRound, buttonButtonFilledDefaultBgColor, buttonButtonFilledDefaultFgColor, buttonButtonFilledFocusedBgColor, buttonButtonFilledHoverBgColor, buttonButtonFilledHoverFgColor, buttonButtonFilledFocusedFgColor, buttonButtonFilledDisabledBgColor, buttonButtonFilledDisabledFgColor, buttonButtonOutlineDefaultBgColor, buttonButtonOutlineDefaultFgColor, buttonButtonOutlineDefaultBorderColor, buttonButtonOutlineHoverBgColor, buttonButtonOutlineHoverFgColor, buttonButtonOutlineHoverBorderColor, buttonButtonOutlineFocusedBgColor, buttonButtonOutlineFocusedFgColor, buttonButtonOutlineFocusedBorderColor } from '@fuasmattn/mwui-token-farm';
+import { displayLarge, displayMedium, displaySmall, headlineLarge, headlineMedium, headlineSmall, titleLarge, titleMedium, titleSmall, labelLarge, labelMedium, labelSmall, bodyLarge, bodyMedium, bodySmall, overline, xxs, xs, s, m, l, xl, xxl, fontFamiliesDefault, borderRadiusDefault, borderRadiusRound, buttonButtonFilledDefaultBgColor, buttonButtonFilledDefaultFgColor, buttonButtonFilledFocusedBgColor, buttonButtonFilledDefaultBorderRadius, buttonButtonFilledHoverBgColor, buttonButtonFilledHoverFgColor, buttonButtonFilledFocusedFgColor, buttonButtonFilledDisabledBgColor, buttonButtonFilledDisabledFgColor, buttonButtonOutlineDefaultBgColor, buttonButtonOutlineDefaultFgColor, buttonButtonOutlineDefaultBorderColor, buttonButtonOutlineDefaultBorderRadius, buttonButtonOutlineHoverBgColor, buttonButtonOutlineHoverFgColor, buttonButtonOutlineHoverBorderColor, buttonButtonOutlineFocusedBgColor, buttonButtonOutlineFocusedFgColor, buttonButtonOutlineFocusedBorderColor } from '@fuasmattn/mwui-token-farm';
 import { createStitches } from '@stitches/react';
 
 var propTypes = {exports: {}};
@@ -1555,6 +1555,7 @@ const scopedTokens$2 = {
   $$primary: buttonButtonFilledDefaultBgColor,
   "$$primary-text": buttonButtonFilledDefaultFgColor,
   "$$primary-border": buttonButtonFilledFocusedBgColor,
+  "$$primary-border-radius": buttonButtonFilledDefaultBorderRadius,
   // primary hover
   "$$primary-hover": buttonButtonFilledHoverBgColor,
   "$$primary-border-hover": buttonButtonFilledHoverBgColor,
@@ -1570,6 +1571,7 @@ const scopedTokens$2 = {
   $$outlined: buttonButtonOutlineDefaultBgColor,
   "$$outlined-text": buttonButtonOutlineDefaultFgColor,
   "$$outlined-border": buttonButtonOutlineDefaultBorderColor,
+  "$$outlined-border-radius": buttonButtonOutlineDefaultBorderRadius,
   // outlined hover
   "$$outlined-hover": buttonButtonOutlineHoverBgColor,
   "$$outlined-text-hover": buttonButtonOutlineHoverFgColor,

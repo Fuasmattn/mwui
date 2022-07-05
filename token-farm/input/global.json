@@ -234,7 +234,7 @@
     "type": "spacing"
   },
   "xl": {
-    "value": "40px",
+    "value": 40,
     "type": "spacing"
   },
   "xxl": {

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 05 Jul 2022 14:17:19 GMT
+ * Generated on Tue, 05 Jul 2022 14:22:19 GMT
  */
 
 export const magenta100 = "#fde8f2";
@@ -56,7 +56,7 @@ export const xs = 8;
 export const s = 12;
 export const m = 16;
 export const l = 24;
-export const xl = "40px";
+export const xl = 40;
 export const xxl = 64;
 export const neutralWhite = "#ffffff";
 export const neutralBackground = "#edeef0";
