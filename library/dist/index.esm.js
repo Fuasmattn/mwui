@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { displayLarge, displayMedium, displaySmall, headlineLarge, headlineMedium, headlineSmall, titleLarge, titleMedium, titleSmall, labelLarge, labelMedium, labelSmall, bodyLarge, bodyMedium, bodySmall, overline, xxs, xs, s, m, l, xl, xxl, fontFamiliesDefault, borderRadiusDefault, borderRadiusRound, buttonButtonFilledDefaultBgColor, buttonButtonFilledDefaultFgColor, buttonButtonFilledFocusedBgColor, buttonButtonFilledDefaultBorderRadius, buttonButtonFilledHoverBgColor, buttonButtonFilledHoverFgColor, buttonButtonFilledFocusedFgColor, buttonButtonFilledDisabledBgColor, buttonButtonFilledDisabledFgColor, buttonButtonOutlineDefaultBgColor, buttonButtonOutlineDefaultFgColor, buttonButtonOutlineDefaultBorderColor, buttonButtonOutlineDefaultBorderRadius, buttonButtonOutlineHoverBgColor, buttonButtonOutlineHoverFgColor, buttonButtonOutlineHoverBorderColor, buttonButtonOutlineFocusedBgColor, buttonButtonOutlineFocusedFgColor, buttonButtonOutlineFocusedBorderColor } from '@fuasmattn/mwui-token-farm';
+import { displayLarge, displayMedium, displaySmall, headlineLarge, headlineMedium, headlineSmall, titleLarge, titleMedium, titleSmall, labelLarge, labelMedium, labelSmall, bodyLarge, bodyMedium, bodySmall, overline, xxs, xs, s, m, l, xl, xxl, fontFamiliesDefault, borderRadiusDefault, borderRadiusRound, buttonButtonFilledDefaultBgColor, buttonButtonFilledDefaultFgColor, buttonButtonFilledFocusedBgColor, buttonButtonFilledDefaultBorderRadius, buttonButtonFilledHoverBgColor, buttonButtonFilledHoverFgColor, buttonButtonFilledFocusedFgColor, buttonButtonFilledDisabledBgColor, buttonButtonFilledDisabledFgColor, buttonButtonOutlineDefaultBgColor, buttonButtonOutlineDefaultFgColor, buttonButtonOutlineDefaultBorderColor, buttonButtonOutlineDefaultBorderRadius, buttonButtonOutlineHoverBgColor, buttonButtonOutlineHoverFgColor, buttonButtonOutlineHoverBorderColor, buttonButtonOutlineFocusedBgColor, buttonButtonOutlineFocusedFgColor, buttonButtonOutlineFocusedBorderColor, dropShadowDefault } from '@fuasmattn/mwui-token-farm';
 import { createStitches } from '@stitches/react';
 
 var propTypes = {exports: {}};
@@ -1728,8 +1728,8 @@ Chip.propTypes = {
 
 const scopedTokens = {
   $$cardBackground: "white",
-  $$cardBoxShadow: "0px 1px 5px rgba(0, 0, 0, 0.15)" // token
-
+  // TODO: move to utils
+  $$cardBoxShadow: `${dropShadowDefault.x}px ${dropShadowDefault.y}px ${dropShadowDefault.blur}px ${dropShadowDefault.spread}px ${dropShadowDefault.color}`
 };
 const Box = styled("div", { ...scopedTokens,
   width: "100%",
@@ -1739,10 +1739,10 @@ const Box = styled("div", { ...scopedTokens,
   variants: {
     variant: {
       image: {
-        paddingBottom: "$xl"
+        paddingBottom: "$l"
       },
       "no-image": {
-        padding: "$xl"
+        padding: "$l"
       }
     }
   }
@@ -1751,7 +1751,7 @@ const Container = styled("div", {
   variants: {
     variant: {
       image: {
-        padding: "0 $xl"
+        padding: "0 $l"
       },
       "no-image": {
         padding: "0"
@@ -1760,7 +1760,7 @@ const Container = styled("div", {
   }
 });
 const StyledImage = styled("img", {
-  marginBottom: "$xl",
+  marginBottom: "$l",
   borderTopLeftRadius: "$default",
   borderTopRightRadius: "$default"
 });
