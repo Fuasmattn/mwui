@@ -1369,6 +1369,12 @@ if (process.env.NODE_ENV !== 'production') {
   propTypes.exports = requireFactoryWithThrowingShims()();
 }
 
+const fontWeightMap = {
+  Regular: "400",
+  SemiBold: "600",
+  Bold: "700"
+};
+
 const createCompoundVariant = (variant, size, token) => {
   const {
     fontFamily,
@@ -1386,7 +1392,7 @@ const createCompoundVariant = (variant, size, token) => {
     css: {
       fontFamily: fontFamily,
       fontSize: `${fontSize}px`,
-      fontWeight: fontWeight,
+      fontWeight: `${fontWeightMap[fontWeight]}`,
       lineHeight: `${lineHeight}px`,
       letterSpacing: `${letterSpacing}px`,
       marginBottom: `${paragraphSpacing}px`,
