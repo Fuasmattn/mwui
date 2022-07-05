@@ -23,10 +23,12 @@ export type Component =
 
 export type Size = "large" | "medium" | "small";
 
+export type Weight = "Regular" | "SemiBold" | "Bold";
+
 export type Token = {
   fontFamily: string;
   fontSize: number;
-  fontWeight: number;
+  fontWeight: Weight;
   lineHeight: number;
   letterSpacing: number;
   paragraphSpacing: number;

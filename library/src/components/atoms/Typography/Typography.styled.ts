@@ -17,7 +17,13 @@ import {
   titleMedium,
   titleSmall,
 } from "@fuasmattn/mwui-token-farm";
-import { Size, Token, Variant } from "./types";
+import { Size, Token, Variant, Weight } from "./types";
+
+const fontWeightMap: Record<Weight, string> = {
+  Regular: "400",
+  SemiBold: "600",
+  Bold: "700",
+};
 
 const createCompoundVariant = (variant: Variant, size: Size, token: Token) => {
   const {
@@ -36,7 +42,7 @@ const createCompoundVariant = (variant: Variant, size: Size, token: Token) => {
     css: {
       fontFamily: fontFamily,
       fontSize: `${fontSize}px`,
-      fontWeight: fontWeight,
+      fontWeight: `${fontWeightMap[fontWeight]}`,
       lineHeight: `${lineHeight}px`,
       letterSpacing: `${letterSpacing}px`,
       marginBottom: `${paragraphSpacing}px`,
