@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 01 Jul 2022 15:42:16 GMT
+ * Generated on Tue, 05 Jul 2022 13:03:32 GMT
  */
 
 declare module 'design-tokens' {
@@ -56,15 +56,15 @@ declare module 'design-tokens' {
   export const xs: string;
   export const s: string;
   export const m: string;
+  export const l: string;
   export const xl: string;
-  export const xxl: string;
   export const neutralWhite: string;
   export const neutralBackground: string;
   export const neutralDeactive: string;
   export const palette70: string;
   export const palette90: string;
-  export const borderRadiusDefault: string;
-  export const borderRadiusRound: string;
+  export const borderRadiusNone: string;
+  export const borderRadiusXl: string;
   export const spaceSizeLarge: string;
   export const spaceSizeSmall: string;
   export const spaceM: string;
@@ -164,8 +164,16 @@ declare module 'design-tokens' {
   export const semanticColorActionsOutlineDisabledBgColor: string;
   export const semanticColorActionsOutlineDisabledFgColor: string;
   export const semanticColorActionsOutlineDisabledBorderColor: string;
+  export const semanticFontsContentTextDefaultTitleLarge: string;
+  export const semanticFontsContentTextDefaultBodyLarge: string;
+  export const semanticBorderSurfaceBorderRadiusDefaultNone: string;
+  export const semanticBorderSurfaceBorderRadiusDefaultXl: string;
+  export const semanticShadowSurfaceDropShadowDefault1: string;
+  export const cardTextDefaultBodyLarge: string;
+  export const cardTextDefaultTitleLarge: string;
   export const buttonButtonFilledDefaultBgColor: string;
   export const buttonButtonFilledDefaultFgColor: string;
+  export const buttonButtonFilledDefaultBorderRadius: string;
   export const buttonButtonFilledHoverBgColor: string;
   export const buttonButtonFilledHoverFgColor: string;
   export const buttonButtonFilledFocusedBgColor: string;
@@ -177,6 +185,7 @@ declare module 'design-tokens' {
   export const buttonButtonOutlineDefaultBgColor: string;
   export const buttonButtonOutlineDefaultFgColor: string;
   export const buttonButtonOutlineDefaultBorderColor: string;
+  export const buttonButtonOutlineDefaultBorderRadius: string;
   export const buttonButtonOutlineHoverBgColor: string;
   export const buttonButtonOutlineHoverFgColor: string;
   export const buttonButtonOutlineHoverBorderColor: string;
@@ -194,9 +203,7 @@ declare module 'design-tokens' {
   export const mTop: string;
   export const mBottom: string;
   export const mGap: string;
-  export const dropShadow1Default: string;
-  export const dropShadow1Default1: string;
-  export const dropShadow2Default: string;
+  export const dropShadowDefault: string;
   export const labelLabelFilledDefaultBgColor: string;
   export const labelLabelFilledDefaultFgColor: string;
   export const labelLabelFilledHoverBgColor: string;

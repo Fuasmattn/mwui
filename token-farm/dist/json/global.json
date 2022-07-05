@@ -1013,7 +1013,7 @@
       "m"
     ]
   },
-  "xl": {
+  "l": {
     "value": 24,
     "type": "spacing",
     "filePath": "input/global.json",
@@ -1022,15 +1022,15 @@
       "value": 24,
       "type": "spacing"
     },
-    "name": "xl",
+    "name": "l",
     "attributes": {
-      "category": "xl"
+      "category": "l"
     },
     "path": [
-      "xl"
+      "l"
     ]
   },
-  "xxl": {
+  "xl": {
     "value": 64,
     "type": "spacing",
     "filePath": "input/global.json",
@@ -1039,12 +1039,12 @@
       "value": 64,
       "type": "spacing"
     },
-    "name": "xxl",
+    "name": "xl",
     "attributes": {
-      "category": "xxl"
+      "category": "xl"
     },
     "path": [
-      "xxl"
+      "xl"
     ]
   },
   "neutral": {
@@ -1148,7 +1148,7 @@
   },
   "border": {
     "radius": {
-      "default": {
+      "none": {
         "value": "0px",
         "type": "borderRadius",
         "filePath": "input/global.json",
@@ -1157,19 +1157,19 @@
           "value": "0px",
           "type": "borderRadius"
         },
-        "name": "border-radius-default",
+        "name": "border-radius-none",
         "attributes": {
           "category": "border",
           "type": "radius",
-          "item": "default"
+          "item": "none"
         },
         "path": [
           "border",
           "radius",
-          "default"
+          "none"
         ]
       },
-      "round": {
+      "xl": {
         "value": "30px",
         "type": "borderRadius",
         "filePath": "input/global.json",
@@ -1178,16 +1178,16 @@
           "value": "30px",
           "type": "borderRadius"
         },
-        "name": "border-radius-round",
+        "name": "border-radius-xl",
         "attributes": {
           "category": "border",
           "type": "radius",
-          "item": "round"
+          "item": "xl"
         },
         "path": [
           "border",
           "radius",
-          "round"
+          "xl"
         ]
       }
     }
@@ -3738,6 +3738,522 @@
           }
         }
       }
+    },
+    "fonts": {
+      "content": {
+        "text": {
+          "default": {
+            "title": {
+              "large": {
+                "value": {
+                  "0": "{",
+                  "1": "t",
+                  "2": "i",
+                  "3": "t",
+                  "4": "l",
+                  "5": "e",
+                  "6": ".",
+                  "7": "l",
+                  "8": "a",
+                  "9": "r",
+                  "10": "g",
+                  "11": "e",
+                  "12": "}"
+                },
+                "type": "typography",
+                "filePath": "input/global.json",
+                "isSource": true,
+                "original": {
+                  "value": {
+                    "0": "{",
+                    "1": "t",
+                    "2": "i",
+                    "3": "t",
+                    "4": "l",
+                    "5": "e",
+                    "6": ".",
+                    "7": "l",
+                    "8": "a",
+                    "9": "r",
+                    "10": "g",
+                    "11": "e",
+                    "12": "}"
+                  },
+                  "type": "typography"
+                },
+                "name": "semantic-fonts-content-text-default-title-large",
+                "attributes": {
+                  "category": "semantic",
+                  "type": "fonts",
+                  "item": "content",
+                  "subitem": "text",
+                  "state": "default"
+                },
+                "path": [
+                  "semantic",
+                  "fonts",
+                  "content",
+                  "text",
+                  "default",
+                  "title",
+                  "large"
+                ]
+              }
+            },
+            "body": {
+              "large": {
+                "value": {
+                  "0": "{",
+                  "1": "b",
+                  "2": "o",
+                  "3": "d",
+                  "4": "y",
+                  "5": ".",
+                  "6": "l",
+                  "7": "a",
+                  "8": "r",
+                  "9": "g",
+                  "10": "e",
+                  "11": "}"
+                },
+                "type": "typography",
+                "filePath": "input/global.json",
+                "isSource": true,
+                "original": {
+                  "value": {
+                    "0": "{",
+                    "1": "b",
+                    "2": "o",
+                    "3": "d",
+                    "4": "y",
+                    "5": ".",
+                    "6": "l",
+                    "7": "a",
+                    "8": "r",
+                    "9": "g",
+                    "10": "e",
+                    "11": "}"
+                  },
+                  "type": "typography"
+                },
+                "name": "semantic-fonts-content-text-default-body-large",
+                "attributes": {
+                  "category": "semantic",
+                  "type": "fonts",
+                  "item": "content",
+                  "subitem": "text",
+                  "state": "default"
+                },
+                "path": [
+                  "semantic",
+                  "fonts",
+                  "content",
+                  "text",
+                  "default",
+                  "body",
+                  "large"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "border": {
+      "surface": {
+        "border-radius": {
+          "default": {
+            "none": {
+              "value": "0px",
+              "type": "borderRadius",
+              "filePath": "input/global.json",
+              "isSource": true,
+              "original": {
+                "value": "0px",
+                "type": "borderRadius"
+              },
+              "name": "semantic-border-surface-border-radius-default-none",
+              "attributes": {
+                "category": "semantic",
+                "type": "border",
+                "item": "surface",
+                "subitem": "border-radius",
+                "state": "default"
+              },
+              "path": [
+                "semantic",
+                "border",
+                "surface",
+                "border-radius",
+                "default",
+                "none"
+              ]
+            },
+            "xl": {
+              "value": "30px",
+              "type": "borderRadius",
+              "filePath": "input/global.json",
+              "isSource": true,
+              "original": {
+                "value": "30px",
+                "type": "borderRadius"
+              },
+              "name": "semantic-border-surface-border-radius-default-xl",
+              "attributes": {
+                "category": "semantic",
+                "type": "border",
+                "item": "surface",
+                "subitem": "border-radius",
+                "state": "default"
+              },
+              "path": [
+                "semantic",
+                "border",
+                "surface",
+                "border-radius",
+                "default",
+                "xl"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "shadow": {
+      "surface": {
+        "drop-shadow": {
+          "default": {
+            "1": {
+              "value": {
+                "0": "{",
+                "1": "d",
+                "2": "r",
+                "3": "o",
+                "4": "p",
+                "5": ".",
+                "6": "s",
+                "7": "h",
+                "8": "a",
+                "9": "d",
+                "10": "o",
+                "11": "w",
+                "12": ".",
+                "13": "d",
+                "14": "e",
+                "15": "f",
+                "16": "a",
+                "17": "u",
+                "18": "l",
+                "19": "t",
+                "20": "}"
+              },
+              "type": "boxShadow",
+              "filePath": "input/global.json",
+              "isSource": true,
+              "original": {
+                "value": {
+                  "0": "{",
+                  "1": "d",
+                  "2": "r",
+                  "3": "o",
+                  "4": "p",
+                  "5": ".",
+                  "6": "s",
+                  "7": "h",
+                  "8": "a",
+                  "9": "d",
+                  "10": "o",
+                  "11": "w",
+                  "12": ".",
+                  "13": "d",
+                  "14": "e",
+                  "15": "f",
+                  "16": "a",
+                  "17": "u",
+                  "18": "l",
+                  "19": "t",
+                  "20": "}"
+                },
+                "type": "boxShadow"
+              },
+              "name": "semantic-shadow-surface-drop-shadow-default-1",
+              "attributes": {
+                "category": "semantic",
+                "type": "shadow",
+                "item": "surface",
+                "subitem": "drop-shadow",
+                "state": "default"
+              },
+              "path": [
+                "semantic",
+                "shadow",
+                "surface",
+                "drop-shadow",
+                "default",
+                "1"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "card": {
+    "text": {
+      "default": {
+        "body": {
+          "large": {
+            "value": {
+              "0": "{",
+              "1": "s",
+              "2": "e",
+              "3": "m",
+              "4": "a",
+              "5": "n",
+              "6": "t",
+              "7": "i",
+              "8": "c",
+              "9": ".",
+              "10": "f",
+              "11": "o",
+              "12": "n",
+              "13": "t",
+              "14": "s",
+              "15": ".",
+              "16": "c",
+              "17": "o",
+              "18": "n",
+              "19": "t",
+              "20": "e",
+              "21": "n",
+              "22": "t",
+              "23": ".",
+              "24": "t",
+              "25": "e",
+              "26": "x",
+              "27": "t",
+              "28": ".",
+              "29": "d",
+              "30": "e",
+              "31": "f",
+              "32": "a",
+              "33": "u",
+              "34": "l",
+              "35": "t",
+              "36": ".",
+              "37": "b",
+              "38": "o",
+              "39": "d",
+              "40": "y",
+              "41": ".",
+              "42": "l",
+              "43": "a",
+              "44": "r",
+              "45": "g",
+              "46": "e",
+              "47": "}"
+            },
+            "type": "typography",
+            "filePath": "input/global.json",
+            "isSource": true,
+            "original": {
+              "value": {
+                "0": "{",
+                "1": "s",
+                "2": "e",
+                "3": "m",
+                "4": "a",
+                "5": "n",
+                "6": "t",
+                "7": "i",
+                "8": "c",
+                "9": ".",
+                "10": "f",
+                "11": "o",
+                "12": "n",
+                "13": "t",
+                "14": "s",
+                "15": ".",
+                "16": "c",
+                "17": "o",
+                "18": "n",
+                "19": "t",
+                "20": "e",
+                "21": "n",
+                "22": "t",
+                "23": ".",
+                "24": "t",
+                "25": "e",
+                "26": "x",
+                "27": "t",
+                "28": ".",
+                "29": "d",
+                "30": "e",
+                "31": "f",
+                "32": "a",
+                "33": "u",
+                "34": "l",
+                "35": "t",
+                "36": ".",
+                "37": "b",
+                "38": "o",
+                "39": "d",
+                "40": "y",
+                "41": ".",
+                "42": "l",
+                "43": "a",
+                "44": "r",
+                "45": "g",
+                "46": "e",
+                "47": "}"
+              },
+              "type": "typography"
+            },
+            "name": "card-text-default-body-large",
+            "attributes": {
+              "category": "card",
+              "type": "text",
+              "item": "default",
+              "subitem": "body",
+              "state": "large"
+            },
+            "path": [
+              "card",
+              "text",
+              "default",
+              "body",
+              "large"
+            ]
+          }
+        },
+        "title": {
+          "large": {
+            "value": {
+              "0": "{",
+              "1": "s",
+              "2": "e",
+              "3": "m",
+              "4": "a",
+              "5": "n",
+              "6": "t",
+              "7": "i",
+              "8": "c",
+              "9": ".",
+              "10": "f",
+              "11": "o",
+              "12": "n",
+              "13": "t",
+              "14": "s",
+              "15": ".",
+              "16": "c",
+              "17": "o",
+              "18": "n",
+              "19": "t",
+              "20": "e",
+              "21": "n",
+              "22": "t",
+              "23": ".",
+              "24": "t",
+              "25": "e",
+              "26": "x",
+              "27": "t",
+              "28": ".",
+              "29": "d",
+              "30": "e",
+              "31": "f",
+              "32": "a",
+              "33": "u",
+              "34": "l",
+              "35": "t",
+              "36": ".",
+              "37": "t",
+              "38": "i",
+              "39": "t",
+              "40": "l",
+              "41": "e",
+              "42": ".",
+              "43": "l",
+              "44": "a",
+              "45": "r",
+              "46": "g",
+              "47": "e",
+              "48": "}"
+            },
+            "type": "typography",
+            "filePath": "input/global.json",
+            "isSource": true,
+            "original": {
+              "value": {
+                "0": "{",
+                "1": "s",
+                "2": "e",
+                "3": "m",
+                "4": "a",
+                "5": "n",
+                "6": "t",
+                "7": "i",
+                "8": "c",
+                "9": ".",
+                "10": "f",
+                "11": "o",
+                "12": "n",
+                "13": "t",
+                "14": "s",
+                "15": ".",
+                "16": "c",
+                "17": "o",
+                "18": "n",
+                "19": "t",
+                "20": "e",
+                "21": "n",
+                "22": "t",
+                "23": ".",
+                "24": "t",
+                "25": "e",
+                "26": "x",
+                "27": "t",
+                "28": ".",
+                "29": "d",
+                "30": "e",
+                "31": "f",
+                "32": "a",
+                "33": "u",
+                "34": "l",
+                "35": "t",
+                "36": ".",
+                "37": "t",
+                "38": "i",
+                "39": "t",
+                "40": "l",
+                "41": "e",
+                "42": ".",
+                "43": "l",
+                "44": "a",
+                "45": "r",
+                "46": "g",
+                "47": "e",
+                "48": "}"
+              },
+              "type": "typography"
+            },
+            "name": "card-text-default-title-large",
+            "attributes": {
+              "category": "card",
+              "type": "text",
+              "item": "default",
+              "subitem": "title",
+              "state": "large"
+            },
+            "path": [
+              "card",
+              "text",
+              "default",
+              "title",
+              "large"
+            ]
+          }
+        }
+      }
     }
   },
   "Button": {
@@ -3787,6 +4303,29 @@
             "button_filled",
             "default",
             "fg-color"
+          ]
+        },
+        "border-radius": {
+          "value": "30px",
+          "type": "borderRadius",
+          "filePath": "input/global.json",
+          "isSource": true,
+          "original": {
+            "value": "30px",
+            "type": "borderRadius"
+          },
+          "name": "button-button-filled-default-border-radius",
+          "attributes": {
+            "category": "Button",
+            "type": "button_filled",
+            "item": "default",
+            "subitem": "border-radius"
+          },
+          "path": [
+            "Button",
+            "button_filled",
+            "default",
+            "border-radius"
           ]
         }
       },
@@ -4052,6 +4591,29 @@
             "button_outline",
             "default",
             "border-color"
+          ]
+        },
+        "border-radius": {
+          "value": "0px",
+          "type": "borderRadius",
+          "filePath": "input/global.json",
+          "isSource": true,
+          "original": {
+            "value": "0px",
+            "type": "borderRadius"
+          },
+          "name": "button-button-outline-default-border-radius",
+          "attributes": {
+            "category": "Button",
+            "type": "button_outline",
+            "item": "default",
+            "subitem": "border-radius"
+          },
+          "path": [
+            "Button",
+            "button_outline",
+            "default",
+            "border-radius"
           ]
         }
       },
@@ -4427,7 +4989,7 @@
     ]
   },
   "drop": {
-    "shadow_1": {
+    "shadow": {
       "default": {
         "value": {
           "x": 1,
@@ -4451,87 +5013,15 @@
           },
           "type": "boxShadow"
         },
-        "name": "drop-shadow-1-default",
+        "name": "drop-shadow-default",
         "attributes": {
           "category": "drop",
-          "type": "shadow_1",
+          "type": "shadow",
           "item": "default"
         },
         "path": [
           "drop",
-          "shadow_1",
-          "default"
-        ]
-      },
-      "default-1": {
-        "value": {
-          "x": 1,
-          "y": 0,
-          "blur": 2,
-          "spread": 0,
-          "color": "#0000004d",
-          "type": "dropShadow"
-        },
-        "type": "boxShadow",
-        "filePath": "input/global.json",
-        "isSource": true,
-        "original": {
-          "value": {
-            "x": 1,
-            "y": 0,
-            "blur": 2,
-            "spread": 0,
-            "color": "#0000004d",
-            "type": "dropShadow"
-          },
-          "type": "boxShadow"
-        },
-        "name": "drop-shadow-1-default-1",
-        "attributes": {
-          "category": "drop",
-          "type": "shadow_1",
-          "item": "default-1"
-        },
-        "path": [
-          "drop",
-          "shadow_1",
-          "default-1"
-        ]
-      }
-    },
-    "shadow_2": {
-      "default": {
-        "value": {
-          "x": "",
-          "y": 1,
-          "blur": 3,
-          "spread": 1,
-          "color": "#00000026",
-          "type": "dropShadow"
-        },
-        "type": "boxShadow",
-        "filePath": "input/global.json",
-        "isSource": true,
-        "original": {
-          "value": {
-            "x": "",
-            "y": 1,
-            "blur": 3,
-            "spread": 1,
-            "color": "#00000026",
-            "type": "dropShadow"
-          },
-          "type": "boxShadow"
-        },
-        "name": "drop-shadow-2-default",
-        "attributes": {
-          "category": "drop",
-          "type": "shadow_2",
-          "item": "default"
-        },
-        "path": [
-          "drop",
-          "shadow_2",
+          "shadow",
           "default"
         ]
       }

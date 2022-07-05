@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 01 Jul 2022 15:42:16 GMT
+ * Generated on Tue, 05 Jul 2022 13:03:32 GMT
  */
 
 const magenta100 = "#fde8f2";
@@ -55,15 +55,15 @@ const xxs = 4;
 const xs = 8;
 const s = 12;
 const m = 16;
-const xl = 24;
-const xxl = 64;
+const l = 24;
+const xl = 64;
 const neutralWhite = "#ffffff";
 const neutralBackground = "#edeef0";
 const neutralDeactive = "#b5bbc2";
 const palette70 = "#9198a4";
 const palette90 = "#dadde1";
-const borderRadiusDefault = "0px";
-const borderRadiusRound = "30px";
+const borderRadiusNone = "0px";
+const borderRadiusXl = "30px";
 const spaceSizeLarge = 24;
 const spaceSizeSmall = 8;
 const spaceM = "16px";
@@ -163,8 +163,16 @@ const semanticColorActionsOutlinePressedBorderColor = "#79747e";
 const semanticColorActionsOutlineDisabledBgColor = "#ffffff";
 const semanticColorActionsOutlineDisabledFgColor = "#1c1b1f61";
 const semanticColorActionsOutlineDisabledBorderColor = "#1f1f1f1f";
+const semanticFontsContentTextDefaultTitleLarge = {"0":"{","1":"t","2":"i","3":"t","4":"l","5":"e","6":".","7":"l","8":"a","9":"r","10":"g","11":"e","12":"}"};
+const semanticFontsContentTextDefaultBodyLarge = {"0":"{","1":"b","2":"o","3":"d","4":"y","5":".","6":"l","7":"a","8":"r","9":"g","10":"e","11":"}"};
+const semanticBorderSurfaceBorderRadiusDefaultNone = "0px";
+const semanticBorderSurfaceBorderRadiusDefaultXl = "30px";
+const semanticShadowSurfaceDropShadowDefault1 = {"0":"{","1":"d","2":"r","3":"o","4":"p","5":".","6":"s","7":"h","8":"a","9":"d","10":"o","11":"w","12":".","13":"d","14":"e","15":"f","16":"a","17":"u","18":"l","19":"t","20":"}"};
+const cardTextDefaultBodyLarge = {"0":"{","1":"s","2":"e","3":"m","4":"a","5":"n","6":"t","7":"i","8":"c","9":".","10":"f","11":"o","12":"n","13":"t","14":"s","15":".","16":"c","17":"o","18":"n","19":"t","20":"e","21":"n","22":"t","23":".","24":"t","25":"e","26":"x","27":"t","28":".","29":"d","30":"e","31":"f","32":"a","33":"u","34":"l","35":"t","36":".","37":"b","38":"o","39":"d","40":"y","41":".","42":"l","43":"a","44":"r","45":"g","46":"e","47":"}"};
+const cardTextDefaultTitleLarge = {"0":"{","1":"s","2":"e","3":"m","4":"a","5":"n","6":"t","7":"i","8":"c","9":".","10":"f","11":"o","12":"n","13":"t","14":"s","15":".","16":"c","17":"o","18":"n","19":"t","20":"e","21":"n","22":"t","23":".","24":"t","25":"e","26":"x","27":"t","28":".","29":"d","30":"e","31":"f","32":"a","33":"u","34":"l","35":"t","36":".","37":"t","38":"i","39":"t","40":"l","41":"e","42":".","43":"l","44":"a","45":"r","46":"g","47":"e","48":"}"};
 const buttonButtonFilledDefaultBgColor = "#6750a4";
 const buttonButtonFilledDefaultFgColor = "#ffffff";
+const buttonButtonFilledDefaultBorderRadius = "30px";
 const buttonButtonFilledHoverBgColor = "#735EAB";
 const buttonButtonFilledHoverFgColor = "#ffffff";
 const buttonButtonFilledFocusedBgColor = "#7965AF";
@@ -176,6 +184,7 @@ const buttonButtonFilledDisabledFgColor = "#1c1b1f61";
 const buttonButtonOutlineDefaultBgColor = "#ffffff";
 const buttonButtonOutlineDefaultFgColor = "#6750a4";
 const buttonButtonOutlineDefaultBorderColor = "#79747e";
+const buttonButtonOutlineDefaultBorderRadius = "0px";
 const buttonButtonOutlineHoverBgColor = "#6750a414";
 const buttonButtonOutlineHoverFgColor = "#6750a4";
 const buttonButtonOutlineHoverBorderColor = "#79747e";
@@ -193,9 +202,7 @@ const xlRight = "24px";
 const mTop = "10px";
 const mBottom = "10px";
 const mGap = "4px";
-const dropShadow1Default = {"x":1,"y":2,"blur":3,"spread":0,"color":"#0000004d","type":"dropShadow"};
-const dropShadow1Default1 = {"x":1,"y":0,"blur":2,"spread":0,"color":"#0000004d","type":"dropShadow"};
-const dropShadow2Default = {"x":"","y":1,"blur":3,"spread":1,"color":"#00000026","type":"dropShadow"};
+const dropShadowDefault = {"x":1,"y":2,"blur":3,"spread":0,"color":"#0000004d","type":"dropShadow"};
 const labelLabelFilledDefaultBgColor = "#6750a4";
 const labelLabelFilledDefaultFgColor = "#ffffff";
 const labelLabelFilledHoverBgColor = "#735EAB";
@@ -222,5 +229,5 @@ const labelLabelOutlineDisabledBgColor = "#ffffff";
 const labelLabelOutlineDisabledFgColor = "#1c1b1f61";
 const labelLabelOutlineDisabledBorderColor = "#1f1f1f1f";
 
-export { backgroundDark, blue100, blue200, blue300, blue400, blue500, blue600, blue700, blue800, blue900, bodyLarge, bodyLargeItalic, bodyLargeLight, bodyLargeLightItalic, bodyMedium, bodySmall, borderRadiusDefault, borderRadiusRound, buttonButtonFilledDefaultBgColor, buttonButtonFilledDefaultFgColor, buttonButtonFilledDisabledBgColor, buttonButtonFilledDisabledFgColor, buttonButtonFilledFocusedBgColor, buttonButtonFilledFocusedFgColor, buttonButtonFilledHoverBgColor, buttonButtonFilledHoverFgColor, buttonButtonFilledPressedBgColor, buttonButtonFilledPressedFgColor, buttonButtonOutlineDefaultBgColor, buttonButtonOutlineDefaultBorderColor, buttonButtonOutlineDefaultFgColor, buttonButtonOutlineDisabledBgColor, buttonButtonOutlineDisabledBorderColor, buttonButtonOutlineDisabledFgColor, buttonButtonOutlineFocusedBgColor, buttonButtonOutlineFocusedBorderColor, buttonButtonOutlineFocusedFgColor, buttonButtonOutlineHoverBgColor, buttonButtonOutlineHoverBorderColor, buttonButtonOutlineHoverFgColor, buttonButtonOutlinePressedBgColor, buttonButtonOutlinePressedBorderColor, buttonButtonOutlinePressedFgColor, displayLarge, displayMedium, displaySmall, dropShadow1Default, dropShadow1Default1, dropShadow2Default, fontFamiliesDefault, fontSize11, fontSize12, fontSize14, fontSize16, fontSize20, fontSize24, fontSize28, fontSize32, fontSize48, fontSize64, fontWeightsBold, fontWeightsItalic, fontWeightsLight, fontWeightsLightItalic, fontWeightsRegular, fontWeightsSemibold, green100, green200, green300, green400, green500, green600, green700, green800, green900, headlineLarge, headlineMedium, headlineSmall, iconButtonButtonFilledDefaultIconSize, labelLabelFilledDefaultBgColor, labelLabelFilledDefaultFgColor, labelLabelFilledDisabledBgColor, labelLabelFilledDisabledFgColor, labelLabelFilledFocusedBgColor, labelLabelFilledFocusedFgColor, labelLabelFilledHoverBgColor, labelLabelFilledHoverFgColor, labelLabelFilledPressedBgColor, labelLabelFilledPressedFgColor, labelLabelOutlineDefaultBgColor, labelLabelOutlineDefaultBorderColor, labelLabelOutlineDefaultFgColor, labelLabelOutlineDisabledBgColor, labelLabelOutlineDisabledBorderColor, labelLabelOutlineDisabledFgColor, labelLabelOutlineFocusedBgColor, labelLabelOutlineFocusedBorderColor, labelLabelOutlineFocusedFgColor, labelLabelOutlineHoverBgColor, labelLabelOutlineHoverBorderColor, labelLabelOutlineHoverFgColor, labelLabelOutlinePressedBgColor, labelLabelOutlinePressedBorderColor, labelLabelOutlinePressedFgColor, labelLarge, labelMedium, labelSmall, letterSpacing0, letterSpacing01, letterSpacing05, letterSpacing43, lineHeights16, lineHeights20, lineHeights24, lineHeights28, lineHeights32, lineHeights36, lineHeights44, lineHeights66, lineHeights90, m, mBottom, mGap, mTop, magenta100, magenta200, magenta300, magenta400, magenta500, magenta600, magenta700, magenta800, magenta900, neutralBackground, neutralDeactive, neutralWhite, overline, palette70, palette90, paragraphSpacing0, pink100, pink200, pink300, pink400, pink500, pink600, pink700, pink800, pink900, purple100, purple200, purple300, purple400, purple500, purple600, purple700, purple800, purple900, s, semanticColorActionsFilledDefaultBgColor, semanticColorActionsFilledDefaultFgColor, semanticColorActionsFilledDisabledBgColor, semanticColorActionsFilledDisabledFgColor, semanticColorActionsFilledFocusedBgColor, semanticColorActionsFilledFocusedFgColor, semanticColorActionsFilledHoverBgColor, semanticColorActionsFilledHoverFgColor, semanticColorActionsFilledPressedBgColor, semanticColorActionsFilledPressedFgColor, semanticColorActionsOutlineDefaultBgColor, semanticColorActionsOutlineDefaultBorderColor, semanticColorActionsOutlineDefaultFgColor, semanticColorActionsOutlineDisabledBgColor, semanticColorActionsOutlineDisabledBorderColor, semanticColorActionsOutlineDisabledFgColor, semanticColorActionsOutlineFocusedBgColor, semanticColorActionsOutlineFocusedBorderColor, semanticColorActionsOutlineFocusedFgColor, semanticColorActionsOutlineHoverBgColor, semanticColorActionsOutlineHoverBorderColor, semanticColorActionsOutlineHoverFgColor, semanticColorActionsOutlinePressedBgColor, semanticColorActionsOutlinePressedBorderColor, semanticColorActionsOutlinePressedFgColor, signalNegative, signalPositive, spaceM, spaceSizeLarge, spaceSizeSmall, textCaseNone, textCaseUppercase, textDecorationNone, titleLarge, titleMedium, titleSmall, whiteLabelMdBlack400, whiteLabelMdBlack500, whiteLabelMdGray012, whiteLabelMdGray038, whiteLabelMdGray100, whiteLabelMdGray200, whiteLabelMdGray500, whiteLabelMdPurple008, whiteLabelMdPurple012, whiteLabelMdPurple100, whiteLabelMdPurple300, whiteLabelMdPurple400, whiteLabelMdPurple50, whiteLabelMdPurple500, whiteLabelMdPurpleTonal100, whiteLabelMdPurpleTonal200, whiteLabelMdPurpleTonal300, xl, xlLeft, xlRight, xs, xxl, xxs };
+export { backgroundDark, blue100, blue200, blue300, blue400, blue500, blue600, blue700, blue800, blue900, bodyLarge, bodyLargeItalic, bodyLargeLight, bodyLargeLightItalic, bodyMedium, bodySmall, borderRadiusNone, borderRadiusXl, buttonButtonFilledDefaultBgColor, buttonButtonFilledDefaultBorderRadius, buttonButtonFilledDefaultFgColor, buttonButtonFilledDisabledBgColor, buttonButtonFilledDisabledFgColor, buttonButtonFilledFocusedBgColor, buttonButtonFilledFocusedFgColor, buttonButtonFilledHoverBgColor, buttonButtonFilledHoverFgColor, buttonButtonFilledPressedBgColor, buttonButtonFilledPressedFgColor, buttonButtonOutlineDefaultBgColor, buttonButtonOutlineDefaultBorderColor, buttonButtonOutlineDefaultBorderRadius, buttonButtonOutlineDefaultFgColor, buttonButtonOutlineDisabledBgColor, buttonButtonOutlineDisabledBorderColor, buttonButtonOutlineDisabledFgColor, buttonButtonOutlineFocusedBgColor, buttonButtonOutlineFocusedBorderColor, buttonButtonOutlineFocusedFgColor, buttonButtonOutlineHoverBgColor, buttonButtonOutlineHoverBorderColor, buttonButtonOutlineHoverFgColor, buttonButtonOutlinePressedBgColor, buttonButtonOutlinePressedBorderColor, buttonButtonOutlinePressedFgColor, cardTextDefaultBodyLarge, cardTextDefaultTitleLarge, displayLarge, displayMedium, displaySmall, dropShadowDefault, fontFamiliesDefault, fontSize11, fontSize12, fontSize14, fontSize16, fontSize20, fontSize24, fontSize28, fontSize32, fontSize48, fontSize64, fontWeightsBold, fontWeightsItalic, fontWeightsLight, fontWeightsLightItalic, fontWeightsRegular, fontWeightsSemibold, green100, green200, green300, green400, green500, green600, green700, green800, green900, headlineLarge, headlineMedium, headlineSmall, iconButtonButtonFilledDefaultIconSize, l, labelLabelFilledDefaultBgColor, labelLabelFilledDefaultFgColor, labelLabelFilledDisabledBgColor, labelLabelFilledDisabledFgColor, labelLabelFilledFocusedBgColor, labelLabelFilledFocusedFgColor, labelLabelFilledHoverBgColor, labelLabelFilledHoverFgColor, labelLabelFilledPressedBgColor, labelLabelFilledPressedFgColor, labelLabelOutlineDefaultBgColor, labelLabelOutlineDefaultBorderColor, labelLabelOutlineDefaultFgColor, labelLabelOutlineDisabledBgColor, labelLabelOutlineDisabledBorderColor, labelLabelOutlineDisabledFgColor, labelLabelOutlineFocusedBgColor, labelLabelOutlineFocusedBorderColor, labelLabelOutlineFocusedFgColor, labelLabelOutlineHoverBgColor, labelLabelOutlineHoverBorderColor, labelLabelOutlineHoverFgColor, labelLabelOutlinePressedBgColor, labelLabelOutlinePressedBorderColor, labelLabelOutlinePressedFgColor, labelLarge, labelMedium, labelSmall, letterSpacing0, letterSpacing01, letterSpacing05, letterSpacing43, lineHeights16, lineHeights20, lineHeights24, lineHeights28, lineHeights32, lineHeights36, lineHeights44, lineHeights66, lineHeights90, m, mBottom, mGap, mTop, magenta100, magenta200, magenta300, magenta400, magenta500, magenta600, magenta700, magenta800, magenta900, neutralBackground, neutralDeactive, neutralWhite, overline, palette70, palette90, paragraphSpacing0, pink100, pink200, pink300, pink400, pink500, pink600, pink700, pink800, pink900, purple100, purple200, purple300, purple400, purple500, purple600, purple700, purple800, purple900, s, semanticBorderSurfaceBorderRadiusDefaultNone, semanticBorderSurfaceBorderRadiusDefaultXl, semanticColorActionsFilledDefaultBgColor, semanticColorActionsFilledDefaultFgColor, semanticColorActionsFilledDisabledBgColor, semanticColorActionsFilledDisabledFgColor, semanticColorActionsFilledFocusedBgColor, semanticColorActionsFilledFocusedFgColor, semanticColorActionsFilledHoverBgColor, semanticColorActionsFilledHoverFgColor, semanticColorActionsFilledPressedBgColor, semanticColorActionsFilledPressedFgColor, semanticColorActionsOutlineDefaultBgColor, semanticColorActionsOutlineDefaultBorderColor, semanticColorActionsOutlineDefaultFgColor, semanticColorActionsOutlineDisabledBgColor, semanticColorActionsOutlineDisabledBorderColor, semanticColorActionsOutlineDisabledFgColor, semanticColorActionsOutlineFocusedBgColor, semanticColorActionsOutlineFocusedBorderColor, semanticColorActionsOutlineFocusedFgColor, semanticColorActionsOutlineHoverBgColor, semanticColorActionsOutlineHoverBorderColor, semanticColorActionsOutlineHoverFgColor, semanticColorActionsOutlinePressedBgColor, semanticColorActionsOutlinePressedBorderColor, semanticColorActionsOutlinePressedFgColor, semanticFontsContentTextDefaultBodyLarge, semanticFontsContentTextDefaultTitleLarge, semanticShadowSurfaceDropShadowDefault1, signalNegative, signalPositive, spaceM, spaceSizeLarge, spaceSizeSmall, textCaseNone, textCaseUppercase, textDecorationNone, titleLarge, titleMedium, titleSmall, whiteLabelMdBlack400, whiteLabelMdBlack500, whiteLabelMdGray012, whiteLabelMdGray038, whiteLabelMdGray100, whiteLabelMdGray200, whiteLabelMdGray500, whiteLabelMdPurple008, whiteLabelMdPurple012, whiteLabelMdPurple100, whiteLabelMdPurple300, whiteLabelMdPurple400, whiteLabelMdPurple50, whiteLabelMdPurple500, whiteLabelMdPurpleTonal100, whiteLabelMdPurpleTonal200, whiteLabelMdPurpleTonal300, xl, xlLeft, xlRight, xs, xxs };
 //# sourceMappingURL=design-tokens.js.map

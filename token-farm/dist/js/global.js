@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 01 Jul 2022 15:42:16 GMT
+ * Generated on Tue, 05 Jul 2022 13:03:32 GMT
  */
 
 export const magenta100 = "#fde8f2";
@@ -55,15 +55,15 @@ export const xxs = 4;
 export const xs = 8;
 export const s = 12;
 export const m = 16;
-export const xl = 24;
-export const xxl = 64;
+export const l = 24;
+export const xl = 64;
 export const neutralWhite = "#ffffff";
 export const neutralBackground = "#edeef0";
 export const neutralDeactive = "#b5bbc2";
 export const palette70 = "#9198a4";
 export const palette90 = "#dadde1";
-export const borderRadiusDefault = "0px";
-export const borderRadiusRound = "30px";
+export const borderRadiusNone = "0px";
+export const borderRadiusXl = "30px";
 export const spaceSizeLarge = 24;
 export const spaceSizeSmall = 8;
 export const spaceM = "16px";
@@ -163,8 +163,16 @@ export const semanticColorActionsOutlinePressedBorderColor = "#79747e";
 export const semanticColorActionsOutlineDisabledBgColor = "#ffffff";
 export const semanticColorActionsOutlineDisabledFgColor = "#1c1b1f61";
 export const semanticColorActionsOutlineDisabledBorderColor = "#1f1f1f1f";
+export const semanticFontsContentTextDefaultTitleLarge = {"0":"{","1":"t","2":"i","3":"t","4":"l","5":"e","6":".","7":"l","8":"a","9":"r","10":"g","11":"e","12":"}"};
+export const semanticFontsContentTextDefaultBodyLarge = {"0":"{","1":"b","2":"o","3":"d","4":"y","5":".","6":"l","7":"a","8":"r","9":"g","10":"e","11":"}"};
+export const semanticBorderSurfaceBorderRadiusDefaultNone = "0px";
+export const semanticBorderSurfaceBorderRadiusDefaultXl = "30px";
+export const semanticShadowSurfaceDropShadowDefault1 = {"0":"{","1":"d","2":"r","3":"o","4":"p","5":".","6":"s","7":"h","8":"a","9":"d","10":"o","11":"w","12":".","13":"d","14":"e","15":"f","16":"a","17":"u","18":"l","19":"t","20":"}"};
+export const cardTextDefaultBodyLarge = {"0":"{","1":"s","2":"e","3":"m","4":"a","5":"n","6":"t","7":"i","8":"c","9":".","10":"f","11":"o","12":"n","13":"t","14":"s","15":".","16":"c","17":"o","18":"n","19":"t","20":"e","21":"n","22":"t","23":".","24":"t","25":"e","26":"x","27":"t","28":".","29":"d","30":"e","31":"f","32":"a","33":"u","34":"l","35":"t","36":".","37":"b","38":"o","39":"d","40":"y","41":".","42":"l","43":"a","44":"r","45":"g","46":"e","47":"}"};
+export const cardTextDefaultTitleLarge = {"0":"{","1":"s","2":"e","3":"m","4":"a","5":"n","6":"t","7":"i","8":"c","9":".","10":"f","11":"o","12":"n","13":"t","14":"s","15":".","16":"c","17":"o","18":"n","19":"t","20":"e","21":"n","22":"t","23":".","24":"t","25":"e","26":"x","27":"t","28":".","29":"d","30":"e","31":"f","32":"a","33":"u","34":"l","35":"t","36":".","37":"t","38":"i","39":"t","40":"l","41":"e","42":".","43":"l","44":"a","45":"r","46":"g","47":"e","48":"}"};
 export const buttonButtonFilledDefaultBgColor = "#6750a4";
 export const buttonButtonFilledDefaultFgColor = "#ffffff";
+export const buttonButtonFilledDefaultBorderRadius = "30px";
 export const buttonButtonFilledHoverBgColor = "#735EAB";
 export const buttonButtonFilledHoverFgColor = "#ffffff";
 export const buttonButtonFilledFocusedBgColor = "#7965AF";
@@ -176,6 +184,7 @@ export const buttonButtonFilledDisabledFgColor = "#1c1b1f61";
 export const buttonButtonOutlineDefaultBgColor = "#ffffff";
 export const buttonButtonOutlineDefaultFgColor = "#6750a4";
 export const buttonButtonOutlineDefaultBorderColor = "#79747e";
+export const buttonButtonOutlineDefaultBorderRadius = "0px";
 export const buttonButtonOutlineHoverBgColor = "#6750a414";
 export const buttonButtonOutlineHoverFgColor = "#6750a4";
 export const buttonButtonOutlineHoverBorderColor = "#79747e";
@@ -193,9 +202,7 @@ export const xlRight = "24px";
 export const mTop = "10px";
 export const mBottom = "10px";
 export const mGap = "4px";
-export const dropShadow1Default = {"x":1,"y":2,"blur":3,"spread":0,"color":"#0000004d","type":"dropShadow"};
-export const dropShadow1Default1 = {"x":1,"y":0,"blur":2,"spread":0,"color":"#0000004d","type":"dropShadow"};
-export const dropShadow2Default = {"x":"","y":1,"blur":3,"spread":1,"color":"#00000026","type":"dropShadow"};
+export const dropShadowDefault = {"x":1,"y":2,"blur":3,"spread":0,"color":"#0000004d","type":"dropShadow"};
 export const labelLabelFilledDefaultBgColor = "#6750a4";
 export const labelLabelFilledDefaultFgColor = "#ffffff";
 export const labelLabelFilledHoverBgColor = "#735EAB";
