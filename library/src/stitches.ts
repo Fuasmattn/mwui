@@ -1,8 +1,6 @@
 import { createStitches } from "@stitches/react";
 import {
   fontFamiliesDefault,
-  borderRadiusDefault,
-  borderRadiusRound,
   xxs,
   xs,
   s,
@@ -25,10 +23,6 @@ const stitches = createStitches({
     },
     fonts: {
       default: fontFamiliesDefault,
-    },
-    radii: {
-      default: borderRadiusDefault,
-      round: borderRadiusRound,
     },
   },
 });

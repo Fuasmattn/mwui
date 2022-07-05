@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { displayLarge, displayMedium, displaySmall, headlineLarge, headlineMedium, headlineSmall, titleLarge, titleMedium, titleSmall, labelLarge, labelMedium, labelSmall, bodyLarge, bodyMedium, bodySmall, overline, xxs, xs, s, m, l, xl, xxl, fontFamiliesDefault, borderRadiusDefault, borderRadiusRound, buttonButtonFilledDefaultBgColor, buttonButtonFilledDefaultFgColor, buttonButtonFilledFocusedBgColor, buttonButtonFilledDefaultBorderRadius, buttonButtonFilledHoverBgColor, buttonButtonFilledHoverFgColor, buttonButtonFilledFocusedFgColor, buttonButtonFilledDisabledBgColor, buttonButtonFilledDisabledFgColor, buttonButtonOutlineDefaultBgColor, buttonButtonOutlineDefaultFgColor, buttonButtonOutlineDefaultBorderColor, buttonButtonOutlineDefaultBorderRadius, buttonButtonOutlineHoverBgColor, buttonButtonOutlineHoverFgColor, buttonButtonOutlineHoverBorderColor, buttonButtonOutlineFocusedBgColor, buttonButtonOutlineFocusedFgColor, buttonButtonOutlineFocusedBorderColor, dropShadowDefault } from '@fuasmattn/mwui-token-farm';
+import { displayLarge, displayMedium, displaySmall, headlineLarge, headlineMedium, headlineSmall, titleLarge, titleMedium, titleSmall, labelLarge, labelMedium, labelSmall, bodyLarge, bodyMedium, bodySmall, overline, xxs, xs, s, m, l, xl, xxl, fontFamiliesDefault, buttonButtonFilledDefaultBgColor, buttonButtonFilledDefaultFgColor, buttonButtonFilledFocusedBgColor, buttonButtonFilledDefaultBorderRadius, buttonButtonFilledHoverBgColor, buttonButtonFilledHoverFgColor, buttonButtonFilledFocusedFgColor, buttonButtonFilledDisabledBgColor, buttonButtonFilledDisabledFgColor, buttonButtonOutlineDefaultBgColor, buttonButtonOutlineDefaultFgColor, buttonButtonOutlineDefaultBorderColor, buttonButtonOutlineDefaultBorderRadius, buttonButtonOutlineHoverBgColor, buttonButtonOutlineHoverFgColor, buttonButtonOutlineHoverBorderColor, buttonButtonOutlineFocusedBgColor, buttonButtonOutlineFocusedFgColor, buttonButtonOutlineFocusedBorderColor, dropShadowDefault } from '@fuasmattn/mwui-token-farm';
 import { createStitches } from '@stitches/react';
 
 var propTypes = {exports: {}};
@@ -1444,10 +1444,6 @@ const stitches = createStitches({
     },
     fonts: {
       default: fontFamiliesDefault
-    },
-    radii: {
-      default: borderRadiusDefault,
-      round: borderRadiusRound
     }
   }
 });
