@@ -299,61 +299,121 @@
   }
 
 .p-xl {
-  padding: 64px;
+  padding: 40pxpx;
   }
 
 .pl-xl {
-  padding-left: 64px;
+  padding-left: 40pxpx;
   }
 
 .pr-xl {
-  padding-right: 64px;
+  padding-right: 40pxpx;
   }
 
 .pt-xl {
-  padding-top: 64px;
+  padding-top: 40pxpx;
   }
 
 .pb-xl {
-  padding-bottom: 64px;
+  padding-bottom: 40pxpx;
   }
 
 .px-xl {
+  padding-left: 40pxpx;
+  padding-right: 40pxpx;
+  }
+
+.py-xl {
+  padding-top: 40pxpx;
+  padding-bottom: 40pxpx;
+  }
+
+.m-xl {
+  margin: 40pxpx;
+  }
+
+.ml-xl {
+  margin-left: 40pxpx;
+  }
+
+.mr-xl {
+  margin-right: 40pxpx;
+  }
+
+.mt-xl {
+  margin-top: 40pxpx;
+  }
+
+.mb-xl {
+  margin-bottom: 40pxpx;
+  }
+
+.mx-xl {
+  margin-left: 40pxpx;
+  margin-right: 40pxpx;
+  }
+
+.my-xl {
+  margin-top: 40pxpx;
+  margin-bottom: 40pxpx;
+  }
+
+.p-xxl {
+  padding: 64px;
+  }
+
+.pl-xxl {
+  padding-left: 64px;
+  }
+
+.pr-xxl {
+  padding-right: 64px;
+  }
+
+.pt-xxl {
+  padding-top: 64px;
+  }
+
+.pb-xxl {
+  padding-bottom: 64px;
+  }
+
+.px-xxl {
   padding-left: 64px;
   padding-right: 64px;
   }
 
-.py-xl {
+.py-xxl {
   padding-top: 64px;
   padding-bottom: 64px;
   }
 
-.m-xl {
+.m-xxl {
   margin: 64px;
   }
 
-.ml-xl {
+.ml-xxl {
   margin-left: 64px;
   }
 
-.mr-xl {
+.mr-xxl {
   margin-right: 64px;
   }
 
-.mt-xl {
+.mt-xxl {
   margin-top: 64px;
   }
 
-.mb-xl {
+.mb-xxl {
   margin-bottom: 64px;
   }
 
-.mx-xl {
+.mx-xxl {
   margin-left: 64px;
   margin-right: 64px;
   }
 
-.my-xl {
+.my-xxl {
   margin-top: 64px;
   margin-bottom: 64px;
   }

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 05 Jul 2022 13:03:32 GMT
+ * Generated on Tue, 05 Jul 2022 14:17:19 GMT
  */
 
 declare module 'design-tokens' {
@@ -58,6 +58,7 @@ declare module 'design-tokens' {
   export const m: string;
   export const l: string;
   export const xl: string;
+  export const xxl: string;
   export const neutralWhite: string;
   export const neutralBackground: string;
   export const neutralDeactive: string;
@@ -165,12 +166,14 @@ declare module 'design-tokens' {
   export const semanticColorActionsOutlineDisabledFgColor: string;
   export const semanticColorActionsOutlineDisabledBorderColor: string;
   export const semanticFontsContentTextDefaultTitleLarge: string;
+  export const semanticFontsContentTextDefaultTitleMedium: string;
   export const semanticFontsContentTextDefaultBodyLarge: string;
+  export const semanticFontsContentTextDefaultDisplayMedium: string;
   export const semanticBorderSurfaceBorderRadiusDefaultNone: string;
   export const semanticBorderSurfaceBorderRadiusDefaultXl: string;
   export const semanticShadowSurfaceDropShadowDefault1: string;
-  export const cardTextDefaultBodyLarge: string;
   export const cardTextDefaultTitleLarge: string;
+  export const cardTextDefaultBodyLarge: string;
   export const buttonButtonFilledDefaultBgColor: string;
   export const buttonButtonFilledDefaultFgColor: string;
   export const buttonButtonFilledDefaultBorderRadius: string;
@@ -229,5 +232,7 @@ declare module 'design-tokens' {
   export const labelLabelOutlineDisabledBgColor: string;
   export const labelLabelOutlineDisabledFgColor: string;
   export const labelLabelOutlineDisabledBorderColor: string;
+  export const openerTextDefaultDisplayMedium: string;
+  export const openerTextDefaultTitleMedium: string;
 
 }
