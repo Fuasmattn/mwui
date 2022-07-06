@@ -3970,12 +3970,12 @@
               ]
             },
             "xl": {
-              "value": "0px",
+              "value": "30px",
               "type": "borderRadius",
               "filePath": "input/global.json",
               "isSource": true,
               "original": {
-                "value": "0px",
+                "value": "30px",
                 "type": "borderRadius"
               },
               "name": "semantic-border-surface-border-radius-default-xl",
@@ -4386,12 +4386,12 @@
           ]
         },
         "border-radius": {
-          "value": "0px",
+          "value": "30px",
           "type": "borderRadius",
           "filePath": "input/global.json",
           "isSource": true,
           "original": {
-            "value": "0px",
+            "value": "30px",
             "type": "borderRadius"
           },
           "name": "button-button-filled-default-border-radius",
@@ -4674,12 +4674,12 @@
           ]
         },
         "border-radius": {
-          "value": "0px",
+          "value": "30px",
           "type": "borderRadius",
           "filePath": "input/global.json",
           "isSource": true,
           "original": {
-            "value": "0px",
+            "value": "30px",
             "type": "borderRadius"
           },
           "name": "button-button-outline-default-border-radius",

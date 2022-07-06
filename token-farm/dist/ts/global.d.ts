@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 06 Jul 2022 10:41:25 GMT
+ * Generated on Wed, 06 Jul 2022 10:46:48 GMT
  */
 
 declare module 'design-tokens' {
