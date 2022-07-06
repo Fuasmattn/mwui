@@ -941,25 +941,6 @@
                   "12": "}"
                 },
                 "type": "typography"
-              },
-              "medium": {
-                "value": {
-                  "0": "{",
-                  "1": "t",
-                  "2": "i",
-                  "3": "t",
-                  "4": "l",
-                  "5": "e",
-                  "6": ".",
-                  "7": "m",
-                  "8": "e",
-                  "9": "d",
-                  "10": "i",
-                  "11": "u",
-                  "12": "m",
-                  "13": "}"
-                },
-                "type": "typography"
               }
             },
             "body": {
@@ -1017,7 +998,7 @@
               "type": "borderRadius"
             },
             "xl": {
-              "value": "30px",
+              "value": "0px",
               "type": "borderRadius"
             }
           }
@@ -1188,7 +1169,7 @@
           "value": "#ffffff"
         },
         "border-radius": {
-          "value": "30px",
+          "value": "0px",
           "type": "borderRadius"
         }
       },
@@ -1248,7 +1229,7 @@
           "value": "#79747e"
         },
         "border-radius": {
-          "value": "30px",
+          "value": "0px",
           "type": "borderRadius"
         }
       },
@@ -1534,7 +1515,7 @@
           }
         },
         "title": {
-          "medium": {
+          "large": {
             "value": {
               "0": "{",
               "1": "s",
@@ -1579,13 +1560,12 @@
               "40": "l",
               "41": "e",
               "42": ".",
-              "43": "m",
-              "44": "e",
-              "45": "d",
-              "46": "i",
-              "47": "u",
-              "48": "m",
-              "49": "}"
+              "43": "l",
+              "44": "a",
+              "45": "r",
+              "46": "g",
+              "47": "e",
+              "48": "}"
             },
             "type": "typography"
           }

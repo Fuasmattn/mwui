@@ -3815,63 +3815,6 @@
                   "title",
                   "large"
                 ]
-              },
-              "medium": {
-                "value": {
-                  "0": "{",
-                  "1": "t",
-                  "2": "i",
-                  "3": "t",
-                  "4": "l",
-                  "5": "e",
-                  "6": ".",
-                  "7": "m",
-                  "8": "e",
-                  "9": "d",
-                  "10": "i",
-                  "11": "u",
-                  "12": "m",
-                  "13": "}"
-                },
-                "type": "typography",
-                "filePath": "input/global.json",
-                "isSource": true,
-                "original": {
-                  "value": {
-                    "0": "{",
-                    "1": "t",
-                    "2": "i",
-                    "3": "t",
-                    "4": "l",
-                    "5": "e",
-                    "6": ".",
-                    "7": "m",
-                    "8": "e",
-                    "9": "d",
-                    "10": "i",
-                    "11": "u",
-                    "12": "m",
-                    "13": "}"
-                  },
-                  "type": "typography"
-                },
-                "name": "semantic-fonts-content-text-default-title-medium",
-                "attributes": {
-                  "category": "semantic",
-                  "type": "fonts",
-                  "item": "content",
-                  "subitem": "text",
-                  "state": "default"
-                },
-                "path": [
-                  "semantic",
-                  "fonts",
-                  "content",
-                  "text",
-                  "default",
-                  "title",
-                  "medium"
-                ]
               }
             },
             "body": {
@@ -4027,12 +3970,12 @@
               ]
             },
             "xl": {
-              "value": "30px",
+              "value": "0px",
               "type": "borderRadius",
               "filePath": "input/global.json",
               "isSource": true,
               "original": {
-                "value": "30px",
+                "value": "0px",
                 "type": "borderRadius"
               },
               "name": "semantic-border-surface-border-radius-default-xl",
@@ -4443,12 +4386,12 @@
           ]
         },
         "border-radius": {
-          "value": "30px",
+          "value": "0px",
           "type": "borderRadius",
           "filePath": "input/global.json",
           "isSource": true,
           "original": {
-            "value": "30px",
+            "value": "0px",
             "type": "borderRadius"
           },
           "name": "button-button-filled-default-border-radius",
@@ -4731,12 +4674,12 @@
           ]
         },
         "border-radius": {
-          "value": "30px",
+          "value": "0px",
           "type": "borderRadius",
           "filePath": "input/global.json",
           "isSource": true,
           "original": {
-            "value": "30px",
+            "value": "0px",
             "type": "borderRadius"
           },
           "name": "button-button-outline-default-border-radius",
@@ -5902,7 +5845,7 @@
           }
         },
         "title": {
-          "medium": {
+          "large": {
             "value": {
               "0": "{",
               "1": "s",
@@ -5947,13 +5890,12 @@
               "40": "l",
               "41": "e",
               "42": ".",
-              "43": "m",
-              "44": "e",
-              "45": "d",
-              "46": "i",
-              "47": "u",
-              "48": "m",
-              "49": "}"
+              "43": "l",
+              "44": "a",
+              "45": "r",
+              "46": "g",
+              "47": "e",
+              "48": "}"
             },
             "type": "typography",
             "filePath": "input/global.json",
@@ -6003,30 +5945,29 @@
                 "40": "l",
                 "41": "e",
                 "42": ".",
-                "43": "m",
-                "44": "e",
-                "45": "d",
-                "46": "i",
-                "47": "u",
-                "48": "m",
-                "49": "}"
+                "43": "l",
+                "44": "a",
+                "45": "r",
+                "46": "g",
+                "47": "e",
+                "48": "}"
               },
               "type": "typography"
             },
-            "name": "opener-text-default-title-medium",
+            "name": "opener-text-default-title-large",
             "attributes": {
               "category": "opener",
               "type": "text",
               "item": "default",
               "subitem": "title",
-              "state": "medium"
+              "state": "large"
             },
             "path": [
               "opener",
               "text",
               "default",
               "title",
-              "medium"
+              "large"
             ]
           }
         }
