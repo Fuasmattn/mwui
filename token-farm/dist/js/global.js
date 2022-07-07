@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 07 Jul 2022 18:47:54 GMT
+ * Generated on Thu, 07 Jul 2022 20:07:09 GMT
  */
 
 export const magenta100 = "#fde8f2";
@@ -165,7 +165,7 @@ export const semanticColorActionsOutlineDisabledBgColor = "#ffffff";
 export const semanticColorActionsOutlineDisabledFgColor = "#1c1b1f61";
 export const semanticColorActionsOutlineDisabledBorderColor = "#1f1f1f1f";
 export const semanticFontsContentTextDefaultTitleLarge = {"0":"{","1":"t","2":"i","3":"t","4":"l","5":"e","6":".","7":"l","8":"a","9":"r","10":"g","11":"e","12":"}"};
-export const semanticFontsContentTextDefaultTitleBeispiel = {"0":"{","1":"t","2":"i","3":"t","4":"l","5":"e","6":".","7":"s","8":"m","9":"a","10":"l","11":"l","12":"}"};
+export const semanticFontsContentTextDefaultTitleBeispiel = {"0":"{","1":"d","2":"i","3":"s","4":"p","5":"l","6":"a","7":"y","8":".","9":"l","10":"a","11":"r","12":"g","13":"e","14":"}"};
 export const semanticFontsContentTextDefaultBodyLarge = {"0":"{","1":"b","2":"o","3":"d","4":"y","5":".","6":"l","7":"a","8":"r","9":"g","10":"e","11":"}"};
 export const semanticFontsContentTextDefaultDisplayMedium = {"0":"{","1":"d","2":"i","3":"s","4":"p","5":"l","6":"a","7":"y","8":".","9":"m","10":"e","11":"d","12":"i","13":"u","14":"m","15":"}"};
 export const semanticBorderSurfaceBorderRadiusDefaultNone = "0px";
