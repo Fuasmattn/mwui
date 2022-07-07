@@ -1347,43 +1347,6 @@
         "large"
       ]
     },
-    "small": {
-      "value": {
-        "fontFamily": "Poppins",
-        "fontWeight": "SemiBold",
-        "lineHeight": 44,
-        "fontSize": 32,
-        "letterSpacing": 0,
-        "paragraphSpacing": 0,
-        "textCase": "none",
-        "textDecoration": "none"
-      },
-      "type": "typography",
-      "filePath": "input/global.json",
-      "isSource": true,
-      "original": {
-        "value": {
-          "fontFamily": "Poppins",
-          "fontWeight": "SemiBold",
-          "lineHeight": 44,
-          "fontSize": 32,
-          "letterSpacing": 0,
-          "paragraphSpacing": 0,
-          "textCase": "none",
-          "textDecoration": "none"
-        },
-        "type": "typography"
-      },
-      "name": "display-small",
-      "attributes": {
-        "category": "display",
-        "type": "small"
-      },
-      "path": [
-        "display",
-        "small"
-      ]
-    },
     "medium": {
       "value": {
         "fontFamily": "Poppins",
@@ -1419,6 +1382,43 @@
       "path": [
         "display",
         "medium"
+      ]
+    },
+    "small": {
+      "value": {
+        "fontFamily": "Poppins",
+        "fontWeight": "SemiBold",
+        "lineHeight": 44,
+        "fontSize": 32,
+        "letterSpacing": 0,
+        "paragraphSpacing": 0,
+        "textCase": "none",
+        "textDecoration": "none"
+      },
+      "type": "typography",
+      "filePath": "input/global.json",
+      "isSource": true,
+      "original": {
+        "value": {
+          "fontFamily": "Poppins",
+          "fontWeight": "SemiBold",
+          "lineHeight": 44,
+          "fontSize": 32,
+          "letterSpacing": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none",
+          "textDecoration": "none"
+        },
+        "type": "typography"
+      },
+      "name": "display-small",
+      "attributes": {
+        "category": "display",
+        "type": "small"
+      },
+      "path": [
+        "display",
+        "small"
       ]
     }
   },
@@ -3814,6 +3814,61 @@
                   "default",
                   "title",
                   "large"
+                ]
+              },
+              "beispiel": {
+                "value": {
+                  "0": "{",
+                  "1": "t",
+                  "2": "i",
+                  "3": "t",
+                  "4": "l",
+                  "5": "e",
+                  "6": ".",
+                  "7": "s",
+                  "8": "m",
+                  "9": "a",
+                  "10": "l",
+                  "11": "l",
+                  "12": "}"
+                },
+                "type": "typography",
+                "filePath": "input/global.json",
+                "isSource": true,
+                "original": {
+                  "value": {
+                    "0": "{",
+                    "1": "t",
+                    "2": "i",
+                    "3": "t",
+                    "4": "l",
+                    "5": "e",
+                    "6": ".",
+                    "7": "s",
+                    "8": "m",
+                    "9": "a",
+                    "10": "l",
+                    "11": "l",
+                    "12": "}"
+                  },
+                  "type": "typography"
+                },
+                "name": "semantic-fonts-content-text-default-title-beispiel",
+                "attributes": {
+                  "category": "semantic",
+                  "type": "fonts",
+                  "item": "content",
+                  "subitem": "text",
+                  "state": "default"
+                },
+                "path": [
+                  "semantic",
+                  "fonts",
+                  "content",
+                  "text",
+                  "default",
+                  "title",
+                  "beispiel"
                 ]
               }
             },

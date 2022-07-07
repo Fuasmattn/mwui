@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 06 Jul 2022 10:46:48 GMT
+ * Generated on Thu, 07 Jul 2022 17:07:57 GMT
  */
 
 declare module 'design-tokens' {
@@ -71,8 +71,8 @@ declare module 'design-tokens' {
   export const spaceM: string;
   export const overline: string;
   export const displayLarge: string;
-  export const displaySmall: string;
   export const displayMedium: string;
+  export const displaySmall: string;
   export const headlineLarge: string;
   export const headlineSmall: string;
   export const headlineMedium: string;
@@ -166,6 +166,7 @@ declare module 'design-tokens' {
   export const semanticColorActionsOutlineDisabledFgColor: string;
   export const semanticColorActionsOutlineDisabledBorderColor: string;
   export const semanticFontsContentTextDefaultTitleLarge: string;
+  export const semanticFontsContentTextDefaultTitleBeispiel: string;
   export const semanticFontsContentTextDefaultBodyLarge: string;
   export const semanticFontsContentTextDefaultDisplayMedium: string;
   export const semanticBorderSurfaceBorderRadiusDefaultNone: string;

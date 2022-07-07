@@ -320,12 +320,12 @@
       },
       "type": "typography"
     },
-    "small": {
+    "medium": {
       "value": {
         "fontFamily": "Poppins",
         "fontWeight": "SemiBold",
-        "lineHeight": 44,
-        "fontSize": 32,
+        "lineHeight": 66,
+        "fontSize": 48,
         "letterSpacing": 0,
         "paragraphSpacing": 0,
         "textCase": "none",
@@ -333,12 +333,12 @@
       },
       "type": "typography"
     },
-    "medium": {
+    "small": {
       "value": {
         "fontFamily": "Poppins",
         "fontWeight": "SemiBold",
-        "lineHeight": 66,
-        "fontSize": 48,
+        "lineHeight": 44,
+        "fontSize": 32,
         "letterSpacing": 0,
         "paragraphSpacing": 0,
         "textCase": "none",
@@ -938,6 +938,24 @@
                   "9": "r",
                   "10": "g",
                   "11": "e",
+                  "12": "}"
+                },
+                "type": "typography"
+              },
+              "beispiel": {
+                "value": {
+                  "0": "{",
+                  "1": "t",
+                  "2": "i",
+                  "3": "t",
+                  "4": "l",
+                  "5": "e",
+                  "6": ".",
+                  "7": "s",
+                  "8": "m",
+                  "9": "a",
+                  "10": "l",
+                  "11": "l",
                   "12": "}"
                 },
                 "type": "typography"

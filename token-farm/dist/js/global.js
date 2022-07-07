@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 06 Jul 2022 10:46:48 GMT
+ * Generated on Thu, 07 Jul 2022 17:07:57 GMT
  */
 
 export const magenta100 = "#fde8f2";
@@ -70,8 +70,8 @@ export const spaceSizeSmall = 8;
 export const spaceM = "16px";
 export const overline = {"fontFamily":"Poppins","fontWeight":"Regular","lineHeight":28,"fontSize":20,"letterSpacing":4.3,"paragraphSpacing":0,"textCase":"uppercase","textDecoration":"none"};
 export const displayLarge = {"fontFamily":"Poppins","fontWeight":"Bold","lineHeight":90,"fontSize":64,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
-export const displaySmall = {"fontFamily":"Poppins","fontWeight":"SemiBold","lineHeight":44,"fontSize":32,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
 export const displayMedium = {"fontFamily":"Poppins","fontWeight":"SemiBold","lineHeight":66,"fontSize":48,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
+export const displaySmall = {"fontFamily":"Poppins","fontWeight":"SemiBold","lineHeight":44,"fontSize":32,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
 export const headlineLarge = {"fontFamily":"Poppins","fontWeight":"Bold","lineHeight":44,"fontSize":32,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
 export const headlineSmall = {"fontFamily":"Poppins","fontWeight":"SemiBold","lineHeight":32,"fontSize":24,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
 export const headlineMedium = {"fontFamily":"Poppins","fontWeight":"SemiBold","lineHeight":36,"fontSize":28,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
@@ -165,6 +165,7 @@ export const semanticColorActionsOutlineDisabledBgColor = "#ffffff";
 export const semanticColorActionsOutlineDisabledFgColor = "#1c1b1f61";
 export const semanticColorActionsOutlineDisabledBorderColor = "#1f1f1f1f";
 export const semanticFontsContentTextDefaultTitleLarge = {"0":"{","1":"t","2":"i","3":"t","4":"l","5":"e","6":".","7":"l","8":"a","9":"r","10":"g","11":"e","12":"}"};
+export const semanticFontsContentTextDefaultTitleBeispiel = {"0":"{","1":"t","2":"i","3":"t","4":"l","5":"e","6":".","7":"s","8":"m","9":"a","10":"l","11":"l","12":"}"};
 export const semanticFontsContentTextDefaultBodyLarge = {"0":"{","1":"b","2":"o","3":"d","4":"y","5":".","6":"l","7":"a","8":"r","9":"g","10":"e","11":"}"};
 export const semanticFontsContentTextDefaultDisplayMedium = {"0":"{","1":"d","2":"i","3":"s","4":"p","5":"l","6":"a","7":"y","8":".","9":"m","10":"e","11":"d","12":"i","13":"u","14":"m","15":"}"};
 export const semanticBorderSurfaceBorderRadiusDefaultNone = "0px";
