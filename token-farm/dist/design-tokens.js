@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 08 Jul 2022 07:28:06 GMT
+ * Generated on Fri, 08 Jul 2022 09:36:39 GMT
  */
 
 const magenta100 = "#fde8f2";
@@ -64,7 +64,7 @@ const neutralDeactive = "#b5bbc2";
 const palette70 = "#9198a4";
 const palette90 = "#dadde1";
 const borderRadiusNone = "0px";
-const borderRadiusXl = "30px";
+const borderRadiusXl = 0;
 const spaceSizeLarge = 24;
 const spaceSizeSmall = 8;
 const spaceM = "16px";
@@ -169,13 +169,13 @@ const semanticFontsContentTextDefaultTitleBeispiel = {"0":"{","1":"d","2":"i","3
 const semanticFontsContentTextDefaultBodyLarge = {"0":"{","1":"b","2":"o","3":"d","4":"y","5":".","6":"l","7":"a","8":"r","9":"g","10":"e","11":"}"};
 const semanticFontsContentTextDefaultDisplayMedium = {"0":"{","1":"d","2":"i","3":"s","4":"p","5":"l","6":"a","7":"y","8":".","9":"m","10":"e","11":"d","12":"i","13":"u","14":"m","15":"}"};
 const semanticBorderSurfaceBorderRadiusDefaultNone = "0px";
-const semanticBorderSurfaceBorderRadiusDefaultXl = "30px";
+const semanticBorderSurfaceBorderRadiusDefaultXl = 0;
 const semanticShadowSurfaceDropShadowDefault1 = {"0":"{","1":"d","2":"r","3":"o","4":"p","5":".","6":"s","7":"h","8":"a","9":"d","10":"o","11":"w","12":".","13":"d","14":"e","15":"f","16":"a","17":"u","18":"l","19":"t","20":"}"};
 const cardTextDefaultTitleLarge = {"0":"{","1":"s","2":"e","3":"m","4":"a","5":"n","6":"t","7":"i","8":"c","9":".","10":"f","11":"o","12":"n","13":"t","14":"s","15":".","16":"c","17":"o","18":"n","19":"t","20":"e","21":"n","22":"t","23":".","24":"t","25":"e","26":"x","27":"t","28":".","29":"d","30":"e","31":"f","32":"a","33":"u","34":"l","35":"t","36":".","37":"t","38":"i","39":"t","40":"l","41":"e","42":".","43":"l","44":"a","45":"r","46":"g","47":"e","48":"}"};
 const cardTextDefaultBodyLarge = {"0":"{","1":"s","2":"e","3":"m","4":"a","5":"n","6":"t","7":"i","8":"c","9":".","10":"f","11":"o","12":"n","13":"t","14":"s","15":".","16":"c","17":"o","18":"n","19":"t","20":"e","21":"n","22":"t","23":".","24":"t","25":"e","26":"x","27":"t","28":".","29":"d","30":"e","31":"f","32":"a","33":"u","34":"l","35":"t","36":".","37":"b","38":"o","39":"d","40":"y","41":".","42":"l","43":"a","44":"r","45":"g","46":"e","47":"}"};
 const buttonButtonFilledDefaultBgColor = "#6750a4";
 const buttonButtonFilledDefaultFgColor = "#ffffff";
-const buttonButtonFilledDefaultBorderRadius = "30px";
+const buttonButtonFilledDefaultBorderRadius = "0px";
 const buttonButtonFilledHoverBgColor = "#735EAB";
 const buttonButtonFilledHoverFgColor = "#ffffff";
 const buttonButtonFilledFocusedBgColor = "#7965AF";
@@ -187,7 +187,7 @@ const buttonButtonFilledDisabledFgColor = "#1c1b1f61";
 const buttonButtonOutlineDefaultBgColor = "#ffffff";
 const buttonButtonOutlineDefaultFgColor = "#6750a4";
 const buttonButtonOutlineDefaultBorderColor = "#79747e";
-const buttonButtonOutlineDefaultBorderRadius = "30px";
+const buttonButtonOutlineDefaultBorderRadius = 0;
 const buttonButtonOutlineHoverBgColor = "#6750a414";
 const buttonButtonOutlineHoverFgColor = "#6750a4";
 const buttonButtonOutlineHoverBorderColor = "#79747e";
