@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 08 Jul 2022 06:46:22 GMT
+ * Generated on Fri, 08 Jul 2022 07:28:06 GMT
  */
 
 export const magenta100 = "#fde8f2";
@@ -68,26 +68,26 @@ export const borderRadiusXl = "30px";
 export const spaceSizeLarge = 24;
 export const spaceSizeSmall = 8;
 export const spaceM = "16px";
-export const overline = {"fontFamily":"Poppins","fontWeight":"Regular","lineHeight":28,"fontSize":20,"letterSpacing":4.3,"paragraphSpacing":0,"textCase":"uppercase","textDecoration":"none"};
-export const displayLarge = {"fontFamily":"Poppins","fontWeight":"Bold","lineHeight":90,"fontSize":64,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
-export const displayMedium = {"fontFamily":"Poppins","fontWeight":"SemiBold","lineHeight":66,"fontSize":48,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
-export const displaySmall = {"fontFamily":"Poppins","fontWeight":"SemiBold","lineHeight":44,"fontSize":32,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
-export const headlineLarge = {"fontFamily":"Poppins","fontWeight":"Bold","lineHeight":44,"fontSize":32,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
-export const headlineSmall = {"fontFamily":"Poppins","fontWeight":"SemiBold","lineHeight":32,"fontSize":24,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
-export const headlineMedium = {"fontFamily":"Poppins","fontWeight":"SemiBold","lineHeight":36,"fontSize":28,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
-export const bodyLarge = {"fontFamily":"Poppins","fontWeight":"Regular","lineHeight":24,"fontSize":16,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
-export const bodyLargeItalic = {"fontFamily":"Poppins","fontWeight":"Italic","lineHeight":24,"fontSize":16,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
-export const bodyMedium = {"fontFamily":"Poppins","fontWeight":"Regular","lineHeight":24,"fontSize":16,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
-export const bodySmall = {"fontFamily":"Poppins","fontWeight":"Regular","lineHeight":16,"fontSize":12,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
-export const bodyLargeLight = {"fontFamily":"Poppins","fontWeight":"Light","lineHeight":24,"fontSize":16,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
-export const bodyLargeLightItalic = {"fontFamily":"Poppins","fontWeight":"Light Italic","lineHeight":24,"fontSize":16,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
-export const labelLarge = {"fontFamily":"Poppins","fontWeight":"SemiBold","lineHeight":20,"fontSize":14,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
-export const labelMedium = {"fontFamily":"Poppins","fontWeight":"SemiBold","lineHeight":16,"fontSize":12,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
-export const labelSmall = {"fontFamily":"Poppins","fontWeight":"SemiBold","lineHeight":16,"fontSize":11,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
-export const titleLarge = {"fontFamily":"Poppins","fontWeight":"SemiBold","lineHeight":28,"fontSize":20,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
-export const titleMedium = {"fontFamily":"Poppins","fontWeight":"SemiBold","lineHeight":24,"fontSize":16,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
-export const titleSmall = {"fontFamily":"Poppins","fontWeight":"SemiBold","lineHeight":20,"fontSize":14,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
-export const fontFamiliesDefault = "Poppins";
+export const overline = {"fontFamily":"Roboto","fontWeight":"Regular","lineHeight":28,"fontSize":20,"letterSpacing":4.3,"paragraphSpacing":0,"textCase":"uppercase","textDecoration":"none"};
+export const displayLarge = {"fontFamily":"Roboto","fontWeight":"Bold","lineHeight":90,"fontSize":64,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
+export const displayMedium = {"fontFamily":"Roboto","fontWeight":"SemiBold","lineHeight":66,"fontSize":48,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
+export const displaySmall = {"fontFamily":"Roboto","fontWeight":"SemiBold","lineHeight":44,"fontSize":32,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
+export const headlineLarge = {"fontFamily":"Roboto","fontWeight":"Bold","lineHeight":44,"fontSize":32,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
+export const headlineSmall = {"fontFamily":"Roboto","fontWeight":"SemiBold","lineHeight":32,"fontSize":24,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
+export const headlineMedium = {"fontFamily":"Roboto","fontWeight":"SemiBold","lineHeight":36,"fontSize":28,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
+export const bodyLarge = {"fontFamily":"Roboto","fontWeight":"Regular","lineHeight":24,"fontSize":16,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
+export const bodyLargeItalic = {"fontFamily":"Roboto","fontWeight":"Italic","lineHeight":24,"fontSize":16,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
+export const bodyMedium = {"fontFamily":"Roboto","fontWeight":"Regular","lineHeight":24,"fontSize":16,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
+export const bodySmall = {"fontFamily":"Roboto","fontWeight":"Regular","lineHeight":16,"fontSize":12,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
+export const bodyLargeLight = {"fontFamily":"Roboto","fontWeight":"Light","lineHeight":24,"fontSize":16,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
+export const bodyLargeLightItalic = {"fontFamily":"Roboto","fontWeight":"Light Italic","lineHeight":24,"fontSize":16,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
+export const labelLarge = {"fontFamily":"Roboto","fontWeight":"SemiBold","lineHeight":20,"fontSize":14,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
+export const labelMedium = {"fontFamily":"Roboto","fontWeight":"SemiBold","lineHeight":16,"fontSize":12,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
+export const labelSmall = {"fontFamily":"Roboto","fontWeight":"SemiBold","lineHeight":16,"fontSize":11,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
+export const titleLarge = {"fontFamily":"Roboto","fontWeight":"SemiBold","lineHeight":28,"fontSize":20,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
+export const titleMedium = {"fontFamily":"Roboto","fontWeight":"SemiBold","lineHeight":24,"fontSize":16,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
+export const titleSmall = {"fontFamily":"Roboto","fontWeight":"SemiBold","lineHeight":20,"fontSize":14,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
+export const fontFamiliesDefault = "Roboto";
 export const lineHeights16 = 16;
 export const lineHeights20 = 20;
 export const lineHeights24 = 24;

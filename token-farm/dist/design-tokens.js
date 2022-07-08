@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 08 Jul 2022 06:46:22 GMT
+ * Generated on Fri, 08 Jul 2022 07:28:06 GMT
  */
 
 const magenta100 = "#fde8f2";
@@ -68,26 +68,26 @@ const borderRadiusXl = "30px";
 const spaceSizeLarge = 24;
 const spaceSizeSmall = 8;
 const spaceM = "16px";
-const overline = {"fontFamily":"Poppins","fontWeight":"Regular","lineHeight":28,"fontSize":20,"letterSpacing":4.3,"paragraphSpacing":0,"textCase":"uppercase","textDecoration":"none"};
-const displayLarge = {"fontFamily":"Poppins","fontWeight":"Bold","lineHeight":90,"fontSize":64,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
-const displayMedium = {"fontFamily":"Poppins","fontWeight":"SemiBold","lineHeight":66,"fontSize":48,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
-const displaySmall = {"fontFamily":"Poppins","fontWeight":"SemiBold","lineHeight":44,"fontSize":32,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
-const headlineLarge = {"fontFamily":"Poppins","fontWeight":"Bold","lineHeight":44,"fontSize":32,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
-const headlineSmall = {"fontFamily":"Poppins","fontWeight":"SemiBold","lineHeight":32,"fontSize":24,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
-const headlineMedium = {"fontFamily":"Poppins","fontWeight":"SemiBold","lineHeight":36,"fontSize":28,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
-const bodyLarge = {"fontFamily":"Poppins","fontWeight":"Regular","lineHeight":24,"fontSize":16,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
-const bodyLargeItalic = {"fontFamily":"Poppins","fontWeight":"Italic","lineHeight":24,"fontSize":16,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
-const bodyMedium = {"fontFamily":"Poppins","fontWeight":"Regular","lineHeight":24,"fontSize":16,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
-const bodySmall = {"fontFamily":"Poppins","fontWeight":"Regular","lineHeight":16,"fontSize":12,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
-const bodyLargeLight = {"fontFamily":"Poppins","fontWeight":"Light","lineHeight":24,"fontSize":16,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
-const bodyLargeLightItalic = {"fontFamily":"Poppins","fontWeight":"Light Italic","lineHeight":24,"fontSize":16,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
-const labelLarge = {"fontFamily":"Poppins","fontWeight":"SemiBold","lineHeight":20,"fontSize":14,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
-const labelMedium = {"fontFamily":"Poppins","fontWeight":"SemiBold","lineHeight":16,"fontSize":12,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
-const labelSmall = {"fontFamily":"Poppins","fontWeight":"SemiBold","lineHeight":16,"fontSize":11,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
-const titleLarge = {"fontFamily":"Poppins","fontWeight":"SemiBold","lineHeight":28,"fontSize":20,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
-const titleMedium = {"fontFamily":"Poppins","fontWeight":"SemiBold","lineHeight":24,"fontSize":16,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
-const titleSmall = {"fontFamily":"Poppins","fontWeight":"SemiBold","lineHeight":20,"fontSize":14,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
-const fontFamiliesDefault = "Poppins";
+const overline = {"fontFamily":"Roboto","fontWeight":"Regular","lineHeight":28,"fontSize":20,"letterSpacing":4.3,"paragraphSpacing":0,"textCase":"uppercase","textDecoration":"none"};
+const displayLarge = {"fontFamily":"Roboto","fontWeight":"Bold","lineHeight":90,"fontSize":64,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
+const displayMedium = {"fontFamily":"Roboto","fontWeight":"SemiBold","lineHeight":66,"fontSize":48,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
+const displaySmall = {"fontFamily":"Roboto","fontWeight":"SemiBold","lineHeight":44,"fontSize":32,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
+const headlineLarge = {"fontFamily":"Roboto","fontWeight":"Bold","lineHeight":44,"fontSize":32,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
+const headlineSmall = {"fontFamily":"Roboto","fontWeight":"SemiBold","lineHeight":32,"fontSize":24,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
+const headlineMedium = {"fontFamily":"Roboto","fontWeight":"SemiBold","lineHeight":36,"fontSize":28,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
+const bodyLarge = {"fontFamily":"Roboto","fontWeight":"Regular","lineHeight":24,"fontSize":16,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
+const bodyLargeItalic = {"fontFamily":"Roboto","fontWeight":"Italic","lineHeight":24,"fontSize":16,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
+const bodyMedium = {"fontFamily":"Roboto","fontWeight":"Regular","lineHeight":24,"fontSize":16,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
+const bodySmall = {"fontFamily":"Roboto","fontWeight":"Regular","lineHeight":16,"fontSize":12,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
+const bodyLargeLight = {"fontFamily":"Roboto","fontWeight":"Light","lineHeight":24,"fontSize":16,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
+const bodyLargeLightItalic = {"fontFamily":"Roboto","fontWeight":"Light Italic","lineHeight":24,"fontSize":16,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
+const labelLarge = {"fontFamily":"Roboto","fontWeight":"SemiBold","lineHeight":20,"fontSize":14,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
+const labelMedium = {"fontFamily":"Roboto","fontWeight":"SemiBold","lineHeight":16,"fontSize":12,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
+const labelSmall = {"fontFamily":"Roboto","fontWeight":"SemiBold","lineHeight":16,"fontSize":11,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
+const titleLarge = {"fontFamily":"Roboto","fontWeight":"SemiBold","lineHeight":28,"fontSize":20,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
+const titleMedium = {"fontFamily":"Roboto","fontWeight":"SemiBold","lineHeight":24,"fontSize":16,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
+const titleSmall = {"fontFamily":"Roboto","fontWeight":"SemiBold","lineHeight":20,"fontSize":14,"letterSpacing":0,"paragraphSpacing":0,"textCase":"none","textDecoration":"none"};
+const fontFamiliesDefault = "Roboto";
 const lineHeights16 = 16;
 const lineHeights20 = 20;
 const lineHeights24 = 24;
