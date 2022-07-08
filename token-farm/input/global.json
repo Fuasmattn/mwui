@@ -295,7 +295,7 @@
   },
   "overline": {
     "value": {
-      "fontFamily": "Poppins",
+      "fontFamily": "Roboto",
       "fontWeight": "Regular",
       "lineHeight": 28,
       "fontSize": 20,
@@ -309,7 +309,7 @@
   "display": {
     "large": {
       "value": {
-        "fontFamily": "Poppins",
+        "fontFamily": "Roboto",
         "fontWeight": "Bold",
         "lineHeight": 90,
         "fontSize": 64,
@@ -322,7 +322,7 @@
     },
     "medium": {
       "value": {
-        "fontFamily": "Poppins",
+        "fontFamily": "Roboto",
         "fontWeight": "SemiBold",
         "lineHeight": 66,
         "fontSize": 48,
@@ -335,7 +335,7 @@
     },
     "small": {
       "value": {
-        "fontFamily": "Poppins",
+        "fontFamily": "Roboto",
         "fontWeight": "SemiBold",
         "lineHeight": 44,
         "fontSize": 32,
@@ -350,7 +350,7 @@
   "headline": {
     "large": {
       "value": {
-        "fontFamily": "Poppins",
+        "fontFamily": "Roboto",
         "fontWeight": "Bold",
         "lineHeight": 44,
         "fontSize": 32,
@@ -363,7 +363,7 @@
     },
     "small": {
       "value": {
-        "fontFamily": "Poppins",
+        "fontFamily": "Roboto",
         "fontWeight": "SemiBold",
         "lineHeight": 32,
         "fontSize": 24,
@@ -376,7 +376,7 @@
     },
     "medium": {
       "value": {
-        "fontFamily": "Poppins",
+        "fontFamily": "Roboto",
         "fontWeight": "SemiBold",
         "lineHeight": 36,
         "fontSize": 28,
@@ -391,7 +391,7 @@
   "body": {
     "large": {
       "value": {
-        "fontFamily": "Poppins",
+        "fontFamily": "Roboto",
         "fontWeight": "Regular",
         "lineHeight": 24,
         "fontSize": 16,
@@ -404,7 +404,7 @@
     },
     "large-italic": {
       "value": {
-        "fontFamily": "Poppins",
+        "fontFamily": "Roboto",
         "fontWeight": "Italic",
         "lineHeight": 24,
         "fontSize": 16,
@@ -417,7 +417,7 @@
     },
     "medium": {
       "value": {
-        "fontFamily": "Poppins",
+        "fontFamily": "Roboto",
         "fontWeight": "Regular",
         "lineHeight": 24,
         "fontSize": 16,
@@ -430,7 +430,7 @@
     },
     "small": {
       "value": {
-        "fontFamily": "Poppins",
+        "fontFamily": "Roboto",
         "fontWeight": "Regular",
         "lineHeight": 16,
         "fontSize": 12,
@@ -443,7 +443,7 @@
     },
     "large-light": {
       "value": {
-        "fontFamily": "Poppins",
+        "fontFamily": "Roboto",
         "fontWeight": "Light",
         "lineHeight": 24,
         "fontSize": 16,
@@ -456,7 +456,7 @@
     },
     "large-light-italic": {
       "value": {
-        "fontFamily": "Poppins",
+        "fontFamily": "Roboto",
         "fontWeight": "Light Italic",
         "lineHeight": 24,
         "fontSize": 16,
@@ -471,7 +471,7 @@
   "label": {
     "large": {
       "value": {
-        "fontFamily": "Poppins",
+        "fontFamily": "Roboto",
         "fontWeight": "SemiBold",
         "lineHeight": 20,
         "fontSize": 14,
@@ -484,7 +484,7 @@
     },
     "medium": {
       "value": {
-        "fontFamily": "Poppins",
+        "fontFamily": "Roboto",
         "fontWeight": "SemiBold",
         "lineHeight": 16,
         "fontSize": 12,
@@ -497,7 +497,7 @@
     },
     "small": {
       "value": {
-        "fontFamily": "Poppins",
+        "fontFamily": "Roboto",
         "fontWeight": "SemiBold",
         "lineHeight": 16,
         "fontSize": 11,
@@ -512,7 +512,7 @@
   "title": {
     "large": {
       "value": {
-        "fontFamily": "Poppins",
+        "fontFamily": "Roboto",
         "fontWeight": "SemiBold",
         "lineHeight": 28,
         "fontSize": 20,
@@ -525,7 +525,7 @@
     },
     "medium": {
       "value": {
-        "fontFamily": "Poppins",
+        "fontFamily": "Roboto",
         "fontWeight": "SemiBold",
         "lineHeight": 24,
         "fontSize": 16,
@@ -538,7 +538,7 @@
     },
     "small": {
       "value": {
-        "fontFamily": "Poppins",
+        "fontFamily": "Roboto",
         "fontWeight": "SemiBold",
         "lineHeight": 20,
         "fontSize": 14,
@@ -552,7 +552,7 @@
   },
   "fontFamilies": {
     "default": {
-      "value": "Poppins",
+      "value": "Roboto",
       "type": "fontFamilies"
     }
   },
@@ -945,18 +945,20 @@
               "beispiel": {
                 "value": {
                   "0": "{",
-                  "1": "t",
+                  "1": "d",
                   "2": "i",
-                  "3": "t",
-                  "4": "l",
-                  "5": "e",
-                  "6": ".",
-                  "7": "s",
-                  "8": "m",
-                  "9": "a",
-                  "10": "l",
-                  "11": "l",
-                  "12": "}"
+                  "3": "s",
+                  "4": "p",
+                  "5": "l",
+                  "6": "a",
+                  "7": "y",
+                  "8": ".",
+                  "9": "l",
+                  "10": "a",
+                  "11": "r",
+                  "12": "g",
+                  "13": "e",
+                  "14": "}"
                 },
                 "type": "typography"
               }
