@@ -796,7 +796,7 @@
         "filled": {
           "default": {
             "bg-color": {
-              "value": "#3d5bbb",
+              "value": "#6b60cd",
               "type": "color"
             },
             "fg-color": {
@@ -1182,7 +1182,7 @@
       "default": {
         "bg-color": {
           "type": "color",
-          "value": "#3d5bbb"
+          "value": "#6b60cd"
         },
         "fg-color": {
           "type": "color",
@@ -1351,7 +1351,7 @@
       "default": {
         "bg-color": {
           "type": "color",
-          "value": "#3d5bbb"
+          "value": "#6b60cd"
         },
         "fg-color": {
           "type": "color",

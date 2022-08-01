@@ -3083,12 +3083,12 @@
         "filled": {
           "default": {
             "bg-color": {
-              "value": "#3d5bbb",
+              "value": "#6b60cd",
               "type": "color",
               "filePath": "input/global.json",
               "isSource": true,
               "original": {
-                "value": "#3d5bbb",
+                "value": "#6b60cd",
                 "type": "color"
               },
               "name": "semantic-color-actions-filled-default-bg-color",
@@ -4400,12 +4400,12 @@
       "default": {
         "bg-color": {
           "type": "color",
-          "value": "#3d5bbb",
+          "value": "#6b60cd",
           "filePath": "input/global.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "#3d5bbb"
+            "value": "#6b60cd"
           },
           "name": "button-button-filled-default-bg-color",
           "attributes": {
@@ -5171,12 +5171,12 @@
       "default": {
         "bg-color": {
           "type": "color",
-          "value": "#3d5bbb",
+          "value": "#6b60cd",
           "filePath": "input/global.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "#3d5bbb"
+            "value": "#6b60cd"
           },
           "name": "label-label-filled-default-bg-color",
           "attributes": {
