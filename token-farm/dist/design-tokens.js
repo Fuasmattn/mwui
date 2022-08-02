@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 01 Aug 2022 18:16:30 GMT
+ * Generated on Tue, 02 Aug 2022 11:48:38 GMT
  */
 
 const magenta100 = "#fde8f2";
@@ -33,7 +33,7 @@ const green900 = "#013707";
 const purple100 = "#d7d4f2";
 const purple200 = "#b3aee5";
 const purple300 = "#8f87d9";
-const purple400 = "#6b60cd";
+const purple400 = "#3524cc";
 const purple500 = "#493cbe";
 const purple600 = "#3a3097";
 const purple700 = "#2b2370";
@@ -125,7 +125,7 @@ const iconButtonButtonFilledDefaultIconSize = "16px";
 const whiteLabelMdPurple50 = "#f7f3fa";
 const whiteLabelMdPurple100 = "#e6dff0";
 const whiteLabelMdPurple300 = "#7965AF";
-const whiteLabelMdPurple400 = "#735EAB";
+const whiteLabelMdPurple400 = "#3234ca";
 const whiteLabelMdPurple500 = "#6750a4";
 const whiteLabelMdPurple012 = "#6750a41f";
 const whiteLabelMdPurple008 = "#6750a414";
@@ -139,9 +139,9 @@ const whiteLabelMdGray038 = "#1c1b1f61";
 const whiteLabelMdGray012 = "#1f1f1f1f";
 const whiteLabelMdBlack400 = "#49454f";
 const whiteLabelMdBlack500 = "#1d192b";
-const semanticColorActionsFilledDefaultBgColor = "#6b60cd";
+const semanticColorActionsFilledDefaultBgColor = "#3524cc";
 const semanticColorActionsFilledDefaultFgColor = "#ffffff";
-const semanticColorActionsFilledHoverBgColor = "#735EAB";
+const semanticColorActionsFilledHoverBgColor = "#3234ca";
 const semanticColorActionsFilledHoverFgColor = "#ffffff";
 const semanticColorActionsFilledFocusedBgColor = "#7965AF";
 const semanticColorActionsFilledFocusedFgColor = "#ffffff";
@@ -173,10 +173,10 @@ const semanticBorderSurfaceBorderRadiusDefaultXl = "30px";
 const semanticShadowSurfaceDropShadowDefault1 = {"0":"{","1":"d","2":"r","3":"o","4":"p","5":".","6":"s","7":"h","8":"a","9":"d","10":"o","11":"w","12":".","13":"d","14":"e","15":"f","16":"a","17":"u","18":"l","19":"t","20":"}"};
 const cardTextDefaultTitleLarge = {"0":"{","1":"s","2":"e","3":"m","4":"a","5":"n","6":"t","7":"i","8":"c","9":".","10":"f","11":"o","12":"n","13":"t","14":"s","15":".","16":"c","17":"o","18":"n","19":"t","20":"e","21":"n","22":"t","23":".","24":"t","25":"e","26":"x","27":"t","28":".","29":"d","30":"e","31":"f","32":"a","33":"u","34":"l","35":"t","36":".","37":"t","38":"i","39":"t","40":"l","41":"e","42":".","43":"l","44":"a","45":"r","46":"g","47":"e","48":"}"};
 const cardTextDefaultBodyLarge = {"0":"{","1":"s","2":"e","3":"m","4":"a","5":"n","6":"t","7":"i","8":"c","9":".","10":"f","11":"o","12":"n","13":"t","14":"s","15":".","16":"c","17":"o","18":"n","19":"t","20":"e","21":"n","22":"t","23":".","24":"t","25":"e","26":"x","27":"t","28":".","29":"d","30":"e","31":"f","32":"a","33":"u","34":"l","35":"t","36":".","37":"b","38":"o","39":"d","40":"y","41":".","42":"l","43":"a","44":"r","45":"g","46":"e","47":"}"};
-const buttonButtonFilledDefaultBgColor = "#6b60cd";
+const buttonButtonFilledDefaultBgColor = "#3524cc";
 const buttonButtonFilledDefaultFgColor = "#ffffff";
 const buttonButtonFilledDefaultBorderRadius = "30px";
-const buttonButtonFilledHoverBgColor = "#735EAB";
+const buttonButtonFilledHoverBgColor = "#3234ca";
 const buttonButtonFilledHoverFgColor = "#ffffff";
 const buttonButtonFilledFocusedBgColor = "#7965AF";
 const buttonButtonFilledFocusedFgColor = "#ffffff";
@@ -206,9 +206,9 @@ const mTop = "10px";
 const mBottom = "10px";
 const mGap = "4px";
 const dropShadowDefault = {"x":1,"y":2,"blur":3,"spread":0,"color":"#0000004d","type":"dropShadow"};
-const labelLabelFilledDefaultBgColor = "#6b60cd";
+const labelLabelFilledDefaultBgColor = "#3524cc";
 const labelLabelFilledDefaultFgColor = "#ffffff";
-const labelLabelFilledHoverBgColor = "#735EAB";
+const labelLabelFilledHoverBgColor = "#3234ca";
 const labelLabelFilledHoverFgColor = "#ffffff";
 const labelLabelFilledFocusedBgColor = "#7965AF";
 const labelLabelFilledFocusedFgColor = "#ffffff";

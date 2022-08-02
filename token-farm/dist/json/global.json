@@ -577,12 +577,12 @@
       ]
     },
     "400": {
-      "value": "#6b60cd",
+      "value": "#3524cc",
       "type": "color",
       "filePath": "input/global.json",
       "isSource": true,
       "original": {
-        "value": "#6b60cd",
+        "value": "#3524cc",
         "type": "color"
       },
       "name": "purple-400",
@@ -2749,12 +2749,12 @@
           ]
         },
         "400": {
-          "value": "#735EAB",
+          "value": "#3234ca",
           "type": "color",
           "filePath": "input/global.json",
           "isSource": true,
           "original": {
-            "value": "#735EAB",
+            "value": "#3234ca",
             "type": "color"
           },
           "name": "white-label-md-purple-400",
@@ -3083,12 +3083,12 @@
         "filled": {
           "default": {
             "bg-color": {
-              "value": "#6b60cd",
+              "value": "#3524cc",
               "type": "color",
               "filePath": "input/global.json",
               "isSource": true,
               "original": {
-                "value": "#6b60cd",
+                "value": "#3524cc",
                 "type": "color"
               },
               "name": "semantic-color-actions-filled-default-bg-color",
@@ -3137,12 +3137,12 @@
           },
           "hover": {
             "bg-color": {
-              "value": "#735EAB",
+              "value": "#3234ca",
               "type": "color",
               "filePath": "input/global.json",
               "isSource": true,
               "original": {
-                "value": "#735EAB",
+                "value": "#3234ca",
                 "type": "color"
               },
               "name": "semantic-color-actions-filled-hover-bg-color",
@@ -4400,12 +4400,12 @@
       "default": {
         "bg-color": {
           "type": "color",
-          "value": "#6b60cd",
+          "value": "#3524cc",
           "filePath": "input/global.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "#6b60cd"
+            "value": "#3524cc"
           },
           "name": "button-button-filled-default-bg-color",
           "attributes": {
@@ -4471,12 +4471,12 @@
       "hover": {
         "bg-color": {
           "type": "color",
-          "value": "#735EAB",
+          "value": "#3234ca",
           "filePath": "input/global.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "#735EAB"
+            "value": "#3234ca"
           },
           "name": "button-button-filled-hover-bg-color",
           "attributes": {
@@ -5171,12 +5171,12 @@
       "default": {
         "bg-color": {
           "type": "color",
-          "value": "#6b60cd",
+          "value": "#3524cc",
           "filePath": "input/global.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "#6b60cd"
+            "value": "#3524cc"
           },
           "name": "label-label-filled-default-bg-color",
           "attributes": {
@@ -5219,12 +5219,12 @@
       "hover": {
         "bg-color": {
           "type": "color",
-          "value": "#735EAB",
+          "value": "#3234ca",
           "filePath": "input/global.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "#735EAB"
+            "value": "#3234ca"
           },
           "name": "label-label-filled-hover-bg-color",
           "attributes": {
